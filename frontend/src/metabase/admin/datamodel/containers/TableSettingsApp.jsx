@@ -81,7 +81,7 @@ class UpdateFieldValues extends Component {
       <Section>
         <SectionHeader
           title={t`Cached field values`}
-          description={t`Repente Insights can scan the values in this table to enable checkbox filters in dashboards and questions.`}
+          description={t`LibraFactory Insights can scan the values in this table to enable checkbox filters in dashboards and questions.`}
         />
         <ActionButton
           className="Button mr2"

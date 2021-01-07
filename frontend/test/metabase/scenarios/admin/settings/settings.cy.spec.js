@@ -50,7 +50,7 @@ describe("scenarios > admin > settings", () => {
     configureAuth("Sign in with Google");
 
     cy.contains(
-      "To allow users to sign in with Google you'll need to give Repente Insights a Google Developers console application client ID.",
+      "To allow users to sign in with Google you'll need to give LibraFactory Insights a Google Developers console application client ID.",
     );
     // *** should be 'Save changes'
     cy.findByText("Save Changes");

@@ -14,7 +14,7 @@ describe("metabase > scenarios > home > activity-page", () => {
   it("should show test startup activity ", () => {
     cy.visit("/activity");
     cy.findByText("Activity");
-    cy.findByText("Repente Insights is up and running.");
+    cy.findByText("LibraFactory Insights is up and running.");
     cy.contains("added a question to the dashboard - Orders in a dashboard");
   });
 

@@ -68,7 +68,7 @@ export default class NewsletterForm extends Component {
             <span
               className="inline-block"
               style={{ marginTop: 1 }}
-            >{t`Repente Insights Newsletter`}</span>
+            >{t`LibraFactory Insights Newsletter`}</span>
           </div>
         </div>
 
@@ -103,7 +103,7 @@ export default class NewsletterForm extends Component {
                 ) : (
                   <div className="text-success text-centered text-bold h3 p1">
                     <Icon className="mr2" name="check" size={16} />
-                    {t`You're subscribed. Thanks for using Repente Insights!`}
+                    {t`You're subscribed. Thanks for using LibraFactory Insights!`}
                   </div>
                 )}
               </div>

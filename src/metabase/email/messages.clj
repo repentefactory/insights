@@ -30,11 +30,11 @@
   (:import [java.io File IOException]))
 
 (defn- app-name-trs
-  "Return the user configured application name, or Repente Insights translated
+  "Return the user configured application name, or LibraFactory Insights translated
   via tru if a name isn't configured."
   []
   (or (public-settings/application-name)
-      (trs "Repente Insights")))
+      (trs "LibraFactory Insights")))
 
 ;; Dev only -- disable template caching
 (when config/is-dev?
@@ -99,13 +99,13 @@
 
 (defn- abandonment-context []
   {:heading      (trs "We’d love your feedback.")
-   :callToAction (str (deferred-trs "It looks like Repente Insights wasn’t quite a match for you.")
+   :callToAction (str (deferred-trs "It looks like LibraFactory Insights wasn’t quite a match for you.")
                       " "
-                      (deferred-trs "Would you mind taking a fast 5 question survey to help the Repente Insights team understand why and make things better in the future?"))
+                      (deferred-trs "Would you mind taking a fast 5 question survey to help the LibraFactory Insights team understand why and make things better in the future?"))
    :link         "https://metabase.com/feedback/inactive"})
 
 (defn- follow-up-context []
-  {:heading      (trs "We hope you''ve been enjoying Repente Insights.")
+  {:heading      (trs "We hope you''ve been enjoying LibraFactory Insights.")
    :callToAction (trs "Would you mind taking a fast 6 question survey to tell us how it’s going?")
    :link         "https://metabase.com/feedback/active"})
 
@@ -113,7 +113,7 @@
 ;;; ### Public Interface
 
 (defn send-new-user-email!
-  "Send an email to `invitied` letting them know `invitor` has invited them to join Repente Insights."
+  "Send an email to `invitied` letting them know `invitor` has invited them to join LibraFactory Insights."
   [invited invitor join-url]
   (let [company      (or (public-settings/site-name) "Unknown")
         message-body (stencil/render-file "metabase/email/new_user_invite"

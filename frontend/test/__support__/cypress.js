@@ -62,7 +62,7 @@ export function restore(name = "default") {
   cy.request("POST", `/api/testing/restore/${name}`);
 }
 
-// various Repente Insights-specific "scoping" functions like inside popover/modal/navbar/main/sidebar content area
+// various LibraFactory Insights-specific "scoping" functions like inside popover/modal/navbar/main/sidebar content area
 export function popover() {
   return cy.get(".PopoverContainer.PopoverContainer--open");
 }
@@ -79,7 +79,7 @@ export function sidebar() {
   return cy.get(".scroll-y");
 }
 
-// Repente Insights utility functions for commonly-used patterns
+// LibraFactory Insights utility functions for commonly-used patterns
 export function selectDashboardFilter(selection, filterName) {
   selection.contains("Select…").click();
   popover()

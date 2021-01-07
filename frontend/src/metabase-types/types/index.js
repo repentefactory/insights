@@ -25,7 +25,7 @@ export type QueryParams = {
   [key: string]: string,
 };
 
-/* Repente Insights API error object returned by the backend */
+/* LibraFactory Insights API error object returned by the backend */
 export type ApiError = {
   status: number, // HTTP status
   // TODO: incomplete

@@ -1,5 +1,5 @@
 (ns metabase.task.send-anonymous-stats
-  "Contains a Repente Insights task which periodically sends anonymous usage information to the Repente Insights team."
+  "Contains a LibraFactory Insights task which periodically sends anonymous usage information to the LibraFactory Insights team."
   (:require [clojure.tools.logging :as log]
             [clojurewerkz.quartzite
              [jobs :as jobs]

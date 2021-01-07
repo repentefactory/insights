@@ -18,7 +18,7 @@ describe("ProfileLink", () => {
           "Account settings",
           "Activity",
           "Help",
-          "About Repente Insights",
+          "About LibraFactory Insights",
           "Sign out",
         ]);
       });
@@ -38,7 +38,7 @@ describe("ProfileLink", () => {
           "Admin",
           "Activity",
           "Help",
-          "About Repente Insights",
+          "About LibraFactory Insights",
           "Sign out",
         ]);
       });

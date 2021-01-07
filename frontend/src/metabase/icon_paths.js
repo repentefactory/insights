@@ -2,10 +2,10 @@
 /* eslint-disable no-color-literals */
 
 /*
-    Repente Insights Icon Paths
+    LibraFactory Insights Icon Paths
     -----
 
-    These paths represent the current canonical icon set for Repente Insights.
+    These paths represent the current canonical icon set for LibraFactory Insights.
 */
 
 export const ICON_PATHS = {

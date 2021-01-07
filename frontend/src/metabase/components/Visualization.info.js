@@ -6,7 +6,7 @@ export const noSnapshotTest = true;
 export const category = "visualization";
 
 export const description = `
-A component to render a Repente Insights visualization
+A component to render a LibraFactory Insights visualization
 `;
 
 const PROPS = {

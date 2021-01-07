@@ -1,4 +1,4 @@
-# Repente Insights Scenarios
+# LibraFactory Insights Scenarios
 
 ## Running
 

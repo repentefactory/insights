@@ -1,8 +1,8 @@
 (ns metabase.metabot.instance
-  "Logic for deciding which Repente Insights instance in a multi-instance (i.e., horizontally scaled) setup gets to be the
+  "Logic for deciding which LibraFactory Insights instance in a multi-instance (i.e., horizontally scaled) setup gets to be the
   RepenteBot.
 
-  Close your eyes, and imagine a scenario: someone is running multiple Repente Insights instances in a horizontal cluster.
+  Close your eyes, and imagine a scenario: someone is running multiple LibraFactory Insights instances in a horizontal cluster.
   Good for them, but how do we make sure one, and only one, of those instances, replies to incoming RepenteBot commands?
   It would certainly be too much if someone ran, say, 4 instances, and typing `metabot kanye` into Slack gave them 4
   Kanye West quotes, wouldn't it?
@@ -15,7 +15,7 @@
   How do we uniquiely identify each instance?
 
   `metabase.public-settings/local-process-uuid` is randomly-generated upon launch and used to identify this specific
-  Repente Insights instance during this specifc run. Restarting the server will change this UUID, and each server in a
+  LibraFactory Insights instance during this specifc run. Restarting the server will change this UUID, and each server in a
   hortizontal cluster will have its own ID, making this different from the `site-uuid` Setting. The local process UUID
   is used to differentiate different horizontally clustered MB instances so we can determine which of them will handle
   RepenteBot duties."
@@ -31,7 +31,7 @@
   (:import java.time.temporal.Temporal))
 
 (defsetting ^:private metabot-instance-uuid
-  "UUID of the active RepenteBot instance (the Repente Insights process currently handling RepenteBot duties.)"
+  "UUID of the active RepenteBot instance (the LibraFactory Insights process currently handling RepenteBot duties.)"
   ;; This should be cached because we'll be checking it fairly often, basically every 2 seconds as part of the
   ;; websocket monitor thread to see whether we're RepenteBot (the thread won't open the WebSocket unless that instance
   ;; is handling RepenteBot duties)
@@ -121,7 +121,7 @@
 
 
 (defn start-instance-monitor!
-  "Start the thread that will monitor whether this Repente Insights instance should become, or cease being, the instance that
+  "Start the thread that will monitor whether this LibraFactory Insights instance should become, or cease being, the instance that
   handles RepenteBot functionality."
   []
   (future

@@ -37,7 +37,7 @@
   {:token (crypto-random/hex 32)})
 
 (api/defendpoint GET "/bug_report_details"
-  "Returns version and system information relevant to filing a bug report against Repente Insights."
+  "Returns version and system information relevant to filing a bug report against LibraFactory Insights."
   []
   (api/check-superuser)
   {:system-info   (troubleshooting/system-info)

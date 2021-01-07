@@ -1,5 +1,5 @@
 (ns metabase.query-processor
-  "Primary entrypoints to running Repente Insights (MBQL) queries.
+  "Primary entrypoints to running LibraFactory Insights (MBQL) queries.
 
     (metabase.query-processor/process-query {:type :query, :database 1, :query {:source-table 2}})
 
