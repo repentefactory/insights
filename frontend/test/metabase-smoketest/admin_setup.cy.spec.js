@@ -87,7 +87,7 @@ describe("smoketest > admin_setup", () => {
       cy.findByText("Answers sent right to your Slack #channels");
       cy.findByText("metabase@metabase.com").should("not.exist");
 
-      cy.findByText("Create a Slack Bot User for RepenteBot");
+      cy.findByText("Create a Slack Bot User for IntuitoBot");
       cy.contains(
         'Once you\'re there, give it a name and click "Add bot integration". Then copy and paste the Bot API Token into the field below. Once you are done, create a "insights_files" channel in Slack. Intuito needs this to upload graphs.',
       );

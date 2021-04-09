@@ -241,7 +241,7 @@
          args))
 
 (s/defn process-query-and-save-execution!
-  "Process and run a 'userland' MBQL query (e.g. one ran as the result of an API call, scheduled Pulse, RepenteBot query,
+  "Process and run a 'userland' MBQL query (e.g. one ran as the result of an API call, scheduled Pulse, IntuitoBot query,
   etc.). Returns results in a format appropriate for consumption by FE client. Saves QueryExecution row in application
   DB."
   ([query info]

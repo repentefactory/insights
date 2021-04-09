@@ -3,7 +3,7 @@ import { t } from "ttag";
 const SPECIAL_GROUP_NAMES = new Map([
   ["All Users", t`All Users`],
   ["Administrators", t`Administrators`],
-  ["RepenteBot", t`RepenteBot`],
+  ["IntuitoBot", t`IntuitoBot`],
 ]);
 
 export function isDefaultGroup(group) {
@@ -15,7 +15,7 @@ export function isAdminGroup(group) {
 }
 
 export function isMetaBotGroup(group) {
-  return group.name === "RepenteBot";
+  return group.name === "IntuitoBot";
 }
 
 export function isSpecialGroup(group) {

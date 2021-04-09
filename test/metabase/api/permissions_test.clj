@@ -20,7 +20,7 @@
 
 ;; GET /permissions/group
 ;; Should *not* include inactive users in the counts.
-;; It should also *not* include the RepenteBot group because RepenteBot should *not* be enabled
+;; It should also *not* include the IntuitoBot group because IntuitoBot should *not* be enabled
 (defn- fetch-groups []
   (set ((mt/user->client :crowberto) :get 200 "permissions/group")))
 

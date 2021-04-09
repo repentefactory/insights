@@ -48,7 +48,7 @@ echo '{
             "patch": false,
             "highlights": [
                 "Fullscreen (and fabulous) Dashboards",
-                "Say hello to RepenteBot in Slack"
+                "Say hello to IntuitoBot in Slack"
             ]
         }
     ]

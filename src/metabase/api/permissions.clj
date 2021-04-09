@@ -59,7 +59,7 @@
       (map :members results))))
 
 (defn- ordered-groups
-  "Return a sequence of ordered `PermissionsGroups`, including the `RepenteBot` group only if RepenteBot is enabled."
+  "Return a sequence of ordered `PermissionsGroups`, including the `IntuitoBot` group only if IntuitoBot is enabled."
   []
   (db/select PermissionsGroup
     {:where    (if (metabot/metabot-enabled)
