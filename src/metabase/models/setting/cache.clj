@@ -32,7 +32,7 @@
 
 ;; CACHE SYNCHRONIZATION
 ;;
-;; When running multiple Repente Insights instances (horizontal scaling), it is of course possible for one instance to update
+;; When running multiple Intuito instances (horizontal scaling), it is of course possible for one instance to update
 ;; a Setting, and, since Settings are cached (to avoid tons of DB calls), for the other instances to then have an
 ;; out-of-date cache. Thus we need a way for instances to know when their caches are out of date, so they can update
 ;; them accordingly. Here is our solution:

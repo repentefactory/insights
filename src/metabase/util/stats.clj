@@ -114,7 +114,7 @@
    :running_on           (environment-type)
    :application_database (config/config-str :mb-db-type)
    :check_for_updates    (public-settings/check-for-updates)
-   :site_name            (not= (public-settings/site-name) "Repente Insights")
+   :site_name            (not= (public-settings/site-name) "Intuito")
    :report_timezone      (driver/report-timezone)
    :friendly_names       (= (humanization/humanization-strategy) "advanced")
    :email_configured     (email/email-configured?)
@@ -361,7 +361,7 @@
    "os.name" "os.version"])
 
 (defn- system-metrics
-  "Metadata about the environment Repente Insights is running in"
+  "Metadata about the environment Intuito is running in"
   []
   (let [runtime (Runtime/getRuntime)]
     (merge
@@ -396,7 +396,7 @@
 
 
 (defn- send-stats!
-  "send stats to Repente Insights tracking server"
+  "send stats to Intuito tracking server"
   [stats]
    (try
       (client/post metabase-usage-url {:form-params stats, :content-type :json, :throw-entire-message? true})

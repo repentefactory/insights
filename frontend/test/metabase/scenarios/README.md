@@ -1,4 +1,4 @@
-# Repente Insights Scenarios
+# Intuito Scenarios
 
 ## Running
 

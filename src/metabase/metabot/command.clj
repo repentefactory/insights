@@ -64,7 +64,7 @@
     [In Slack]
     User: metabot show 100
 
-    [In Repente Insights]
+    [In Intuito]
     (command \"show\" 100) ; -> [some results]
 
     [In Slack]

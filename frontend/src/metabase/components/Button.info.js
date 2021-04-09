@@ -5,7 +5,7 @@ export const component = Button;
 export const category = "input";
 
 export const description = `
-Repente Insights's main button component.
+Intuito's main button component.
 `;
 
 export const examples = {

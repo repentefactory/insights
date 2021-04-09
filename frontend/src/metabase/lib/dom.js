@@ -13,10 +13,10 @@ export const IFRAMED = (function() {
   }
 })();
 
-// add a global so we can check if the parent iframe is Repente Insights
+// add a global so we can check if the parent iframe is Intuito
 window.METABASE = true;
 
-// check that we're both iframed, and the parent is a Repente Insights instance
+// check that we're both iframed, and the parent is a Intuito instance
 // used for detecting if we're previewing an embed
 export const IFRAMED_IN_SELF = (function() {
   try {

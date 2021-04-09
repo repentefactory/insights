@@ -26,29 +26,29 @@
         (let [path (files/get-path filename)]
           (files/create-dir-if-not-exists! path)
           (assert (Files/isWritable path)
-            (trs "Repente Insights does not have permissions to write to plugins directory {0}" filename))
+            (trs "Intuito does not have permissions to write to plugins directory {0}" filename))
           path)
         ;; If we couldn't create the directory, or the directory is not writable, fall back to a temporary directory
         ;; rather than failing to launch entirely. Log instructions for what should be done to fix the problem.
         (catch Throwable e
           (log/warn
            e
-           (trs "Repente Insights cannot use the plugins directory {0}" filename)
+           (trs "Intuito cannot use the plugins directory {0}" filename)
            "\n"
-           (trs "Please make sure the directory exists and that Repente Insights has permission to write to it.")
-           (trs "You can change the directory Repente Insights uses for modules by setting the environment variable MB_PLUGINS_DIR.")
+           (trs "Please make sure the directory exists and that Intuito has permission to write to it.")
+           (trs "You can change the directory Intuito uses for modules by setting the environment variable MB_PLUGINS_DIR.")
            (trs "Falling back to a temporary directory for now."))
           ;; Check whether the fallback temporary directory is writable. If it's not, there's no way for us to
           ;; gracefully proceed here. Throw an Exception detailing the critical issues.
           (let [path (files/get-path (System/getProperty "java.io.tmpdir"))]
             (assert (Files/isWritable path)
-              (trs "Repente Insights cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Repente Insights."))
+              (trs "Intuito cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Intuito."))
             path))))))
 
 ;; Actual logic is wrapped in a delay rather than a normal function so we don't log the error messages more than once
 ;; in cases where we have to fall back to the system temporary directory
 (defn- plugins-dir
-  "Get a `Path` to the Repente Insights plugins directory, creating it if needed. If it cannot be created for one reason or
+  "Get a `Path` to the Intuito plugins directory, creating it if needed. If it cannot be created for one reason or
   another, or if we do not have write permissions for it, use a temporary directory instead."
   ^Path []
   @plugins-dir*)
@@ -98,11 +98,11 @@
                         (str/ends-with? (.getFileName path) ".jar")
                         (or (not (str/ends-with? (.getFileName path) "spark-deps.jar"))
                             ;; if the JAR in question is the spark deps JAR we cannot load it because it's signed, and
-                            ;; the Repente Insights JAR itself as well as plugins no longer are; Java will throw an Exception
+                            ;; the Intuito JAR itself as well as plugins no longer are; Java will throw an Exception
                             ;; if different JARs with `metabase` packages have different signing keys. Go ahead and
                             ;; ignore it but let people know they can get rid of it.
                             (log/warn
-                             (trs "spark-deps.jar is no longer needed by Repente Insights 0.32.0+. You can delete it from the plugins directory."))))]
+                             (trs "spark-deps.jar is no longer needed by Intuito 0.32.0+. You can delete it from the plugins directory."))))]
     path))
 
 (when (or config/is-dev? config/is-test?)
@@ -126,10 +126,10 @@
 
 (defn- init-plugins! [paths]
   ;; sort paths so that ones that correspond to JARs with no plugin manifest (e.g. a dependency like the Oracle JDBC
-  ;; driver `ojdbc8.jar`) always get initialized (i.e., added to the classpath) first; that way, Repente Insights drivers that
+  ;; driver `ojdbc8.jar`) always get initialized (i.e., added to the classpath) first; that way, Intuito drivers that
   ;; depend on them (such as Oracle) can be initialized the first time we see them.
   ;;
-  ;; In Clojure world at least `false` < `true` so we can use `sort-by` to get non-Repente Insights-plugin JARs in front
+  ;; In Clojure world at least `false` < `true` so we can use `sort-by` to get non-Intuito-plugin JARs in front
   (doseq [^Path path (sort-by has-manifest? paths)]
     (try
       (init-plugin! path)
@@ -147,17 +147,17 @@
 (defonce ^:private load!* (delay (load!)))
 
 (defn load-plugins!
-  "Load Repente Insights plugins. The are JARs shipped as part of Repente Insights itself, under the `resources/modules` directory (the
-  source for these JARs is under the `modules` directory); and others manually added by users to the Repente Insights plugins
+  "Load Intuito plugins. The are JARs shipped as part of Intuito itself, under the `resources/modules` directory (the
+  source for these JARs is under the `modules` directory); and others manually added by users to the Intuito plugins
   directory, which defaults to `./plugins`.
 
-  When loading plugins, Repente Insights performs the following steps:
+  When loading plugins, Intuito performs the following steps:
 
-  *  Repente Insights creates the plugins directory if it does not already exist.
-  *  Any plugins that are shipped as part of Repente Insights itself are extracted from the Repente Insights uberjar (or `resources`
+  *  Intuito creates the plugins directory if it does not already exist.
+  *  Any plugins that are shipped as part of Intuito itself are extracted from the Intuito uberjar (or `resources`
      directory when running with `lein`) into the plugins directory.
-  *  Each JAR in the plugins directory that *does not* include a Repente Insights plugin manifest is added to the classpath.
-  *  For JARs that include a Repente Insights plugin manifest (a `metabase-plugin.yaml` file), a lazy-loading Repente Insights driver
+  *  Each JAR in the plugins directory that *does not* include a Intuito plugin manifest is added to the classpath.
+  *  For JARs that include a Intuito plugin manifest (a `metabase-plugin.yaml` file), a lazy-loading Intuito driver
      is registered; when the driver is initialized (automatically, when certain methods are called) the JAR is added
      to the classpath and the driver namespace is loaded
 

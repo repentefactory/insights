@@ -106,10 +106,10 @@
   []
   (api/check-superuser)
   (let [response (email/send-message!
-                   :subject      "Repente Insights Test Email"
+                   :subject      "Intuito Test Email"
                    :recipients   [(:email @api/*current-user*)]
                    :message-type :text
-                   :message      "Your Repente Insights emails are working — hooray!")]
+                   :message      "Your Intuito emails are working — hooray!")]
     (if (= :SUCCESS (:error response))
       {:ok true}
       {:status 500

@@ -44,7 +44,7 @@ export default class ForgotPasswordApp extends Component {
                       {
                         name: "email",
                         title: t`Email address`,
-                        placeholder: t`The email you use for your Repente Insights account`,
+                        placeholder: t`The email you use for your Intuito account`,
                         validate: validate.email(),
                       },
                     ],

@@ -84,7 +84,7 @@ export default class Activity extends Component {
     } else if (user) {
       return user.first_name;
     } else {
-      return t`Repente Insights`;
+      return t`Intuito`;
     }
   }
 
@@ -252,7 +252,7 @@ export default class Activity extends Component {
         break;
       case "install":
         description.userName = t`Hello World!`;
-        description.summary = t`Repente Insights is up and running.`;
+        description.summary = t`Intuito is up and running.`;
         break;
       case "metric-create":
         if (item.model_exists) {

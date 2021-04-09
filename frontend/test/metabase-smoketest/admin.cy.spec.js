@@ -18,10 +18,10 @@ describe("metabase-smoketest > admin", () => {
   before(() => restore("blank"));
 
   describe("Admin can setup an account", () => {
-    it("should set up Repente Insights", () => {
+    it("should set up Intuito", () => {
       // This is a simplified version of the "scenarios > setup" test
       cy.visit("/");
-      cy.findByText("Welcome to Repente Insights");
+      cy.findByText("Welcome to Intuito");
       cy.url().should("not.include", "login");
       cy.findByText("Let's get started").click();
 
@@ -55,7 +55,7 @@ describe("metabase-smoketest > admin", () => {
 
       cy.findByText("Select a database").click();
       cy.findByText("H2").click();
-      cy.findByLabelText("Name").type("Repente Insights H2");
+      cy.findByLabelText("Name").type("Intuito H2");
 
       const dbPath = path.resolve(
         Cypress.config("fileServerFolder"),
@@ -66,7 +66,7 @@ describe("metabase-smoketest > admin", () => {
 
       // Turns off anonymous data collection
       cy.findByLabelText(
-        "Allow Repente Insights to anonymously collect usage events",
+        "Allow Intuito to anonymously collect usage events",
       ).click();
       cy.findByText("All collection is completely anonymous.").should(
         "not.exist",
@@ -75,7 +75,7 @@ describe("metabase-smoketest > admin", () => {
 
       // Finish & Subscribe
 
-      cy.findByText("Take me to Repente Insights").click();
+      cy.findByText("Take me to Intuito").click();
       cy.location("pathname").should("eq", "/");
     });
   });
@@ -90,7 +90,7 @@ describe("metabase-smoketest > admin", () => {
       cy.findByText("Our analytics");
 
       // Following section is repeated-- turn into callback function?
-      // Also, selecting Repente Insights H2 doesn't do anything
+      // Also, selecting Intuito H2 doesn't do anything
       cy.findByText("Ask a question").click();
 
       cy.findByText("Custom question");
@@ -270,7 +270,7 @@ describe("metabase-smoketest > admin", () => {
       cy.get(".Icon-gear").click();
       cy.findByText("Admin").click();
 
-      cy.findByText("Repente Insights Admin");
+      cy.findByText("Intuito Admin");
       cy.findByText("dashboard").should("not.exist");
 
       cy.findByText("People").click();

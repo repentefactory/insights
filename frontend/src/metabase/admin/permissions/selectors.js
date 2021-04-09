@@ -68,11 +68,11 @@ const SPECIAL_GROUP_FILTERS = [
 
 function getTooltipForGroup(group) {
   if (isAdminGroup(group)) {
-    return t`Administrators always have the highest level of access to everything in Repente Insights.`;
+    return t`Administrators always have the highest level of access to everything in Intuito.`;
   } else if (isDefaultGroup(group)) {
-    return t`Every Repente Insights user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access.`;
+    return t`Every Intuito user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access.`;
   } else if (isMetaBotGroup(group)) {
-    return t`RepenteBot is Repente Insights's Slack bot. You can choose what it has access to here.`;
+    return t`RepenteBot is Intuito's Slack bot. You can choose what it has access to here.`;
   }
   return null;
 }

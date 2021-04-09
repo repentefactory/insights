@@ -7,22 +7,22 @@
   (atom 0))
 
 (defn complete?
-  "Is Repente Insights initialized and ready to be served?"
+  "Is Intuito initialized and ready to be served?"
   []
   (= @progress-atom 1.0))
 
 (defn progress
-  "Get the current progress of Repente Insights initialization."
+  "Get the current progress of Intuito initialization."
   []
   @progress-atom)
 
 (defn set-progress!
-  "Update the Repente Insights initialization progress to a new value, a floating-point value between `0` and `1`."
+  "Update the Intuito initialization progress to a new value, a floating-point value between `0` and `1`."
   [^Float new-progress]
   {:pre [(float? new-progress) (<= 0.0 new-progress 1.0)]}
   (reset! progress-atom new-progress))
 
 (defn set-complete!
-  "Complete the Repente Insights initialization by setting its progress to 100%."
+  "Complete the Intuito initialization by setting its progress to 100%."
   []
   (set-progress! 1.0))
