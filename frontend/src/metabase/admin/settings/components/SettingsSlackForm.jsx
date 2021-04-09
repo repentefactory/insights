@@ -9,8 +9,7 @@ import { updateSlackSettings } from "../settings";
 
 import Button from "metabase/components/Button";
 import Icon from "metabase/components/Icon";
-
-import RetinaImage from "react-retina-image";
+import ExternalLink from "metabase/components/ExternalLink";
 
 import _ from "underscore";
 import { t, jt } from "ttag";
@@ -37,7 +36,7 @@ export default class SettingsSlackForm extends Component {
     updateSettings: PropTypes.func.isRequired,
   };
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     // this gives us an opportunity to load up our formData with any existing values for elements
     const formData = {};
     this.props.elements.forEach(function(element) {
@@ -238,18 +237,21 @@ export default class SettingsSlackForm extends Component {
         <div className="px2" style={{ maxWidth: "585px" }}>
           <h1>
             {t`Intuito`}
-            <RetinaImage
+            <img
+              width="79px"
               className="mx1"
               src="app/assets/img/slack_emoji.png"
-              width={79}
-              forceOriginalDimensions={false /* broken in React v0.13 */}
+              srcSet="
+                app/assets/img/slack_emoji.png    1x,
+                app/assets/img/slack_emoji@2x.png 2x
+              "
             />
             Slack
           </h1>
           <h3 className="text-light">{t`Answers sent right to your Slack #channels`}</h3>
 
           <div className="pt3">
-            <a
+            <ExternalLink
               href="https://my.slack.com/services/new/bot"
               target="_blank"
               className="Button Button--primary"
@@ -262,12 +264,12 @@ export default class SettingsSlackForm extends Component {
                 name="external"
                 size={18}
               />
-            </a>
+            </ExternalLink>
           </div>
           <div className="py2">
             {jt`Once you're there, give it a name and click ${(
               <strong>"Add bot integration"</strong>
-            )}. Then copy and paste the Bot API Token into the field below. Once you are done, create a "insights_files" channel in Slack. Intuito needs this to upload graphs.`}
+            )}. Then copy and paste the Bot API Token into the field below. Once you are done, create a "metabase_files" channel in Slack. Metabase needs this to upload graphs.`}
           </div>
         </div>
         <ul>
