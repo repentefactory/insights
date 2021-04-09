@@ -147,12 +147,12 @@
              {:status-code 400, :path object}))))
 
 (defn- assert-valid-metabot-permissions
-  "RepenteBot permissions can only be created for Collections, since RepenteBot can only interact with objects that are always
+  "IntuitoBot permissions can only be created for Collections, since IntuitoBot can only interact with objects that are always
   in Collections (such as Cards)."
   [{:keys [object group_id]}]
   (when (and (= group_id (:id (group/metabot)))
              (not (str/starts-with? object "/collection/")))
-    (throw (ex-info (tru "RepenteBot can only have Collection permissions.")
+    (throw (ex-info (tru "IntuitoBot can only have Collection permissions.")
              {:status-code 400}))))
 
 (defn- assert-valid

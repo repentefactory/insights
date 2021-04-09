@@ -184,7 +184,7 @@ const SECTIONS = updateSectionsWithPlugins({
       },
       {
         key: "metabot-enabled",
-        display_name: "RepenteBot",
+        display_name: "IntuitoBot",
         type: "boolean",
         // TODO: why do we have "defaultValue" here in addition to the "default" specified by the backend?
         defaultValue: false,

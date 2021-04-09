@@ -9,7 +9,7 @@
   "The `Set` of event topics which are subscribed to for use in metabot lifecycle."
   #{:settings-update})
 
-(defonce ^:private ^{:doc "Channel for receiving event notifications we want to subscribe to for RepenteBot lifecycle
+(defonce ^:private ^{:doc "Channel for receiving event notifications we want to subscribe to for IntuitoBot lifecycle
   events."}
   metabot-lifecycle-channel
   (async/chan))

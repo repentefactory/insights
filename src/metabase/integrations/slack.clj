@@ -142,7 +142,7 @@
                          " "
                          (tru "Please create or unarchive the channel in order to complete the Slack integration.")
                          " "
-                         (tru "The channel is used for storing graphs that are included in Pulses and RepenteBot answers."))]
+                         (tru "The channel is used for storing graphs that are included in Pulses and IntuitoBot answers."))]
         (log/error (u/format-color 'red message))
         (throw (ex-info message {:status-code 400})))))
 
@@ -185,7 +185,7 @@
   ;; TODO: it would be nice to have an emoji or icon image to use here
   (POST "chat.postMessage"
         {:channel     channel-id
-         :username    "RepenteBot"
+         :username    "IntuitoBot"
          :icon_url    "http://static.repentefactory.com/metabot_slack_avatar_whitebg.png"
          :text        text-or-nil
          :attachments (when (seq attachments)

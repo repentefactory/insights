@@ -728,7 +728,7 @@ The map tile server URL template used in map visualizations, for example from Op
 Type: boolean<br>
 Default: `false`
 
-Enable RepenteBot, which lets you search for and view your saved questions directly via Slack.
+Enable IntuitoBot, which lets you search for and view your saved questions directly via Slack.
 
 #### `MB_NS_TRACE`
 
