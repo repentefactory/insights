@@ -1,5 +1,5 @@
 (ns metabase.metabot.command
-  "Implementations of various RepenteBot commands."
+  "Implementations of various IntuitoBot commands."
   (:require [clojure
              [edn :as edn]
              [string :as str]]
@@ -24,9 +24,9 @@
 ;;; ----------------------------------------------------- Perms ------------------------------------------------------
 
 (defn- metabot-permissions
-  "Return the set of permissions granted to the RepenteBot.
+  "Return the set of permissions granted to the IntuitoBot.
 
-  RepenteBot can only interact with Cards, and Cards are always in a collection; thus any non-collection perms are legacy
+  IntuitoBot can only interact with Cards, and Cards are always in a collection; thus any non-collection perms are legacy
   and irrelevant."
   []
   (db/select-field :object Permissions
@@ -34,7 +34,7 @@
     :object   [:like "/collection/%"]))
 
 (defn- metabot-visible-collection-ids
-  "Set of visible collection IDs, including `nil` if the RepenteBot can see the Root Collection."
+  "Set of visible collection IDs, including `nil` if the IntuitoBot can see the Root Collection."
   []
   (collection/permissions-set->visible-collection-ids (metabot-permissions)))
 
@@ -43,7 +43,7 @@
     (f)))
 
 (defmacro ^:private with-metabot-permissions
-  "Execute BODY with RepenteBot's permissions bound to `*current-user-permissions-set*`."
+  "Execute BODY with IntuitoBot's permissions bound to `*current-user-permissions-set*`."
   {:style/indent 0}
   [& body]
   `(do-with-metabot-permissions (fn [] ~@body)))
@@ -56,19 +56,19 @@
 ;;; ---------------------------------------------------- Commands ----------------------------------------------------
 
 (defmulti command
-  "Run a RepenteBot command.
+  "Run a IntuitoBot command.
 
-  This multimethod provides implementations of the various RepenteBot commands. Slack messages that are interpreted as
-  RepenteBot commands are split into tokens and passed to this method, e.g.
+  This multimethod provides implementations of the various IntuitoBot commands. Slack messages that are interpreted as
+  IntuitoBot commands are split into tokens and passed to this method, e.g.
 
     [In Slack]
     User: metabot show 100
 
-    [In LibraFactory Insights]
+    [In Intuito]
     (command \"show\" 100) ; -> [some results]
 
     [In Slack]
-    RepenteBot: [some results]
+    IntuitoBot: [some results]
 
   The first argument is the command name, and that name, as a lower-cased keyword, is used as the dispatch value for
   this multimethod.

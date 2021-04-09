@@ -45,7 +45,7 @@
              (not (public-settings/site-url))
              api/*current-user*)
     (when-let [site-url (or origin x-forwarded-host host)]
-      (log/info (trs "Setting LibraFactory Insights site URL to {0}" site-url))
+      (log/info (trs "Setting Intuito site URL to {0}" site-url))
       (try
         (public-settings/site-url site-url)
         (catch Throwable e

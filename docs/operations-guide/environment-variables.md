@@ -138,7 +138,7 @@ When using the default binning strategy and a number of bins is not provided, th
 Type: boolean<br>
 Default: `true`
 
-Identify when new versions of LibraFactory Insights are available.
+Identify when new versions of Intuito are available.
 
 #### `MB_CLIENT`
 
@@ -728,7 +728,7 @@ The map tile server URL template used in map visualizations, for example from Op
 Type: boolean<br>
 Default: `false`
 
-Enable RepenteBot, which lets you search for and view your saved questions directly via Slack.
+Enable IntuitoBot, which lets you search for and view your saved questions directly via Slack.
 
 #### `MB_NS_TRACE`
 

@@ -1,7 +1,7 @@
 (ns metabase.plugins.init-steps
-  "Logic for performing the `init-steps` listed in a LibraFactory Insights plugin's manifest. For driver plugins that specify that we
+  "Logic for performing the `init-steps` listed in a Intuito plugin's manifest. For driver plugins that specify that we
   should `lazy-load`, these steps are lazily performed the first time non-trivial driver methods (such as connecting
-  to a Database) are called; for all other LibraFactory Insights plugins these are perfomed during launch.
+  to a Database) are called; for all other Intuito plugins these are perfomed during launch.
 
   The entire list of possible init steps is below, as impls for the `do-init-step!` multimethod."
   (:require [clojure.tools.logging :as log]
@@ -25,7 +25,7 @@
   (jdbc-proxy/create-and-register-proxy-driver! class-name))
 
 (defn do-init-steps!
-  "Perform the initialization steps for a LibraFactory Insights plugin as specified under `init:` in its plugin
+  "Perform the initialization steps for a Intuito plugin as specified under `init:` in its plugin
   manifest (`metabase-plugin.yaml`) by calling `do-init-step!` for each step."
   [init-steps]
   (doseq [step init-steps]

@@ -34,8 +34,8 @@
 (when-not *compile-files*
   (log/info
    (if default-secret-key
-     (trs "Saved credentials encryption is ENABLED for this LibraFactory Insights instance.")
-     (trs "Saved credentials encryption is DISABLED for this LibraFactory Insights instance."))
+     (trs "Saved credentials encryption is ENABLED for this Intuito instance.")
+     (trs "Saved credentials encryption is DISABLED for this Intuito instance."))
    (u/emoji (if default-secret-key "🔐" "🔓"))
    "\n"
    (trs "For more information, see")

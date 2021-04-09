@@ -13,7 +13,7 @@ PLUGIN_ADMIN_SETTINGS_UPDATES.push(
       ...settings,
       {
         authName: t`LDAP`,
-        authDescription: t`Allows users within your LDAP directory to log in to LibraFactory Insights with their LDAP credentials, and allows automatic mapping of LDAP groups to LibraFactory Insights groups.`,
+        authDescription: t`Allows users within your LDAP directory to log in to Intuito with their LDAP credentials, and allows automatic mapping of LDAP groups to Intuito groups.`,
         authType: "ldap",
         authEnabled: settings => settings["ldap-enabled"],
         widget: AuthenticationOption,

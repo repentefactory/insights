@@ -5,7 +5,7 @@ export const component = Button;
 export const category = "input";
 
 export const description = `
-LibraFactory Insights's main button component.
+Intuito's main button component.
 `;
 
 export const examples = {

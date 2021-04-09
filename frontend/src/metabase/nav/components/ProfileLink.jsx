@@ -69,7 +69,7 @@ export default class ProfileLink extends Component {
         event: `Navbar;Profile Dropdown;About ${tag}`,
       },
       {
-        title: t`About LibraFactory Insights`,
+        title: t`About Intuito`,
         icon: null,
         action: () => this.openModal("about"),
         event: `Navbar;Profile Dropdown;About ${tag}`,
@@ -87,7 +87,7 @@ export default class ProfileLink extends Component {
     const { modalOpen } = this.state;
     const { tag, date, ...versionExtra } = MetabaseSettings.get("version");
     // don't show trademark if application name is whitelabeled
-    const showTrademark = t`LibraFactory Insights` === "LibraFactory Insights";
+    const showTrademark = t`Intuito` === "Intuito";
     return (
       <Box>
         <EntityMenu
@@ -110,7 +110,7 @@ export default class ProfileLink extends Component {
               <h2
                 style={{ fontSize: "1.75em" }}
                 className="text-dark"
-              >{t`Thanks for using LibraFactory Insights!`}</h2>
+              >{t`Thanks for using Intuito!`}</h2>
               <div className="pt2">
                 <h3 className="text-dark mb1">
                   {t`You're on version`} {tag}
@@ -135,8 +135,8 @@ export default class ProfileLink extends Component {
                 className="p2 h5 text-centered text-medium border-top"
               >
                 <span className="block">
-                  <span className="text-bold">LibraFactory Insights</span>{" "}
-                  {t`is a Trademark of`} LibraFactory Insights, Inc
+                  <span className="text-bold">Intuito</span>{" "}
+                  {t`is a Trademark of`} Intuito, Inc
                 </span>
                 <span>{t`and is built with care in San Francisco, CA`}</span>
               </div>

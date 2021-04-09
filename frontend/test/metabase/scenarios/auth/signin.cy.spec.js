@@ -57,7 +57,7 @@ describe("scenarios > auth > signin", () => {
     signOut();
     cy.reload();
 
-    cy.contains("Sign in to LibraFactory Insights");
+    cy.contains("Sign in to Intuito");
     cy.findByLabelText("Email address").type(USERS.admin.username);
     cy.findByLabelText("Password").type(USERS.admin.password);
     cy.findByText("Sign in").click();

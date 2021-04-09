@@ -24,7 +24,7 @@ export default class LoginApp extends Component {
 
     return (
       <AuthLayout>
-        <h2 className="text-centered mb3">{t`Sign in to LibraFactory Insights`}</h2>
+        <h2 className="text-centered mb3">{t`Sign in to Intuito`}</h2>
         {visibleProviders.length === 1 && visibleProviders[0].Panel ? (
           this.renderPanel(visibleProviders[0])
         ) : (

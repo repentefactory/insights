@@ -184,7 +184,7 @@ const SECTIONS = updateSectionsWithPlugins({
       },
       {
         key: "metabot-enabled",
-        display_name: "RepenteBot",
+        display_name: "IntuitoBot",
         type: "boolean",
         // TODO: why do we have "defaultValue" here in addition to the "default" specified by the backend?
         defaultValue: false,
@@ -203,7 +203,7 @@ const SECTIONS = updateSectionsWithPlugins({
       {
         key: "map-tile-server-url",
         display_name: t`Map tile server URL`,
-        note: t`LibraFactory Insights uses OpenStreetMaps by default.`,
+        note: t`Intuito uses OpenStreetMaps by default.`,
         type: "string",
       },
       {
@@ -305,7 +305,7 @@ const SECTIONS = updateSectionsWithPlugins({
       },
       {
         key: "enable-embedding",
-        display_name: t`Enable Embedding LibraFactory Insights in other Applications`,
+        display_name: t`Enable Embedding Intuito in other Applications`,
         type: "boolean",
         getHidden: settings => !settings["enable-embedding"],
       },

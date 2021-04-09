@@ -1,5 +1,5 @@
 (ns metabase.driver.sql.query-processor
-  "The Query Processor is responsible for translating the LibraFactory Insights Query Language into HoneySQL SQL forms."
+  "The Query Processor is responsible for translating the Intuito Query Language into HoneySQL SQL forms."
   (:require [clojure.string :as str]
             [clojure.tools.logging :as log]
             [honeysql

@@ -1,5 +1,5 @@
 (ns metabase.cmd
-  "Functions for commands that can be ran from the command-line with `lein` or the LibraFactory Insights JAR. These are ran as
+  "Functions for commands that can be ran from the command-line with `lein` or the Intuito JAR. These are ran as
   follows:
 
     <metabase> <command> <options>
@@ -53,7 +53,7 @@
         (System/exit return-code)))))
 
 (defn ^:command profile
-  "Start LibraFactory Insights the usual way and exit. Useful for profiling LibraFactory Insights launch time."
+  "Start Intuito the usual way and exit. Useful for profiling Intuito launch time."
   []
   ;; override env var that would normally make Jetty block forever
   (classloader/require 'environ.core 'metabase.core)
@@ -73,7 +73,7 @@
   ((resolve 'metabase.cmd.refresh-integration-test-db-metadata/refresh-integration-test-db-metadata)))
 
 (defn ^:command help
-  "Show this help message listing valid LibraFactory Insights commands."
+  "Show this help message listing valid Intuito commands."
   []
   (println "Valid commands are:")
   (doseq [[symb varr] (sort (ns-interns 'metabase.cmd))
@@ -83,12 +83,12 @@
                     (str/replace dox #"\s+" " ")))) ; replace newlines or multiple spaces with single spaces
   (println "\nSome other commands you might find useful:\n")
   (println "java -cp metabase.jar org.h2.tools.Shell -url jdbc:h2:/path/to/metabase.db")
-  (println "\tOpen an SQL shell for the LibraFactory Insights H2 DB"))
+  (println "\tOpen an SQL shell for the Intuito H2 DB"))
 
 (defn ^:command version
-  "Print version information about LibraFactory Insights and the current system."
+  "Print version information about Intuito and the current system."
   []
-  (println "LibraFactory Insights version:" config/mb-version-info)
+  (println "Intuito version:" config/mb-version-info)
   (println "\nOS:"
            (System/getProperty "os.name")
            (System/getProperty "os.version")
@@ -126,7 +126,7 @@
     (classloader/require (symbol (namespace symb)))
     (resolve symb)
     (catch Throwable e
-      (throw (ex-info (trs "The ''{0}'' command is only available in LibraFactory Insights Enterprise Edition." (name symb))
+      (throw (ex-info (trs "The ''{0}'' command is only available in Intuito Enterprise Edition." (name symb))
                       {:command symb}
                       e)))))
 

@@ -35,13 +35,13 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Severity**
-How severe an issue is this bug to you? Is this annoying, blocking some users, blocking an upgrade or blocking your usage of LibraFactory Insights entirely?
+How severe an issue is this bug to you? Is this annoying, blocking some users, blocking an upgrade or blocking your usage of Intuito entirely?
 Note: the more honest and specific you are here the more we will take you seriously.
 
 **Additional context**
 Add any other context about the problem here.
 
-**LibraFactory Insights Diagnostic Info**
+**Intuito Diagnostic Info**
 `;
 
 function githubIssueLink(bugReportDetails) {
@@ -105,13 +105,13 @@ export default class Help extends Component {
         <Box my={2} style={{ maxWidth: "468px" }}>
           <ol>
             <HelpLink
-              title={t`LibraFactory Insights Documentation`}
+              title={t`Intuito Documentation`}
               description={t`Includes a troubleshooting guide`}
               link={MetabaseSettings.docsUrl()}
             />
             <HelpLink
-              title={t`Post on the LibraFactory Insights support forum`}
-              description={t`A community forum for all things LibraFactory Insights`}
+              title={t`Post on the Intuito support forum`}
+              description={t`A community forum for all things Intuito`}
               link={discourseLink(detailString)}
             />
             <HelpLink

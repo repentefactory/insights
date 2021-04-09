@@ -171,7 +171,7 @@
   [_]
   {:title       (tru "Set Slack credentials")
    :group       (tru "Get connected")
-   :description (tru "Does your team use Slack? If so, you can send automated updates via pulses and ask questions with RepenteBot.")
+   :description (tru "Does your team use Slack? If so, you can send automated updates via pulses and ask questions with IntuitoBot.")
    :link        "/admin/settings/slack"
    :completed   (slack/slack-configured?)
    :triggered   :always})
@@ -200,7 +200,7 @@
   [_]
   {:title       (tru "Organize questions")
    :group       (tru "Curate your data")
-   :description (tru "Have a lot of saved questions in {0}? Create collections to help manage them and add context." (tru "LibraFactory Insights"))
+   :description (tru "Have a lot of saved questions in {0}? Create collections to help manage them and add context." (tru "Intuito"))
    :link        "/collection/root"
    :completed   (db/exists? Collection)
    :triggered   (>= (db/count Card) 30)})

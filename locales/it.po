@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: LibraFactory Insights\n"
+"Project-Id-Version: Intuito\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -47,8 +47,8 @@ msgid "Save"
 msgstr "Salva"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
-msgid "To do some of its magic, LibraFactory Insights needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
-msgstr "Per fare qualcosa di magico, LibraFactory Insights ha bisogno di esplorare il tuo database. L'esplorazione viene periodicamente rieseguita. Di seguito puoi controllare quando avverrà la prossima esplorazione."
+msgid "To do some of its magic, Intuito needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
+msgstr "Per fare qualcosa di magico, Intuito ha bisogno di esplorare il tuo database. L'esplorazione viene periodicamente rieseguita. Di seguito puoi controllare quando avverrà la prossima esplorazione."
 
 #: frontend/src/metabase/entities/databases/forms.js:291
 msgid "Database syncing"
@@ -70,15 +70,15 @@ msgid "Scanning for Filter Values"
 msgstr "Ricerca di Valori Filtro"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:153
-msgid "LibraFactory Insights can scan the values present in each\n"
+msgid "Intuito can scan the values present in each\n"
 "field in this database to enable checkbox filters in dashboards and questions. This\n"
 "can be a somewhat resource-intensive process, particularly if you have a very large\n"
 "database."
-msgstr "LibraFactory Insights può cercare i valori presenti in ogni campo di questo database per abilitare i checkbox dei filtri nelle dashboard e questions. Questo processo puó essere intensivo, in particolare se hai un database molto grande."
+msgstr "Intuito può cercare i valori presenti in ogni campo di questo database per abilitare i checkbox dei filtri nelle dashboard e questions. Questo processo puó essere intensivo, in particolare se hai un database molto grande."
 
 #: frontend/src/metabase/entities/databases/forms.js:302
-msgid "When should LibraFactory Insights automatically scan and cache field values?"
-msgstr "Quando LibraFactory Insights dovrebbe automaticamente scansionare e fare cache dei valori?"
+msgid "When should Intuito automatically scan and cache field values?"
+msgstr "Quando Intuito dovrebbe automaticamente scansionare e fare cache dei valori?"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:25
 msgid "Regularly, on a schedule"
@@ -89,9 +89,9 @@ msgid "Only when adding a new filter widget"
 msgstr "Solo quando si aggiunge un nuovo filtro nel widget"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:54
-msgid "When a user adds a new filter to a dashboard or a SQL question, LibraFactory Insights will\n"
+msgid "When a user adds a new filter to a dashboard or a SQL question, Intuito will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "Quando un utente aggiunge un nuovo filtro a una Dashboard o Question, LibraFactory Insights cercherá nei campi mappati dal filtro per mostrare la lista dei valori selezionabili."
+msgstr "Quando un utente aggiunge un nuovo filtro a una Dashboard o Question, Intuito cercherá nei campi mappati dal filtro per mostrare la lista dei valori selezionabili."
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:62
 msgid "Never, I'll do this manually if I need to"
@@ -592,8 +592,8 @@ msgid "{0} – Field Settings"
 msgstr "{0} – Impostazioni dei campi"
 
 #: frontend/src/metabase/admin/datamodel/containers/FieldApp.jsx:298
-msgid "Where this field will appear throughout LibraFactory Insights"
-msgstr "Dove questo campo apparirà in tutto LibraFactory Insights"
+msgid "Where this field will appear throughout Intuito"
+msgstr "Dove questo campo apparirà in tutto Intuito"
 
 #: frontend/src/metabase/admin/datamodel/containers/FieldApp.jsx:321
 msgid "Filtering on this field"
@@ -674,8 +674,8 @@ msgid "Cached field values"
 msgstr "Valori del campo memorizzato nella cache"
 
 #: frontend/src/metabase/admin/datamodel/containers/FieldApp.jsx:356
-msgid "LibraFactory Insights can scan the values for this field to enable checkbox filters in dashboards and questions."
-msgstr "LibraFactory Insights può analizzare i valori per questo campo in modo da abilitare i filtri delle caselle di controllo nelle 'dashboard' e nelle 'question'."
+msgid "Intuito can scan the values for this field to enable checkbox filters in dashboards and questions."
+msgstr "Intuito può analizzare i valori per questo campo in modo da abilitare i filtri delle caselle di controllo nelle 'dashboard' e nelle 'question'."
 
 #: frontend/src/metabase/admin/datamodel/components/UpdateCachedFieldValues.jsx:14
 msgid "Re-scan this field"
@@ -836,8 +836,8 @@ msgid "Settings"
 msgstr "Impostazioni"
 
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:84
-msgid "LibraFactory Insights can scan the values in this table to enable checkbox filters in dashboards and questions."
-msgstr "LibraFactory Insights può analizzare i valori per questa tabella in modo da abilitare i filtri delle caselle di controllo nelle 'dashboard' e nelle 'question'. "
+msgid "Intuito can scan the values in this table to enable checkbox filters in dashboards and questions."
+msgstr "Intuito può analizzare i valori per questa tabella in modo da abilitare i filtri delle caselle di controllo nelle 'dashboard' e nelle 'question'. "
 
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:89
 msgid "Re-scan this table"
@@ -876,19 +876,19 @@ msgstr "Rendi admin questo user"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:34
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new LibraFactory Insights users will be able to see."
+"make sure you know what new Intuito users will be able to see."
 msgstr "Tutti gli utenti appartengono al gruppo {0} e non possono essere rimossi da esso. L'impostazione dei permessi per questo gruppo è un ottimo modo per \n"
-"assicurarti di sapere quali nuovi utenti di LibraFactory Insights saranno in grado di vedere."
+"assicurarti di sapere quali nuovi utenti di Intuito saranno in grado di vedere."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:43
-msgid "This is a special group whose members can see everything in the LibraFactory Insights instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in the Intuito instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
-msgstr "Questo è un gruppo speciale i cui membri possono vedere tutto dell'istanza di LibraFactory Insights e chi vi accede può apportare modifiche alle\n"
+msgstr "Questo è un gruppo speciale i cui membri possono vedere tutto dell'istanza di Intuito e chi vi accede può apportare modifiche alle\n"
 "impostazioni nel Pannello di amministrazione, compresi i permessi di modifica! Quindi, aggiungi le persone a questo gruppo con cura."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:47
-msgid "To make sure you don't get locked out of LibraFactory Insights, there always has to be at least one user in this group."
-msgstr "Per essere sicuro di non restare bloccato da LibraFactory Insights, deve sempre esserci almeno un utente in questo gruppo."
+msgid "To make sure you don't get locked out of Intuito, there always has to be at least one user in this group."
+msgstr "Per essere sicuro di non restare bloccato da Intuito, deve sempre esserci almeno un utente in questo gruppo."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:187
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:218
@@ -1229,16 +1229,16 @@ msgid "Sorry, an error occurred."
 msgstr "Spiacenti, si é verificato un errore"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:71
-msgid "Administrators always have the highest level of access to everything in LibraFactory Insights."
-msgstr "Gli amministratori hanno sempre il più alto livello di accesso a tutto LibraFactory Insights."
+msgid "Administrators always have the highest level of access to everything in Intuito."
+msgstr "Gli amministratori hanno sempre il più alto livello di accesso a tutto Intuito."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:73
-msgid "Every LibraFactory Insights user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
-msgstr "Ogni utente di LibraFactory Insights appartiene al gruppo 'Tutti gli utenti' (All Users). Se si desidera limitare o limitare l'accesso di un gruppo a qualcosa, assicurarsi che il gruppo 'Tutti gli utenti' abbia un livello di accesso uguale o inferiore."
+msgid "Every Intuito user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
+msgstr "Ogni utente di Intuito appartiene al gruppo 'Tutti gli utenti' (All Users). Se si desidera limitare o limitare l'accesso di un gruppo a qualcosa, assicurarsi che il gruppo 'Tutti gli utenti' abbia un livello di accesso uguale o inferiore."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:75
-msgid "RepenteBot is LibraFactory Insights's Slack bot. You can choose what it has access to here."
-msgstr "RepenteBot è il bot Slack di LibraFactory Insights. Puoi scegliere a cosa può accedere qui."
+msgid "IntuitoBot is Intuito's Slack bot. You can choose what it has access to here."
+msgstr "IntuitoBot è il bot Slack di Intuito. Puoi scegliere a cosa può accedere qui."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:128
 msgid "The \"{0}\" group may have access to a different set of {1} than this group, which may give this group additional access to some {2}."
@@ -1364,8 +1364,8 @@ msgstr "Accesso con Google"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:120
 #: frontend/src/metabase/plugins/builtin/auth/google.js:32
-msgid "Allows users with existing LibraFactory Insights accounts to login with a Google account that matches their email address in addition to their LibraFactory Insights username and password."
-msgstr "Consente agli utenti con account LibraFactory Insights esistenti di accedere con un account Google che corrisponda al loro indirizzo email oltre al nome utente e alla password di LibraFactory Insights."
+msgid "Allows users with existing Intuito accounts to login with a Google account that matches their email address in addition to their Intuito username and password."
+msgstr "Consente agli utenti con account Intuito esistenti di accedere con un account Google che corrisponda al loro indirizzo email oltre al nome utente e alla password di Intuito."
 
 #: frontend/src/metabase/admin/settings/components/widgets/AuthenticationOption.jsx:24
 #: frontend/src/metabase/components/ChannelSetupMessage.jsx:32
@@ -1378,8 +1378,8 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/plugins/builtin/auth/ldap.js:16
-msgid "Allows users within your LDAP directory to log in to LibraFactory Insights with their LDAP credentials, and allows automatic mapping of LDAP groups to LibraFactory Insights groups."
-msgstr "Consente agli utenti all'interno della directory LDAP di accedere a LibraFactory Insights con le proprie credenziali LDAP e consente la mappatura automatica dei gruppi LDAP ai gruppi di metabase."
+msgid "Allows users within your LDAP directory to log in to Intuito with their LDAP credentials, and allows automatic mapping of LDAP groups to Intuito groups."
+msgstr "Consente agli utenti all'interno della directory LDAP di accedere a Intuito con le proprie credenziali LDAP e consente la mappatura automatica dei gruppi LDAP ai gruppi di metabase."
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:19
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:76
@@ -1454,8 +1454,8 @@ msgid "Getting set up"
 msgstr "Prepararsi"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSetupList.jsx:106
-msgid "A few things you can do to get the most out of LibraFactory Insights."
-msgstr "Alcune cose che puoi fare per ottenere il massimo da LibraFactory Insights."
+msgid "A few things you can do to get the most out of Intuito."
+msgstr "Alcune cose che puoi fare per ottenere il massimo da Intuito."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSetupList.jsx:115
 msgid "Recommended next step"
@@ -1466,8 +1466,8 @@ msgid "Google Sign-In"
 msgstr "Google Sign-In"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give LibraFactory Insights a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
-msgstr "Per consentire agli utenti di accedere con Google, devi fornire a LibraFactory Insights un ID client dell'applicazione Google Developers Console. Ci vogliono solo pochi passi e le istruzioni su come creare una chiave possono essere trovate {0}"
+msgid "To allow users to sign in with Google you'll need to give Intuito a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
+msgstr "Per consentire agli utenti di accedere con Google, devi fornire a Intuito un ID client dell'applicazione Google Developers Console. Ci vogliono solo pochi passi e le istruzioni su come creare una chiave possono essere trovate {0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
 msgid "Your Google client ID"
@@ -1482,20 +1482,20 @@ msgid "Answers sent right to your Slack #channels"
 msgstr "Le risposte vengono inviate direttamente ai tuoi #channels di Slack"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:258
-msgid "Create a Slack Bot User for RepenteBot"
-msgstr "Crea un Utente Bot Slack per RepenteBot"
+msgid "Create a Slack Bot User for IntuitoBot"
+msgstr "Crea un Utente Bot Slack per IntuitoBot"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:268
-msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"insights_files\" channel in Slack. LibraFactory Insights needs this to upload graphs."
-msgstr "Una volta che sei lì, dagli un nome e fai clicca {0}. Quindi copia e incolla il token API Bot nel campo sottostante. Una volta terminato, crea un canale \"insights_files\" in Slack. LibraFactory Insights ha bisogno di questo per caricare grafici."
+msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"insights_files\" channel in Slack. Intuito needs this to upload graphs."
+msgstr "Una volta che sei lì, dagli un nome e fai clicca {0}. Quindi copia e incolla il token API Bot nel campo sottostante. Una volta terminato, crea un canale \"insights_files\" in Slack. Intuito ha bisogno di questo per caricare grafici."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:17
-msgid "You're running LibraFactory Insights {0} which is the latest and greatest!"
-msgstr "Stai usando LibraFactory Insights {0} che é l'ultimo e il migliore!"
+msgid "You're running Intuito {0} which is the latest and greatest!"
+msgstr "Stai usando Intuito {0} che é l'ultimo e il migliore!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
-msgid "LibraFactory Insights {0} is available.  You're running {1}"
-msgstr "É disponibile LibraFactory Insights {0}. La versione in uso é la {1}."
+msgid "Intuito {0} is available.  You're running {1}"
+msgstr "É disponibile Intuito {0}. La versione in uso é la {1}."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:41
 #: frontend/src/metabase/components/form/StandardForm.jsx:18
@@ -1607,8 +1607,8 @@ msgid "By enabling embedding you're agreeing to the embedding license located at
 msgstr "Abilitando l'incorporamento accetti la licenza di incorporamento situata in"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:20
-msgid "In plain English, when you embed charts or dashboards from LibraFactory Insights in your own application, that application isn't subject to the Affero General Public License that covers the rest of LibraFactory Insights, provided you keep the LibraFactory Insights logo and the \"Powered by LibraFactory Insights\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "In italiano semplice, quando si incorporano grafici o 'dashboard' da LibraFactory Insights nella propria applicazione, tale applicazione non è soggetta alla 'Affero General Public License' che copre il resto di LibraFactory Insights, purché si mantenga visibile il logo della metabase e il \"Powered by LibraFactory Insights\" su quegli elementi inclusi. Tuttavia, dovresti leggere il testo della licenza linkato in alto, poiché questa è la licenza effettiva a cui dovrai accettare abilitando questa funzione."
+msgid "In plain English, when you embed charts or dashboards from Intuito in your own application, that application isn't subject to the Affero General Public License that covers the rest of Intuito, provided you keep the Intuito logo and the \"Powered by Intuito\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
+msgstr "In italiano semplice, quando si incorporano grafici o 'dashboard' da Intuito nella propria applicazione, tale applicazione non è soggetta alla 'Affero General Public License' che copre il resto di Intuito, purché si mantenga visibile il logo della metabase e il \"Powered by Intuito\" su quegli elementi inclusi. Tuttavia, dovresti leggere il testo della licenza linkato in alto, poiché questa è la licenza effettiva a cui dovrai accettare abilitando questa funzione."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:33
 msgid "Enable"
@@ -1619,12 +1619,12 @@ msgid "Premium embedding enabled"
 msgstr "Abilitazione Premium \"embedding \" attivata"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:26
-msgid "Enter the token you bought from the LibraFactory Insights Store"
-msgstr "Inserisci il token che hai comprato dal negozio LibraFactory Insights"
+msgid "Enter the token you bought from the Intuito Store"
+msgstr "Inserisci il token che hai comprato dal negozio Intuito"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:53
-msgid "Premium embedding lets you disable \"Powered by LibraFactory Insights\" on your embedded dashboards and questions."
-msgstr "il Premium ti consente di disattivare 'Powered by LibraFactory Insights' nelle dashboard e domande embeddate"
+msgid "Premium embedding lets you disable \"Powered by Intuito\" on your embedded dashboards and questions."
+msgstr "il Premium ti consente di disattivare 'Powered by Intuito' nelle dashboard e domande embeddate"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:60
 msgid "Buy a token"
@@ -1647,10 +1647,10 @@ msgid "Create a mapping"
 msgstr "Crea Mapping"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:170
-msgid "Mappings allow LibraFactory Insights to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allow Intuito to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
-msgstr "I mapping consentono a LibraFactory Insights di aggiungere e rimuovere automaticamente utenti dai gruppi in base alle informazioni sull'appartenenza fornite dal server di directory \n"
+msgstr "I mapping consentono a Intuito di aggiungere e rimuovere automaticamente utenti dai gruppi in base alle informazioni sull'appartenenza fornite dal server di directory \n"
 ". L'appartenenza al gruppo di amministrazione può essere concessa tramite associazioni, ma non verrà automaticamente rimossa come misura \n"
 "failsafe."
 
@@ -1925,8 +1925,8 @@ msgid "Map tile server URL"
 msgstr "URL del MAP TILE SERVER"
 
 #: frontend/src/metabase/admin/settings/selectors.js:206
-msgid "LibraFactory Insights uses OpenStreetMaps by default."
-msgstr "LibraFactory Insights utilizza OpenStreetMaps per impostazione predefinita."
+msgid "Intuito uses OpenStreetMaps by default."
+msgstr "Intuito utilizza OpenStreetMaps per impostazione predefinita."
 
 #: frontend/src/metabase/admin/settings/selectors.js:211
 msgid "Custom Maps"
@@ -1957,8 +1957,8 @@ msgid "Embedding in other Applications"
 msgstr "Incorporamento in altre applicazioni"
 
 #: frontend/src/metabase/admin/settings/selectors.js:308
-msgid "Enable Embedding LibraFactory Insights in other Applications"
-msgstr "Abilita incorporamento di LibraFactory Insights in altre applicazioni"
+msgid "Enable Embedding Intuito in other Applications"
+msgstr "Abilita incorporamento di Intuito in altre applicazioni"
 
 #: frontend/src/metabase/admin/settings/selectors.js:318
 msgid "Embedding secret key"
@@ -2019,12 +2019,12 @@ msgid "Back to login"
 msgstr "Torna alla login"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
-msgid "No LibraFactory Insights account exists for this Google account."
-msgstr "Nessun account LibraFactory Insights esiste per questo account Google."
+msgid "No Intuito account exists for this Google account."
+msgstr "Nessun account Intuito esiste per questo account Google."
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:17
-msgid "You'll need an administrator to create a LibraFactory Insights account before you can use Google to log in."
-msgstr "Avrai bisogno di un amministratore per creare un account LibraFactory Insights prima di poter utilizzare Google per accedere."
+msgid "You'll need an administrator to create a Intuito account before you can use Google to log in."
+msgstr "Avrai bisogno di un amministratore per creare un account Intuito prima di poter utilizzare Google per accedere."
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:23
 msgid "Sign in with {0}"
@@ -2039,8 +2039,8 @@ msgid "Forgot password"
 msgstr "Password dimenticata"
 
 #: frontend/src/metabase/auth/containers/ForgotPasswordApp.jsx:47
-msgid "The email you use for your LibraFactory Insights account"
-msgstr "L'email che usi per il tuo account LibraFactory Insights"
+msgid "The email you use for your Intuito account"
+msgstr "L'email che usi per il tuo account Intuito"
 
 #: frontend/src/metabase/auth/containers/ForgotPasswordApp.jsx:54
 msgid "Send password reset email"
@@ -2051,8 +2051,8 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr "Controlla la tua e-mail per le istruzioni su come reimpostare la password."
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:27
-msgid "Sign in to LibraFactory Insights"
-msgstr "Accedi a LibraFactory Insights"
+msgid "Sign in to Intuito"
+msgstr "Accedi a Intuito"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
 msgid "OR"
@@ -2351,13 +2351,13 @@ msgstr "È possibile accedere ad alcune installazioni di database solo collegand
 "Abilitare ciò è di solito più lento rispetto ad una connessione diretta."
 
 #: frontend/src/metabase/entities/databases/forms.js:282
-msgid "This is a large database, so let me choose when LibraFactory Insights syncs and scans"
-msgstr "Questo è un database grande, quindi lasciami scegliere quando LibraFactory Insights deve sincronizzare e scansionare"
+msgid "This is a large database, so let me choose when Intuito syncs and scans"
+msgstr "Questo è un database grande, quindi lasciami scegliere quando Intuito deve sincronizzare e scansionare"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
-msgid "By default, LibraFactory Insights does a lightweight hourly sync and an intensive daily scan of field values.\n"
+msgid "By default, Intuito does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "Come impostazione predefinita, LibraFactory Insights esegue una sincronizzazione oraria leggera e un'analisi giornaliera intensiva dei valori dei campi.\n"
+msgstr "Come impostazione predefinita, Intuito esegue una sincronizzazione oraria leggera e un'analisi giornaliera intensiva dei valori dei campi.\n"
 "Se si dispone di un database di grandi dimensioni, si consiglia di attivarlo e rivedere quando e con quale frequenza si verificano le scansioni dei valori di campo."
 
 #: frontend/src/metabase/entities/databases/forms.js:113
@@ -2383,8 +2383,8 @@ msgid "with Google Drive permissions"
 msgstr "con i permessi di Google Drive"
 
 #: frontend/src/metabase/entities/databases/forms.js:164
-msgid "To use LibraFactory Insights with this data you must enable API access in the Google Developers Console."
-msgstr "Per usare LibraFactory Insights con questi dati, devi abilitare l'accesso API nella console degli sviluppatori Google (Google Developers Console)."
+msgid "To use Intuito with this data you must enable API access in the Google Developers Console."
+msgstr "Per usare Intuito con questi dati, devi abilitare l'accesso API nella console degli sviluppatori Google (Google Developers Console)."
 
 #: frontend/src/metabase/entities/databases/forms.js:165
 msgid "{0} to go to the console if you haven't already done so."
@@ -2652,8 +2652,8 @@ msgid "Loading..."
 msgstr "Caricamento..."
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:71
-msgid "LibraFactory Insights Newsletter"
-msgstr "Newsletter di LibraFactory Insights"
+msgid "Intuito Newsletter"
+msgstr "Newsletter di Intuito"
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:81
 msgid "Get infrequent emails about new releases and feature updates."
@@ -2664,8 +2664,8 @@ msgid "Subscribe"
 msgstr "Iscriviti"
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:106
-msgid "You're subscribed. Thanks for using LibraFactory Insights!"
-msgstr "Sei iscritto. Grazie per aver usato LibraFactory Insights"
+msgid "You're subscribed. Thanks for using Intuito!"
+msgstr "Sei iscritto. Grazie per aver usato Intuito"
 
 #: frontend/src/metabase/containers/ErrorPages.jsx:46
 msgid "We're a little lost..."
@@ -2767,8 +2767,8 @@ msgid "Calendar Day"
 msgstr "Giorno di calendario"
 
 #: frontend/src/metabase/components/SchedulePicker.jsx:211
-msgid "your LibraFactory Insights timezone"
-msgstr "il tuo timezone di LibraFactory Insights"
+msgid "your Intuito timezone"
+msgstr "il tuo timezone di Intuito"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
 msgid "Filter this list..."
@@ -3197,8 +3197,8 @@ msgid "Hello World!"
 msgstr "Ciao Mondo!"
 
 #: frontend/src/metabase/home/components/Activity.jsx:255
-msgid "LibraFactory Insights is up and running."
-msgstr "LibraFactory Insights è su ed è in funzione"
+msgid "Intuito is up and running."
+msgstr "Intuito è su ed è in funzione"
 
 #: frontend/src/metabase/home/components/Activity.jsx:261
 #: frontend/src/metabase/home/components/Activity.jsx:291
@@ -3570,8 +3570,8 @@ msgid "Do Not Include"
 msgstr "Non include"
 
 #: frontend/src/metabase/lib/core.js:260
-msgid "LibraFactory Insights will never retrieve this field. Use this for sensitive or irrelevant information."
-msgstr "LibraFactory Insights non recupererà mai questo campo. Utilizzare questo per informazioni sensibili o irrilevanti."
+msgid "Intuito will never retrieve this field. Use this for sensitive or irrelevant information."
+msgstr "Intuito non recupererà mai questo campo. Utilizzare questo per informazioni sensibili o irrilevanti."
 
 #: frontend/src/metabase/lib/query/description.js:77
 #: frontend/src/metabase/lib/query/description.js:262
@@ -4139,8 +4139,8 @@ msgid "Help"
 msgstr "Aiuto"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:72
-msgid "About LibraFactory Insights"
-msgstr "Su LibraFactory Insights"
+msgid "About Intuito"
+msgstr "Su Intuito"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:78
 msgid "Sign out"
@@ -4167,8 +4167,8 @@ msgid "and is built with care in San Francisco, CA"
 msgstr "ed è costruito con cura a San Francisco, in California"
 
 #: frontend/src/metabase/nav/containers/Navbar.jsx:224
-msgid "LibraFactory Insights Admin"
-msgstr "Amministratore LibraFactory Insights"
+msgid "Intuito Admin"
+msgstr "Amministratore Intuito"
 
 #: frontend/src/metabase/nav/containers/Navbar.jsx:354
 #: frontend/src/metabase/reference/databases/TableQuestions.jsx:35
@@ -4466,8 +4466,8 @@ msgid "Public link"
 msgstr "Link pubblico"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.jsx:117
-msgid "Share this {0} with people who don't have a LibraFactory Insights account using the URL below:"
-msgstr "Condividi questo {0} con persone che non hanno un account LibraFactory Insights utilizzando l'URL di seguito:"
+msgid "Share this {0} with people who don't have a Intuito account using the URL below:"
+msgstr "Condividi questo {0} con persone che non hanno un account Intuito utilizzando l'URL di seguito:"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.jsx:154
 msgid "Public embed"
@@ -4680,8 +4680,8 @@ msgid "Help everyone on your team stay in sync with your data."
 msgstr "Aiuta il tuo team a restare aggiornato con i vostri dati"
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
-msgid "Pulses let you send data from LibraFactory Insights to email or Slack on the schedule of your choice."
-msgstr "I Pulse ti fanno inviare informazioni da LibraFactory Insights per email o a Slack in maniera schedulata"
+msgid "Pulses let you send data from Intuito to email or Slack on the schedule of your choice."
+msgstr "I Pulse ti fanno inviare informazioni da Intuito per email o a Slack in maniera schedulata"
 
 #: frontend/src/metabase/modes/components/TimeseriesFilterWidget.jsx:98
 msgid "After {0}"
@@ -5879,8 +5879,8 @@ msgid "X-ray this field"
 msgstr "Fai un x-ray al campo"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:8
-msgid "LibraFactory Insights is no fun without any data"
-msgstr "LibraFactory Insights non è divertente senza dati"
+msgid "Intuito is no fun without any data"
+msgstr "Intuito non è divertente senza dati"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:9
 msgid "Your databases will appear here once you connect one"
@@ -6019,8 +6019,8 @@ msgid "Contact {0}"
 msgstr "Contatta {0}"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
-msgid "Help new LibraFactory Insights users find their way around."
-msgstr "Aiuta i nuovi utenti di LibraFactory Insights a sentirsi a casa."
+msgid "Help new Intuito users find their way around."
+msgstr "Aiuta i nuovi utenti di Intuito a sentirsi a casa."
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
 msgid "The Getting Started guide highlights the dashboard, metrics, segments, and tables that matter most, and informs your users of important things they should know before digging into the data."
@@ -6233,8 +6233,8 @@ msgid "Connecting to {0}"
 msgstr "Mi sto connettendo a {0}"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:130
-msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, LibraFactory Insights also comes with a sample dataset you can get started with."
-msgstr "Avrai bisogno di alcune informazioni sul tuo database, come il nome utente e la password. Se non lo hai in questo momento, LibraFactory Insights viene fornito con un set di dati di esempio con cui puoi iniziare."
+msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Intuito also comes with a sample dataset you can get started with."
+msgstr "Avrai bisogno di alcune informazioni sul tuo database, come il nome utente e la password. Se non lo hai in questo momento, Intuito viene fornito con un set di dati di esempio con cui puoi iniziare."
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:150
 msgid "I'll add my data later"
@@ -6257,20 +6257,20 @@ msgid "We won't collect any usage events"
 msgstr "Non raccoglieremo eventi di utilizzo"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:88
-msgid "In order to help us improve LibraFactory Insights, we'd like to collect certain data about usage through Google Analytics."
-msgstr "Per aiutarci a migliorare LibraFactory Insights, desideriamo raccogliere determinati dati sull'utilizzo tramite Google Analytics."
+msgid "In order to help us improve Intuito, we'd like to collect certain data about usage through Google Analytics."
+msgstr "Per aiutarci a migliorare Intuito, desideriamo raccogliere determinati dati sull'utilizzo tramite Google Analytics."
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:93
 msgid "Here's a full list of everything we track and why."
 msgstr "Qui trovi la lista completa di cosa tracciamo e perché"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:108
-msgid "Allow LibraFactory Insights to anonymously collect usage events"
-msgstr "Consenti a LibraFactory Insights di raccogliere dati anonimi sugli eventi"
+msgid "Allow Intuito to anonymously collect usage events"
+msgstr "Consenti a Intuito di raccogliere dati anonimi sugli eventi"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:116
-msgid "LibraFactory Insights {0} collects anything about your data or question results."
-msgstr "LibraFactory Insights {0} reccoglie nulla riguardo i tuoi dati e risultati."
+msgid "Intuito {0} collects anything about your data or question results."
+msgstr "Intuito {0} reccoglie nulla riguardo i tuoi dati e risultati."
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:117
 msgid "never"
@@ -6297,8 +6297,8 @@ msgid "is just a click away."
 msgstr "ti manca solo un click."
 
 #: frontend/src/metabase/setup/components/Setup.jsx:113
-msgid "Welcome to LibraFactory Insights"
-msgstr "Benvenuto in LibraFactory Insights"
+msgid "Welcome to Intuito"
+msgstr "Benvenuto in Intuito"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:114
 msgid "Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!"
@@ -6313,8 +6313,8 @@ msgid "You're all set up!"
 msgstr "Abbiamo impostato tutto!"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:179
-msgid "Take me to LibraFactory Insights"
-msgstr "Portami su LibraFactory Insights"
+msgid "Take me to Intuito"
+msgstr "Portami su Intuito"
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:49
 msgid "What should we call you?"
@@ -6385,8 +6385,8 @@ msgid "We’ll show you some interesting explorations of your data in\n"
 msgstr "Tra pochi minuti ti mostreremo alcune indagini molto interessanti sui tuoi dati."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:72
-msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what LibraFactory Insights can do for you."
-msgstr "Sembra che ci voglia un po'. Nel frattempo, puoi dare un'occhiata a una di queste esplorazioni di esempio per vedere cosa LibraFactory Insights può fare per te."
+msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Intuito can do for you."
+msgstr "Sembra che ci voglia un po'. Nel frattempo, puoi dare un'occhiata a una di queste esplorazioni di esempio per vedere cosa Intuito può fare per te."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:86
 msgid "I took a look at the data you just connected, and I have some explorations of interesting things I found. Hope you like them!"
@@ -7487,8 +7487,8 @@ msgid "Email is not verified."
 msgstr "Email non verificata"
 
 #: src/metabase/api/session.clj
-msgid "You''ll need an administrator to create a LibraFactory Insights account before you can use Google to log in."
-msgstr "Avrai bisogno di un amministratore per creare un account su LibraFactory Insights prima che tu possa usare Google per accedere."
+msgid "You''ll need an administrator to create a Intuito account before you can use Google to log in."
+msgstr "Avrai bisogno di un amministratore per creare un account su Intuito prima che tu possa usare Google per accedere."
 
 #: src/metabase/api/session.clj
 msgid "Successfully authenticated Google Auth token for: {0} {1}"
@@ -7519,8 +7519,8 @@ msgid "Set Slack credentials"
 msgstr "Imposta credenziali slack"
 
 #: src/metabase/api/setup.clj
-msgid "Does your team use Slack? If so, you can send automated updates via pulses and ask questions with RepenteBot."
-msgstr "Il tuo team usa Slack? Se cos', puoi inviare aggiornamenti automatici tramite pulse e chiedere domande con RepenteBot"
+msgid "Does your team use Slack? If so, you can send automated updates via pulses and ask questions with IntuitoBot."
+msgstr "Il tuo team usa Slack? Se cos', puoi inviare aggiornamenti automatici tramite pulse e chiedere domande con IntuitoBot"
 
 #: src/metabase/api/setup.clj
 msgid "Invite team members"
@@ -7552,7 +7552,7 @@ msgstr "Hai molte Question salvate in {0}? Crea collezioni per aiutare a gestirl
 
 #. This is the very first log message that will get printed.
 #. It's here because this is one of the very first namespaces that gets loaded, and the first that has access to the logger
-#. It shows up a solid 10-15 seconds before the "Starting LibraFactory Insights in STANDALONE mode" message because so many other namespaces need to get loaded
+#. It shows up a solid 10-15 seconds before the "Starting Intuito in STANDALONE mode" message because so many other namespaces need to get loaded
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:240
 #: frontend/src/metabase/home/components/Activity.jsx:87
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:90
@@ -7560,8 +7560,8 @@ msgstr "Hai molte Question salvate in {0}? Crea collezioni per aiutare a gestirl
 #: frontend/src/metabase/routes-public.jsx:15
 #: frontend/src/metabase/routes.jsx:142 src/metabase/api/setup.clj
 #: src/metabase/email/messages.clj
-msgid "LibraFactory Insights"
-msgstr "LibraFactory Insights"
+msgid "Intuito"
+msgstr "Intuito"
 
 #: src/metabase/api/setup.clj
 msgid "Create metrics"
@@ -7937,20 +7937,20 @@ msgid "FAIL [[[{0}]]]"
 msgstr "FALLITO [[[{0}]]]"
 
 #: src/metabase/core.clj
-msgid "Please use the following URL to setup your LibraFactory Insights installation:"
-msgstr "Per favore usare il seguente URL per settare l'installazione di LibraFactory Insights:"
+msgid "Please use the following URL to setup your Intuito installation:"
+msgstr "Per favore usare il seguente URL per settare l'installazione di Intuito:"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Shutting Down ..."
-msgstr "LibraFactory Insights si sta spegnendo"
+msgid "Intuito Shutting Down ..."
+msgstr "Intuito si sta spegnendo"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Shutdown COMPLETE"
-msgstr "LibraFactory Insights si è spento completamente"
+msgid "Intuito Shutdown COMPLETE"
+msgstr "Intuito si è spento completamente"
 
 #: src/metabase/core.clj
-msgid "Starting LibraFactory Insights version {0} ..."
-msgstr "LibraFactory Insights versione {0} in avvio ..."
+msgid "Starting Intuito version {0} ..."
+msgstr "Intuito versione {0} in avvio ..."
 
 #: src/metabase/core.clj
 msgid "System timezone is ''{0}'' ..."
@@ -7958,16 +7958,16 @@ msgstr "La timezone di sistema è \"{0}\" ..."
 
 #. startup database.  validates connection & runs any necessary migrations
 #: src/metabase/core.clj
-msgid "Setting up and migrating LibraFactory Insights DB. Please sit tight, this may take a minute..."
-msgstr "Prepariamo e migriamo il database di LibraFactory Insights"
+msgid "Setting up and migrating Intuito DB. Please sit tight, this may take a minute..."
+msgstr "Prepariamo e migriamo il database di Intuito"
 
 #: src/metabase/core.clj
 msgid "Looks like this is a new installation ... preparing setup wizard"
 msgstr "Sembra che questa sia una nuova installazione... prepariamo il wizard di setup"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Initialization COMPLETE"
-msgstr "Inizializzazione LibraFactory Insights COMPLETA"
+msgid "Intuito Initialization COMPLETE"
+msgstr "Inizializzazione Intuito COMPLETA"
 
 #: src/metabase/server.clj
 msgid "Launching Embedded Jetty Webserver with config:"
@@ -7978,12 +7978,12 @@ msgid "Shutting Down Embedded Jetty Webserver"
 msgstr "Shutting down il Webserver Jetty Embedded"
 
 #: src/metabase/core.clj
-msgid "Starting LibraFactory Insights in STANDALONE mode"
-msgstr "Start di LibraFactory Insights in STANDALONE mode"
+msgid "Starting Intuito in STANDALONE mode"
+msgstr "Start di Intuito in STANDALONE mode"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Initialization FAILED"
-msgstr "Inizializzazione di LibraFactory Insights FALLITA"
+msgid "Intuito Initialization FAILED"
+msgstr "Inizializzazione di Intuito FALLITA"
 
 #: src/metabase/db/liquibase.clj
 msgid "Database has migration lock; cannot run migrations."
@@ -8143,8 +8143,8 @@ msgstr "Registrato con successo il metabase.driver.FixedHiveDriver con JDBC."
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj
-msgid "Email address you want to use as the sender of LibraFactory Insights."
-msgstr "L'indirizzo email che vuoi usare come mittente di LibraFactory Insights"
+msgid "Email address you want to use as the sender of Intuito."
+msgstr "L'indirizzo email che vuoi usare come mittente di Intuito"
 
 #: src/metabase/email.clj
 msgid "The address of the SMTP server that handles your emails."
@@ -8236,8 +8236,8 @@ msgstr "Ricerca base per gruppi, non è richiesta se la tua cartella LDAP fornis
 
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: src/metabase/integrations/ldap.clj
-msgid "JSON containing LDAP to LibraFactory Insights group mappings."
-msgstr "JSON contiene le mappature di LDAP ai gruppi LibraFactory Insights."
+msgid "JSON containing LDAP to Intuito group mappings."
+msgstr "JSON contiene le mappature di LDAP ai gruppi Intuito."
 
 #. Define a setting which captures our Slack api token
 #: src/metabase/integrations/slack.clj
@@ -8245,16 +8245,16 @@ msgid "Slack API bearer token obtained from https://api.slack.com/web#authentica
 msgstr "token di trasporto delle API Slack ottenuto da https://api.slack.com/web#authentication"
 
 #: src/metabase/metabot.clj
-msgid "Enable RepenteBot, which lets you search for and view your saved questions directly via Slack."
-msgstr "Abilita RepenteBot, per effettuare le tue ricerche e vedere le domande salvate direttamente tramite Slack"
+msgid "Enable IntuitoBot, which lets you search for and view your saved questions directly via Slack."
+msgstr "Abilita IntuitoBot, per effettuare le tue ricerche e vedere le domande salvate direttamente tramite Slack"
 
 #: src/metabase/metabot/instance.clj
-msgid "Last RepenteBot checkin was {0} ago."
-msgstr "L'ultima controllo RepenteBot è stato {0} fa."
+msgid "Last IntuitoBot checkin was {0} ago."
+msgstr "L'ultima controllo IntuitoBot è stato {0} fa."
 
 #: src/metabase/metabot/instance.clj
-msgid "This instance will now handle RepenteBot duties."
-msgstr "Questa istanza ora gestirà i compiti di RepenteBot."
+msgid "This instance will now handle IntuitoBot duties."
+msgstr "Questa istanza ora gestirà i compiti di IntuitoBot."
 
 #: src/metabase/metabot.clj
 msgid "Here''s what I can {0}:"
@@ -8309,32 +8309,32 @@ msgid "Error launching metabot:"
 msgstr "Errore lanciando il metabot:"
 
 #: src/metabase/metabot/websocket.clj
-msgid "RepenteBot WebSocket is closed. Reconnecting now."
-msgstr "Il RepenteBot WebSocket è chiuso. Riconnessione ora."
+msgid "IntuitoBot WebSocket is closed. Reconnecting now."
+msgstr "Il IntuitoBot WebSocket è chiuso. Riconnessione ora."
 
 #: src/metabase/metabot/websocket.clj
 msgid "Error connecting websocket:"
 msgstr "Errore connettendo il websocket:"
 
 #: src/metabase/metabot/instance.clj
-msgid "This instance is performing RepenteBot duties."
-msgstr "Questa istanza sta eseguendo i compiti di RepenteBot."
+msgid "This instance is performing IntuitoBot duties."
+msgstr "Questa istanza sta eseguendo i compiti di IntuitoBot."
 
 #: src/metabase/metabot/instance.clj
-msgid "Another instance is already handling RepenteBot duties."
-msgstr "Un'altra istanza stra gestendo i compiti di RepenteBot."
+msgid "Another instance is already handling IntuitoBot duties."
+msgstr "Un'altra istanza stra gestendo i compiti di IntuitoBot."
 
 #: src/metabase/metabot.clj
-msgid "Starting RepenteBot threads..."
-msgstr "Avvio dei thread di RepenteBot..."
+msgid "Starting IntuitoBot threads..."
+msgstr "Avvio dei thread di IntuitoBot..."
 
 #: src/metabase/metabot.clj
-msgid "Stopping RepenteBot...  🤖"
-msgstr "Arresto di RepenteBot..."
+msgid "Stopping IntuitoBot...  🤖"
+msgstr "Arresto di IntuitoBot..."
 
 #: src/metabase/metabot.clj
-msgid "RepenteBot already running. Killing the previous WebSocket listener first."
-msgstr "RepenteBot è già avviato. Ferma prima il precedente WebSocket listener."
+msgid "IntuitoBot already running. Killing the previous WebSocket listener first."
+msgstr "IntuitoBot è già avviato. Ferma prima il precedente WebSocket listener."
 
 #: src/metabase/middleware/security.clj
 msgid "Base-64 encoded public key for this site's SSL certificate."
@@ -8452,8 +8452,8 @@ msgid "Storing FieldValues for Field {0}..."
 msgstr "In registrazione il valore per il campo {0}..."
 
 #: src/metabase/models/humanization.clj
-msgid "LibraFactory Insights can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
-msgstr "LibraFactory Insights può tentare di trasformare i nomi della tua tabella e dei campi in una versione più umana, esempio \"somehorriblename\" diventa \"Some Horrible Name\""
+msgid "Intuito can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+msgstr "Intuito può tentare di trasformare i nomi della tua tabella e dei campi in una versione più umana, esempio \"somehorriblename\" diventa \"Some Horrible Name\""
 
 #: src/metabase/models/humanization.clj
 msgid "This doesn’t work all that well if the names are in a language other than English, however."
@@ -8504,8 +8504,8 @@ msgid "You cannot edit or delete the ''{0}'' permissions group!"
 msgstr "Non puoi modificare o eliminare i permessi del gruppo \"{0}\" "
 
 #: src/metabase/models/permissions_group_membership.clj
-msgid "You cannot add or remove users to/from the 'RepenteBot' group."
-msgstr "Non puoi aggiungere né rimuovere utenti dal gruppo `RepenteBot`."
+msgid "You cannot add or remove users to/from the 'IntuitoBot' group."
+msgstr "Non puoi aggiungere né rimuovere utenti dal gruppo `IntuitoBot`."
 
 #: src/metabase/models/permissions_group_membership.clj
 msgid "You cannot add or remove users to/from the 'All Users' group."
@@ -8598,12 +8598,12 @@ msgid "Loading plugin {0}... "
 msgstr "Caricamento plugin {0}..."
 
 #: src/metabase/plugins.clj
-msgid "It looks like you have some external dependencies in your LibraFactory Insights plugins directory."
-msgstr "Sembra che non hai alcune dipendenze esterne nella cartella di plugin di LibraFactory Insights."
+msgid "It looks like you have some external dependencies in your Intuito plugins directory."
+msgstr "Sembra che non hai alcune dipendenze esterne nella cartella di plugin di Intuito."
 
 #: src/metabase/plugins.clj
-msgid "With Java 9 or higher, LibraFactory Insights cannot automatically add them to your classpath."
-msgstr "Con Java 9 o superiore, LibraFactory Insights non può aggiungerli automaticamente nel tuo classpath."
+msgid "With Java 9 or higher, Intuito cannot automatically add them to your classpath."
+msgstr "Con Java 9 o superiore, Intuito non può aggiungerli automaticamente nel tuo classpath."
 
 #: src/metabase/plugins.clj
 msgid "Instead, you should include them at launch with the -cp option. For example:"
@@ -8614,28 +8614,28 @@ msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-ver
 msgstr "Per maggiori dettagli, visita https://metabase.com/docs/latest/operations-guide/start.html#java-versions."
 
 #: src/metabase/plugins.clj
-msgid "(If you're already running LibraFactory Insights this way, you can ignore this message.)"
-msgstr "(Se stai già eseguendo LibraFactory Insights in questa maniera, puoi ignorare questo messaggio.)"
+msgid "(If you're already running Intuito this way, you can ignore this message.)"
+msgstr "(Se stai già eseguendo Intuito in questa maniera, puoi ignorare questo messaggio.)"
 
 #: src/metabase/public_settings.clj
-msgid "Identify when new versions of LibraFactory Insights are available."
-msgstr "Identifica quando le nuove versioni di LibraFactory Insights sono disponibili."
+msgid "Identify when new versions of Intuito are available."
+msgstr "Identifica quando le nuove versioni di Intuito sono disponibili."
 
 #: src/metabase/public_settings.clj
-msgid "Information about available versions of LibraFactory Insights."
-msgstr "Informazioni sulle versioni disponibili di LibraFactory Insights."
+msgid "Information about available versions of Intuito."
+msgstr "Informazioni sulle versioni disponibili di Intuito."
 
 #: src/metabase/public_settings.clj
-msgid "The name used for this instance of LibraFactory Insights."
-msgstr "Nome utilizzato per questa istanza di LibraFactory Insights"
+msgid "The name used for this instance of Intuito."
+msgstr "Nome utilizzato per questa istanza di Intuito"
 
 #: src/metabase/public_settings.clj
-msgid "The base URL of this LibraFactory Insights instance, e.g. \"http://metabase.my-company.com\"."
-msgstr "URL base di questa istanza di LibraFactory Insights. es.  \"http://metabase.my-company.com\"."
+msgid "The base URL of this Intuito instance, e.g. \"http://metabase.my-company.com\"."
+msgstr "URL base di questa istanza di Intuito. es.  \"http://metabase.my-company.com\"."
 
 #: src/metabase/public_settings.clj
-msgid "The default language for this LibraFactory Insights instance."
-msgstr "La lingua principale per questa istanza di LibraFactory Insights."
+msgid "The default language for this Intuito instance."
+msgstr "La lingua principale per questa istanza di Intuito."
 
 #: src/metabase/public_settings.clj
 msgid "This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
@@ -8646,8 +8646,8 @@ msgid "The email address users should be referred to if they encounter a problem
 msgstr "L'indirizzo email di riferimento in caso di incontro di un problema."
 
 #: src/metabase/public_settings.clj
-msgid "Enable the collection of anonymous usage data in order to help LibraFactory Insights improve."
-msgstr "Consenti di raccogliere anonimamente l'utilizzo dei dati per aiutarci a migliorare LibraFactory Insights."
+msgid "Enable the collection of anonymous usage data in order to help Intuito improve."
+msgstr "Consenti di raccogliere anonimamente l'utilizzo dei dati per aiutarci a migliorare Intuito."
 
 #: src/metabase/public_settings.clj
 msgid "The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
@@ -8678,8 +8678,8 @@ msgid "The absolute maximum time to keep any cached query results, in seconds."
 msgstr "Il tempo massimo assoluto (secondi) per gestire i risultati delle query in cache"
 
 #: src/metabase/public_settings.clj
-msgid "LibraFactory Insights will cache all saved questions with an average query execution time longer than this many seconds:"
-msgstr "LibraFactory Insights registrerà tutte le domande salvate con un tempo medio di esecuzione delle query superiore in secondi di:"
+msgid "Intuito will cache all saved questions with an average query execution time longer than this many seconds:"
+msgstr "Intuito registrerà tutte le domande salvate con un tempo medio di esecuzione delle query superiore in secondi di:"
 
 #: src/metabase/public_settings.clj
 msgid "To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
@@ -8889,10 +8889,10 @@ msgstr "Il lavoro esiste già:"
 
 #. This is the very first log message that will get printed.  It's here because this is one of the very first
 #. namespaces that gets loaded, and the first that has access to the logger It shows up a solid 10-15 seconds before
-#. the "Starting LibraFactory Insights in STANDALONE mode" message because so many other namespaces need to get loaded
+#. the "Starting Intuito in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
-msgid "Loading LibraFactory Insights..."
-msgstr "Caricamento in corso di LibraFactory Insights..."
+msgid "Loading Intuito..."
+msgstr "Caricamento in corso di Intuito..."
 
 #: src/metabase/util/date.clj
 msgid "Possible timezone conflict found on database {0}."
@@ -8915,12 +8915,12 @@ msgid "MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
 msgstr "MB_ENCRYPTION_SECRET_KEY deve essere di almeno 16 caratteri."
 
 #: src/metabase/util/encryption.clj
-msgid "Saved credentials encryption is ENABLED for this LibraFactory Insights instance."
-msgstr "La crittografia delle credenziali salvate è ABILITATA per questa istanza di LibraFactory Insights."
+msgid "Saved credentials encryption is ENABLED for this Intuito instance."
+msgstr "La crittografia delle credenziali salvate è ABILITATA per questa istanza di Intuito."
 
 #: src/metabase/util/encryption.clj
-msgid "Saved credentials encryption is DISABLED for this LibraFactory Insights instance."
-msgstr "La crittografia delle credenziali salvate è DISABILITATA per questa istanza di LibraFactory Insights."
+msgid "Saved credentials encryption is DISABLED for this Intuito instance."
+msgstr "La crittografia delle credenziali salvate è DISABILITATA per questa istanza di Intuito."
 
 #: src/metabase/util/encryption.clj
 msgid "nFor more information, see"
@@ -9153,8 +9153,8 @@ msgid "No results"
 msgstr "Nessun risultato"
 
 #: frontend/src/metabase/home/containers/SearchApp.jsx:42
-msgid "LibraFactory Insights couldn't find any results for your search."
-msgstr "LibraFactory Insights non può trovare nessun risultato per la tua ricerca."
+msgid "Intuito couldn't find any results for your search."
+msgstr "Intuito non può trovare nessun risultato per la tua ricerca."
 
 #: frontend/src/metabase/new_query/containers/MetricSearch.jsx:115
 msgid "No metrics"
@@ -9387,7 +9387,7 @@ msgid "Administrators"
 msgstr "Amministratori"
 
 #: frontend/src/metabase/lib/groups.js:6
-msgid "RepenteBot"
+msgid "IntuitoBot"
 msgstr "Metabot"
 
 #: frontend/src/metabase/public/components/widgets/EmbedModalContent.jsx:290
@@ -9526,8 +9526,8 @@ msgid "Troubleshooting logs"
 msgstr "Log di Troubleshooting"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:31
-msgid "Trying to get to the bottom of something? This section shows logs of LibraFactory Insights's background tasks, which can help shed light on what's going on."
-msgstr "Stai cercando di arrivare al fondo di qualcosa? Questa sezione mostra i log delle attività in background di LibraFactory Insights, che possono aiutare a far luce su cosa sta succedendo."
+msgid "Trying to get to the bottom of something? This section shows logs of Intuito's background tasks, which can help shed light on what's going on."
+msgstr "Stai cercando di arrivare al fondo di qualcosa? Questa sezione mostra i log delle attività in background di Intuito, che possono aiutare a far luce su cosa sta succedendo."
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:56
 msgid "Task"
@@ -9989,8 +9989,8 @@ msgid "You cannot create or revoke permissions for the ''Admin'' group."
 msgstr "Non puoi creare o revocare i permessi per il gruppo \"Admin\"."
 
 #: src/metabase/models/permissions_group_membership.clj
-msgid "You cannot add or remove users to/from the ''RepenteBot'' group."
-msgstr "Non puoi aggiungere o rimuovere utenti al/dal gruppo \"RepenteBot\"."
+msgid "You cannot add or remove users to/from the ''IntuitoBot'' group."
+msgstr "Non puoi aggiungere o rimuovere utenti al/dal gruppo \"IntuitoBot\"."
 
 #: src/metabase/models/permissions_group_membership.clj
 msgid "You cannot add or remove users to/from the ''All Users'' group."
@@ -11369,44 +11369,44 @@ msgid "We’d love your feedback."
 msgstr "Apprezzeremo il tuo feedback"
 
 #: src/metabase/email/messages.clj
-msgid "It looks like LibraFactory Insights wasn’t quite a match for you."
-msgstr "Sembra che LibraFactory Insights non sia rientrato nelle tue aspettative"
+msgid "It looks like Intuito wasn’t quite a match for you."
+msgstr "Sembra che Intuito non sia rientrato nelle tue aspettative"
 
 #: src/metabase/email/messages.clj
-msgid "Would you mind taking a fast 5 question survey to help the LibraFactory Insights team understand why and make things better in the future?"
+msgid "Would you mind taking a fast 5 question survey to help the Intuito team understand why and make things better in the future?"
 msgstr "Ti andrebbe di rispondere a 5 domandine veloci per aiutare il nostro team a comprendere perchè e migliorare le cose in futuro?"
 
 #: src/metabase/email/messages.clj
-msgid "We hope you''ve been enjoying LibraFactory Insights."
-msgstr "Ci auguriamo che ti sia trovato bene con LibraFactory Insights."
+msgid "We hope you''ve been enjoying Intuito."
+msgstr "Ci auguriamo che ti sia trovato bene con Intuito."
 
 #: src/metabase/email/messages.clj
 msgid "Would you mind taking a fast 6 question survey to tell us how it’s going?"
 msgstr "Ti andrebbe di dirci come sta andando, rispondendo a 6 domandine veloci?"
 
 #: src/metabase/email/messages.clj
-msgid "{0} created a LibraFactory Insights account"
-msgstr "{0} ha creato un account LibraFactory Insights."
+msgid "{0} created a Intuito account"
+msgstr "{0} ha creato un account Intuito."
 
 #: src/metabase/email/messages.clj
-msgid "{0} accepted their LibraFactory Insights invite"
-msgstr "{0} ha accettato l'invito a LibraFactory Insights."
+msgid "{0} accepted their Intuito invite"
+msgstr "{0} ha accettato l'invito a Intuito."
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Password Reset Request"
-msgstr "[LibraFactory Insights] Richiesta di recupero Password"
+msgid "[Intuito] Password Reset Request"
+msgstr "[Intuito] Richiesta di recupero Password"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Notification"
-msgstr "[LibraFactory Insights] Notifica"
+msgid "[Intuito] Notification"
+msgstr "[Intuito] Notifica"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Help make LibraFactory Insights better."
-msgstr "[LibraFactory Insights] Aiuta a migiorare LibraFactory Insights"
+msgid "[Intuito] Help make Intuito better."
+msgstr "[Intuito] Aiuta a migiorare Intuito"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Tell us how things are going."
-msgstr "[LibraFactory Insights] Raccontaci come vanno le cose."
+msgid "[Intuito] Tell us how things are going."
+msgstr "[Intuito] Raccontaci come vanno le cose."
 
 #: src/metabase/mbql/util.clj
 msgid "Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
@@ -11689,16 +11689,16 @@ msgid "You may need to add `?sslmode=require` to your application DB connection 
 msgstr "Potresti aver bisogno di aggiungere `?sslmode=require` alla stringa di connessione al tuo DB."
 
 #: src/metabase/db.clj
-msgid "If LibraFactory Insights fails to launch, please add it and try again."
-msgstr "Se LibraFactory Insights fallisce l'avvio, per favore aggiungilo e riprova."
+msgid "If Intuito fails to launch, please add it and try again."
+msgstr "Se Intuito fallisce l'avvio, per favore aggiungilo e riprova."
 
 #: src/metabase/db.clj
 msgid "See https://github.com/metabase/metabase/issues/8908 for more details."
 msgstr "Vedi https://github.com/metabase/metabase/issues/8908 per ulteriori dettagli."
 
 #: src/metabase/db.clj
-msgid "WARNING: Using LibraFactory Insights with an H2 application database is not recomended for production deployments."
-msgstr "ATTENZIONE: Utilizzare LibraFactory Insights con H2 come database interno non è raccomandato per ambienti di produzione."
+msgid "WARNING: Using Intuito with an H2 application database is not recomended for production deployments."
+msgstr "ATTENZIONE: Utilizzare Intuito con H2 come database interno non è raccomandato per ambienti di produzione."
 
 #: src/metabase/db.clj
 msgid "For production deployments, we highly recommend using Postgres, MySQL, or MariaDB instead."
@@ -11713,8 +11713,8 @@ msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migratin
 msgstr "Vedi https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres per ulteriori informazioni"
 
 #: src/metabase/db.clj
-msgid "Unable to connect to LibraFactory Insights {0} DB."
-msgstr "Impossibile collegarsi al DB LibraFactory Insights {0}"
+msgid "Unable to connect to Intuito {0} DB."
+msgstr "Impossibile collegarsi al DB Intuito {0}"
 
 #. I have more than one doubt about this. How can we translate Question in general in this software?
 #: src/metabase/db/migrations.clj
@@ -11826,32 +11826,32 @@ msgid "Could not find matching Field ID for target:"
 msgstr "Impossibile trovare l'ID campo corrispondente per la destinazione:"
 
 #: src/metabase/plugins.clj
-msgid "LibraFactory Insights does not have permissions to write to plugins directory {0}"
-msgstr "LibraFactory Insights non ha le autorizzazioni per scrivere nella directory dei plugin {0}"
+msgid "Intuito does not have permissions to write to plugins directory {0}"
+msgstr "Intuito non ha le autorizzazioni per scrivere nella directory dei plugin {0}"
 
 #: src/metabase/plugins.clj
-msgid "LibraFactory Insights cannot use the plugins directory {0}"
-msgstr "LibraFactory Insights non può utilizzare la directory dei plugin {0}"
+msgid "Intuito cannot use the plugins directory {0}"
+msgstr "Intuito non può utilizzare la directory dei plugin {0}"
 
 #: src/metabase/plugins.clj
-msgid "Please make sure the directory exists and that LibraFactory Insights has permission to write to it."
-msgstr "Controlla che la directory esista e che LibraFactory Insights abbia i permessi per scriverci."
+msgid "Please make sure the directory exists and that Intuito has permission to write to it."
+msgstr "Controlla che la directory esista e che Intuito abbia i permessi per scriverci."
 
 #: src/metabase/plugins.clj
-msgid "You can change the directory LibraFactory Insights uses for modules by setting the environment variable MB_PLUGINS_DIR."
-msgstr "Puoi cambiare la directory che LibraFactory Insights utilizza per i moduli impostando la variabile d'ambiente MB_PLUGINS_DIR."
+msgid "You can change the directory Intuito uses for modules by setting the environment variable MB_PLUGINS_DIR."
+msgstr "Puoi cambiare la directory che Intuito utilizza per i moduli impostando la variabile d'ambiente MB_PLUGINS_DIR."
 
 #: src/metabase/plugins.clj
 msgid "Falling back to a temporary directory for now."
 msgstr "Tornando a una directory temporanea per ora."
 
 #: src/metabase/plugins.clj
-msgid "LibraFactory Insights cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart LibraFactory Insights."
-msgstr "LibraFactory Insights non può scrivere sulla cartella temporanea. Imposta MB_PLUGINS_DIR su una directory scrivibile e riavvia LibraFactory Insights."
+msgid "Intuito cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Intuito."
+msgstr "Intuito non può scrivere sulla cartella temporanea. Imposta MB_PLUGINS_DIR su una directory scrivibile e riavvia Intuito."
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by LibraFactory Insights 1.0+. You can delete it from the plugins directory."
-msgstr "spark-deps.jar non è più richiesto da LibraFactory Insights 1.0+. Puoi cancellarlo dalla directory dei plugin."
+msgid "spark-deps.jar is no longer needed by Intuito 1.0+. You can delete it from the plugins directory."
+msgstr "spark-deps.jar non è più richiesto da Intuito 1.0+. Puoi cancellarlo dalla directory dei plugin."
 
 #: src/metabase/plugins.clj
 msgid "Failied to initialize plugin {0}"
@@ -11882,16 +11882,16 @@ msgid "Added URL {0} to classpath"
 msgstr "Aggiunto l'URL {0} al classpath"
 
 #: src/metabase/plugins/dependencies.clj
-msgid "Plugin {0} declares a dependency that LibraFactory Insights does not understand: {1}"
-msgstr "Il plugin {0} dichiara una dipendenza che LibraFactory Insights non comprende: {1}"
+msgid "Plugin {0} declares a dependency that Intuito does not understand: {1}"
+msgstr "Il plugin {0} dichiara una dipendenza che Intuito non comprende: {1}"
 
 #: src/metabase/plugins/dependencies.clj
 msgid "Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
 msgstr "Fare riferimento al riferimento manifest del plugin per un elenco completo delle dipendenze del plugin valide:"
 
 #: src/metabase/plugins/dependencies.clj
-msgid "LibraFactory Insights cannot initialize plugin {0} due to required dependencies."
-msgstr "LibraFactory Insights non può inizializzare il plugin {0} per via di dipendenze richieste."
+msgid "Intuito cannot initialize plugin {0} due to required dependencies."
+msgstr "Intuito non può inizializzare il plugin {0} per via di dipendenze richieste."
 
 #: src/metabase/plugins/dependencies.clj
 msgid "Class not found: {0}"
@@ -11954,7 +11954,7 @@ msgstr "Impossibile inizializzare il plugin: manca la proprieta' richiesta 'nome
 msgid "Warning: plugin manifest for {0} does not include connection properties"
 msgstr "Attenzione: Il plugin manifest per {0} non contiene proprieta' di connessione"
 
-#. finally, register the LibraFactory Insights driver
+#. finally, register the Intuito driver
 #: src/metabase/plugins/lazy_loaded_driver.clj
 msgid "Registering lazy loading driver {0}..."
 msgstr "Registrazione del driver di caricamento in modo `lazy` {0}..."
@@ -12102,8 +12102,8 @@ msgid "Task history cleanup successful, no rows were deleted"
 msgstr "Task history eliminata correttamente, nessuna riga è stata cancellata"
 
 #: src/metabase/task/upgrade_checks.clj
-msgid "Checking for new LibraFactory Insights version info."
-msgstr "Controllo le informazioni della nuova versione di LibraFactory Insights"
+msgid "Checking for new Intuito version info."
+msgstr "Controllo le informazioni della nuova versione di Intuito"
 
 #: src/metabase/task/upgrade_checks.clj
 msgid "Error fetching version info"
@@ -12434,16 +12434,16 @@ msgid "Request canceled before finishing."
 msgstr "Richiesta annullata prima della fine."
 
 #: src/metabase/middleware/json.clj
-msgid "LibraFactory Insights only supports JSON requests."
-msgstr "LibraFactory Insights supporta solo richieste di tipo JSON."
+msgid "Intuito only supports JSON requests."
+msgstr "Intuito supporta solo richieste di tipo JSON."
 
 #: src/metabase/middleware/json.clj
 msgid "Make sure you set a 'Content-Type: application/json' header."
 msgstr "Assicurati di aver impostato l'header 'Content-Type: application/json'"
 
 #: src/metabase/middleware/misc.clj
-msgid "Setting LibraFactory Insights site URL to {0}"
-msgstr "Impostazione dell'URL del sito di LibraFactory Insights su {0}"
+msgid "Setting Intuito site URL to {0}"
+msgstr "Impostazione dell'URL del sito di Intuito su {0}"
 
 #: src/metabase/models/database.clj
 msgid "Error scheduling tasks for DB"
@@ -12470,8 +12470,8 @@ msgid "You cannot update the creator_id of a Metric."
 msgstr "Non puoi aggiornare il \"creator_id\" della Metrica"
 
 #: src/metabase/models/permissions.clj
-msgid "RepenteBot can only have Collection permissions."
-msgstr "RepenteBot può avere soltanto i permessi della Collezione"
+msgid "IntuitoBot can only have Collection permissions."
+msgstr "IntuitoBot può avere soltanto i permessi della Collezione"
 
 #: src/metabase/models/permissions.clj
 msgid "Failed to grant permissions"
@@ -12548,8 +12548,8 @@ msgid "Automatically run queries when doing simple filtering and summarizing"
 msgstr "Esegui automaticamente query quando esegui semplici filtri e riepiloghi"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
-msgid "When this is on LibraFactory Insights will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Quando è attivo, LibraFactory Insights eseguirà automaticamente le query quando gli utenti eseguono semplici esplorazioni con i pulsanti Riassumi e Filtro durante la visualizzazione di una tabella o di un grafico. È possibile disattivarlo se l'interrogazione di questo database è lenta. Questa impostazione non influisce sui drill-through o sulle query SQL."
+msgid "When this is on Intuito will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgstr "Quando è attivo, Intuito eseguirà automaticamente le query quando gli utenti eseguono semplici esplorazioni con i pulsanti Riassumi e Filtro durante la visualizzazione di una tabella o di un grafico. È possibile disattivarlo se l'interrogazione di questo database è lenta. Questa impostazione non influisce sui drill-through o sulle query SQL."
 
 #: frontend/src/metabase/containers/Overworld.jsx:329
 msgid "Learn about this database"
@@ -12896,12 +12896,12 @@ msgid "Request canceled, canceling future."
 msgstr "Richiesta annullata, annullamento futuro."
 
 #: src/metabase/cmd/load_from_h2.clj
-msgid "LibraFactory Insights can only transfer data from H2 to Postgres or MySQL/MariaDB."
-msgstr "LibraFactory Insights può trasferire dati solo da database H2 a database Postgres o MySQL/MariaDB."
+msgid "Intuito can only transfer data from H2 to Postgres or MySQL/MariaDB."
+msgstr "Intuito può trasferire dati solo da database H2 a database Postgres o MySQL/MariaDB."
 
 #: src/metabase/db.clj
-msgid "WARNING: Using LibraFactory Insights with an H2 application database is not recommended for production deployments."
-msgstr "ATTENZIONE: L'uso di LibraFactory Insights con un database di applicazioni H2 non è raccomandato per gli ambienti di produzione."
+msgid "WARNING: Using Intuito with an H2 application database is not recommended for production deployments."
+msgstr "ATTENZIONE: L'uso di Intuito con un database di applicazioni H2 non è raccomandato per gli ambienti di produzione."
 
 #: src/metabase/db.clj
 msgid "Application database setup"
@@ -12962,8 +12962,8 @@ msgid "Error saving task history"
 msgstr "Errore durante il salvataggio della cronologia delle attività"
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by LibraFactory Insights 0.32.0+. You can delete it from the plugins directory."
-msgstr "spark-deps.jar non è più necessario da LibraFactory Insights 0.32.0+. Puoi cancellarlo dalla cartella dei plugins."
+msgid "spark-deps.jar is no longer needed by Intuito 0.32.0+. You can delete it from the plugins directory."
+msgstr "spark-deps.jar non è più necessario da Intuito 0.32.0+. Puoi cancellarlo dalla cartella dei plugins."
 
 #: src/metabase/plugins/classloader.clj
 msgid "Using NEWLY CREATED classloader as shared context classloader: {0}"
@@ -12995,8 +12995,8 @@ msgid "We were unable to display this Pulse."
 msgstr "Non è stato possibile visualizzare questo Pulse. "
 
 #: src/metabase/pulse/render/body.clj
-msgid "Please view this card in LibraFactory Insights."
-msgstr "Si prega di visualizzare questa scheda in LibraFactory Insights."
+msgid "Please view this card in Intuito."
+msgstr "Si prega di visualizzare questa scheda in Intuito."
 
 #: src/metabase/pulse/render/body.clj
 msgid "An error occurred while displaying this card."
@@ -13192,7 +13192,7 @@ msgid "Failed to fetch Field {0}: Field does not exist, or belongs to a differen
 msgstr "Recupero campo {0} fallito: il campo non esiste o appartiene a un database differente."
 
 #: src/metabase/routes/index.clj
-msgid "Failed to load template ''{0}''. Did you remember to build the LibraFactory Insights frontend?"
+msgid "Failed to load template ''{0}''. Did you remember to build the Intuito frontend?"
 msgstr "Recupero template \"{0}\" fallito. Ti sei ricordato di costruire il frontend di metabase?"
 
 #: src/metabase/sample_data.clj
@@ -13249,8 +13249,8 @@ msgid "Pick the columns you want to include"
 msgstr "Scegli le colonne che desideri includere"
 
 #: frontend/src/metabase/entities/databases/forms.js:275
-msgid "When this is on, LibraFactory Insights will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Quando questa opzione è attiva, LibraFactory Insights eseguirà automaticamente query quando l'utente fa semplici esplorazioni con il bottone Riassunto e Filtri mentre osserva una tabella o un grafico. Puoi disattivarla se interrogare il database è lento. Questa impostazione non influisce sui drill-throughs o sulle query SQL."
+msgid "When this is on, Intuito will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgstr "Quando questa opzione è attiva, Intuito eseguirà automaticamente query quando l'utente fa semplici esplorazioni con il bottone Riassunto e Filtri mentre osserva una tabella o un grafico. Puoi disattivarla se interrogare il database è lento. Questa impostazione non influisce sui drill-throughs o sulle query SQL."
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep.jsx:97
 msgid "Change join type"
@@ -13291,12 +13291,12 @@ msgid "Diagnostic Info"
 msgstr "Informazioni Diagnostiche"
 
 #: frontend/src/metabase/admin/tasks/containers/Logs.jsx:123
-msgid "Select LibraFactory Insights process:"
-msgstr "Seleziona i processi di LibraFactory Insights:"
+msgid "Select Intuito process:"
+msgstr "Seleziona i processi di Intuito:"
 
 #: frontend/src/metabase/admin/tasks/containers/Logs.jsx:133
-msgid "All LibraFactory Insights processes"
-msgstr "Tutti i processi di LibraFactory Insights:"
+msgid "All Intuito processes"
+msgstr "Tutti i processi di Intuito:"
 
 #: frontend/src/metabase/auth/components/GoogleButton.jsx:13
 msgid "The window was closed before completing Google Authentication."
@@ -13315,8 +13315,8 @@ msgid "Using this option requires that provided host is a FQDN.  If connecting t
 msgstr "Usare questa opzione richiede che l'host fornito sia un FQDN. Se ti connetti ad un cluster Atlas, potresti aver bisogno di abilitare questa opzione. Se non sai cosa significa, lasciala disattivata."
 
 #: frontend/src/metabase/entities/databases/forms.js:283
-msgid "By default, LibraFactory Insights does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "Di default, LibraFactory Insights esegue una sincronizzazione oraria leggera e un'intensa scansione giornaliera dei valori dei campi. Se si dispone di un grande database, si consiglia di attivare questa opzione e rivedere quando e quanto spesso accadono le scansioni del valore del campo."
+msgid "By default, Intuito does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
+msgstr "Di default, Intuito esegue una sincronizzazione oraria leggera e un'intensa scansione giornaliera dei valori dei campi. Se si dispone di un grande database, si consiglia di attivare questa opzione e rivedere quando e quanto spesso accadono le scansioni del valore del campo."
 
 #: frontend/src/metabase/containers/Overworld.jsx:126
 msgid "Remove these suggestions"
@@ -13646,8 +13646,8 @@ msgid "Sending Alert ({0}: {1}) via email"
 msgstr "Inviando avviso ({0}: {1}) via email"
 
 #: src/metabase/pulse.clj
-msgid "LibraFactory Insights alert: {0} has {1}"
-msgstr "L'avviso LibraFactory Insights {0} ha {1}"
+msgid "Intuito alert: {0} has {1}"
+msgstr "L'avviso Intuito {0} ha {1}"
 
 #: src/metabase/pulse.clj
 msgid "Sending Alert ({0}: {1}) via Slack"
@@ -13731,16 +13731,16 @@ msgid "OK"
 msgstr "OK"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give LibraFactory Insights a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "Per autorizzare gli utenti a registrarsi con Google hai bisogno di dare a LibraFactory Insights una Google Developers console di applicazione client ID. Questo prevede pochi passi, e le istruzioni su come creare una chiave possono essere trovate qua {0}."
+msgid "To allow users to sign in with Google you'll need to give Intuito a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgstr "Per autorizzare gli utenti a registrarsi con Google hai bisogno di dare a Intuito una Google Developers console di applicazione client ID. Questo prevede pochi passi, e le istruzioni su come creare una chiave possono essere trovate qua {0}."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
 msgid "Be sure to include the full client ID, including the apps.googleusercontent.com suffix."
 msgstr "Assicurati di includere tutto il client ID, includendo il suffisso apps.googleusercontent.com"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:30
-msgid "LibraFactory Insights {0} is available."
-msgstr "LibraFactory Insights {0} è disponibile."
+msgid "Intuito {0} is available."
+msgstr "Intuito {0} è disponibile."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:31
 msgid "You're running {0}"
@@ -13767,20 +13767,20 @@ msgid "No mappable groups"
 msgstr "Nessun gruppo mappabile"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:108
-msgid "LibraFactory Insights Documentation"
-msgstr "Documentazione LibraFactory Insights"
+msgid "Intuito Documentation"
+msgstr "Documentazione Intuito"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:109
 msgid "Includes a troubleshooting guide"
 msgstr "Contiene una guida di risoluzione dei problemi"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:113
-msgid "Post on the LibraFactory Insights support forum"
-msgstr "Posta sul forum di supporto di LibraFactory Insights"
+msgid "Post on the Intuito support forum"
+msgstr "Posta sul forum di supporto di Intuito"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
-msgid "A community forum for all things LibraFactory Insights"
-msgstr "Un forum comunitario per tutte le cose di LibraFactory Insights"
+msgid "A community forum for all things Intuito"
+msgstr "Un forum comunitario per tutte le cose di Intuito"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:118
 msgid "File a bug report"
@@ -13852,8 +13852,8 @@ msgid "This is a lightweight process that checks for updates to this database’
 msgstr "Questo è un processo leggero che controlla la presenza di aggiornamenti dello schema di questo database. Nella maggior parte dei casi, sarebbe bene lasciare questo settaggio per sincronizzare ogni ora."
 
 #: frontend/src/metabase/entities/databases/forms.js:300
-msgid "LibraFactory Insights can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
-msgstr "LibraFactory Insights può scansire i valori presenti in questo campo di questo database per abilitare i filtri checkbox nelle dashboard e nelle query. Questo può essere un processo ad alta intensità di risorse, in particolare se si dispone di un database molto ampio."
+msgid "Intuito can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+msgstr "Intuito può scansire i valori presenti in questo campo di questo database per abilitare i filtri checkbox nelle dashboard e nelle query. Questo può essere un processo ad alta intensità di risorse, in particolare se si dispone di un database molto ampio."
 
 #: frontend/src/metabase/entities/questions.js:96
 msgid "Collection"
@@ -14401,8 +14401,8 @@ msgid "must be {0} characters or less"
 msgstr "deve essere {0} caratteri o meno"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:113
-msgid "Thanks for using LibraFactory Insights!"
-msgstr "Grazie per utilizzare LibraFactory Insights!"
+msgid "Thanks for using Intuito!"
+msgstr "Grazie per utilizzare Intuito!"
 
 #: frontend/src/metabase/public/components/LogoBadge.jsx:20
 msgid "Powered by {0}"
@@ -14551,7 +14551,7 @@ msgid "Google Auth token appears to be incorrect. "
 msgstr "Il token Google Auth sembra non corretto"
 
 #: src/metabase/api/session.clj
-msgid "Double check that it matches in Google and LibraFactory Insights."
+msgid "Double check that it matches in Google and Intuito."
 msgstr "Doppio controllo che corrisponda in Google e metabase."
 
 #: src/metabase/api/table.clj
@@ -14567,8 +14567,8 @@ msgid "Database Upgrade Required"
 msgstr "Aggiornamento del database necessario"
 
 #: src/metabase/db.clj
-msgid "NOTICE: Your database requires updates to work with this version of LibraFactory Insights."
-msgstr "AVVISO: Il tuo database richiede aggiornamenti per poter funzionare con questa versione di LibraFactory Insights."
+msgid "NOTICE: Your database requires updates to work with this version of Intuito."
+msgstr "AVVISO: Il tuo database richiede aggiornamenti per poter funzionare con questa versione di Intuito."
 
 #: src/metabase/db.clj
 msgid "Please execute the following sql commands on your database before proceeding."
@@ -14610,12 +14610,12 @@ msgid "The sub-query from referenced question #{0} failed with the following err
 msgstr "La sub-query da domanda referenziata #{0} è fallita con il seguente errore: {1}"
 
 #: src/metabase/driver/mysql.clj
-msgid "WARNING: LibraFactory Insights only officially supports MySQL {0}/MariaDB {1} and above."
-msgstr "ATTENZIONE: LibraFactory Insights supporta ufficialmente solo MySQL {0}/MariaDB {1} e superiore."
+msgid "WARNING: Intuito only officially supports MySQL {0}/MariaDB {1} and above."
+msgstr "ATTENZIONE: Intuito supporta ufficialmente solo MySQL {0}/MariaDB {1} e superiore."
 
 #: src/metabase/driver/mysql.clj
-msgid "All LibraFactory Insights features may not work properly when using an unsupported version."
-msgstr "Tutti i componenti di LibraFactory Insights potrebbero non funzionare correttamente usando una versione non supportata."
+msgid "All Intuito features may not work properly when using an unsupported version."
+msgstr "Tutti i componenti di Intuito potrebbero non funzionare correttamente usando una versione non supportata."
 
 #: src/metabase/driver/sql/parameters/substitute.clj
 msgid "Unable to substitute parameters"
@@ -14908,8 +14908,8 @@ msgid "Service Accounts"
 msgstr "Account di servizio"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:26
-msgid "LibraFactory Insights connects to Big Query via {0}."
-msgstr "LibraFactory Insights si collega a Big Query con {0}."
+msgid "Intuito connects to Big Query via {0}."
+msgstr "Intuito si collega a Big Query con {0}."
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:29
 msgid "Continue using an OAuth application to connect"
@@ -15041,8 +15041,8 @@ msgid "What's your preferred language?"
 msgstr "Qual è la tua lingua preferita?"
 
 #: frontend/src/metabase/setup/components/LanguageStep.jsx:54
-msgid "This language will be used throughout LibraFactory Insights and will be the default for new users."
-msgstr "Questa lingua verrà utilizzata in LibraFactory Insights è sarà il default per i nuovi utenti."
+msgid "This language will be used throughout Intuito and will be the default for new users."
+msgstr "Questa lingua verrà utilizzata in Intuito è sarà il default per i nuovi utenti."
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:159
 msgid "We filtered out {0} row(s) containing null values."
@@ -15193,8 +15193,8 @@ msgid "Error fetching value of Setting"
 msgstr "Errore recupero Impostazione"
 
 #: src/metabase/public_settings.clj
-msgid "The language that should be used for LibraFactory Insights's UI, system emails, pulses, and alerts."
-msgstr "Il linguaggio che verrà usato per l'interfaccia utente di LibraFactory Insights, le e-mail di sistema, i pulses e gli alert."
+msgid "The language that should be used for Intuito's UI, system emails, pulses, and alerts."
+msgstr "Il linguaggio che verrà usato per l'interfaccia utente di Intuito, le e-mail di sistema, i pulses e gli alert."
 
 #: src/metabase/public_settings.clj
 msgid "This is also the default language for all users, which they can change from their own account settings."
@@ -15213,8 +15213,8 @@ msgid "Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
 msgstr "Impossibile reindirizzare le richieste ad HTTPS finchè 'site-url' non è HTTPS"
 
 #: src/metabase/pulse/render/png.clj
-msgid "Error registering fonts: LibraFactory Insights will not be able to send Pulses."
-msgstr "Errore registrazione fonts: LibraFactory Insights non potrà inviare i Pulse"
+msgid "Error registering fonts: Intuito will not be able to send Pulses."
+msgstr "Errore registrazione fonts: Intuito non potrà inviare i Pulse"
 
 #: src/metabase/pulse/render/png.clj
 msgid "This is a known issue with certain JVMs. See {0} and for more details."
@@ -15346,8 +15346,8 @@ msgid "Configure your identity provider (IdP)"
 msgstr "Configura il tuo identity provider (IdP)"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:82
-msgid "Your identity provider will need the following info about LibraFactory Insights."
-msgstr "Al tuo identity provider serviranno le seguenti informazioni da LibraFactory Insights"
+msgid "Your identity provider will need the following info about Intuito."
+msgstr "Al tuo identity provider serviranno le seguenti informazioni da Intuito"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:85
 msgid "URL the IdP should redirect back to"
@@ -15382,12 +15382,12 @@ msgid "User's last name attribute"
 msgstr "Attributo del cognome dell'utente"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:113
-msgid "Tell LibraFactory Insights about your identity provider"
-msgstr "Comunicate a LibraFactory Insights il vostro fornitore di identità"
+msgid "Tell Intuito about your identity provider"
+msgstr "Comunicate a Intuito il vostro fornitore di identità"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:114
-msgid "LibraFactory Insights will need the following info about your provider."
-msgstr "A LibraFactory Insights servono le seguenti informazioni del tuo provider"
+msgid "Intuito will need the following info about your provider."
+msgstr "A Intuito servono le seguenti informazioni del tuo provider"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:117
 msgid "SAML Identity Provider URL"
@@ -15431,9 +15431,9 @@ msgid "Synchronize group membership with your SSO"
 msgstr "Sincronizzare l'appartenenza al gruppo con la vostra SSO"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:157
-msgid "To enable this, you'll need to create mappings to tell LibraFactory Insights which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tell Intuito which group(s) your users should\n"
 "be added to based on the SSO group they're in."
-msgstr "Per abilitare questo, è necessario creare delle mappature per dire a LibraFactory Insights quale gruppo (o gruppi) i vostri utenti devono\n"
+msgstr "Per abilitare questo, è necessario creare delle mappature per dire a Intuito quale gruppo (o gruppi) i vostri utenti devono\n"
 "essere aggiunti in base al gruppo SSO in cui si trovano."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:173
@@ -15453,8 +15453,8 @@ msgid "Note:"
 msgstr "Nota:"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
-msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart LibraFactory Insights for them to take effect."
-msgstr "Se si modifica una qualsiasi delle impostazioni di un'impostazione attiva SAML esistente, allora sarà necessario riavviare LibraFactory Insights per renderla effettiva."
+msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Intuito for them to take effect."
+msgstr "Se si modifica una qualsiasi delle impostazioni di un'impostazione attiva SAML esistente, allora sarà necessario riavviare Intuito per renderla effettiva."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/index.js:29
 msgid "Allows users to login via a SAML Identity Provider."
@@ -15505,12 +15505,12 @@ msgid "String used by the JWT signing key"
 msgstr "Stringa utilizzata dalla chiave di firma JWT"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:17
-msgid "Embedding the entire LibraFactory Insights app"
-msgstr "Incorporare l'intera app LibraFactory Insights"
+msgid "Embedding the entire Intuito app"
+msgstr "Incorporare l'intera app Intuito"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:18
-msgid "If you want to embed all of LibraFactory Insights, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
-msgstr "Se vuoi incorporare tutto LibraFactory Insights, inserisci le origini dei siti web o delle web app dove vuoi permettere l'incorporazione in un iframe, separati da uno spazio. Ecco i {0} per ciò che può essere inserito."
+msgid "If you want to embed all of Intuito, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
+msgstr "Se vuoi incorporare tutto Intuito, inserisci le origini dei siti web o delle web app dove vuoi permettere l'incorporazione in un iframe, separati da uno spazio. Ecco i {0} per ciò che può essere inserito."
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/GTAPModal.jsx:163
 msgid "Grant sandboxed access to this table"
@@ -15632,20 +15632,20 @@ msgid "We're having trouble validating your token"
 msgstr "Abbiamo problemi a convalidare il tuo gettone"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:88
-msgid "Please double-check that your instance can connect to LibraFactory Insights's servers"
-msgstr "Si prega di verificare che la vostra istanza possa connettersi ai server di LibraFactory Insights"
+msgid "Please double-check that your instance can connect to Intuito's servers"
+msgstr "Si prega di verificare che la vostra istanza possa connettersi ai server di Intuito"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:93
 msgid "Get help"
 msgstr "Chiedere aiuto"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:100
-msgid "Get even more out of LibraFactory Insights with the Enterprise Edition"
-msgstr "Ottenere ancora di più da LibraFactory Insights con l'Enterprise Edition"
+msgid "Get even more out of Intuito with the Enterprise Edition"
+msgstr "Ottenere ancora di più da Intuito con l'Enterprise Edition"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:102
-msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor LibraFactory Insights in a large organization"
-msgstr "Tutti gli strumenti necessari per fornire in modo semplice e veloce i report per i vostri clienti, o per aiutarvi a gestire e monitorare LibraFactory Insights in una grande organizzazione"
+msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Intuito in a large organization"
+msgstr "Tutti gli strumenti necessari per fornire in modo semplice e veloce i report per i vostri clienti, o per aiutarvi a gestire e monitorare Intuito in una grande organizzazione"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:114
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:136
@@ -15744,8 +15744,8 @@ msgid "White labeling"
 msgstr "Etichettatura bianca"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
-msgid "Match LibraFactory Insights to your brand with custom colors, your own logo and more."
-msgstr "Abbina LibraFactory Insights al tuo marchio con colori personalizzati, il tuo logo e altro ancora."
+msgid "Match Intuito to your brand with custom colors, your own logo and more."
+msgstr "Abbina Intuito al tuo marchio con colori personalizzati, il tuo logo e altro ancora."
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
 msgid "Auditing"
@@ -15840,8 +15840,8 @@ msgid "at"
 msgstr "all'indirizzo"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:44
-msgid "Open the LibraFactory Insights actions menu"
-msgstr "Aprire il menu delle azioni di LibraFactory Insights"
+msgid "Open the Intuito actions menu"
+msgstr "Aprire il menu delle azioni di Intuito"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:45
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:364
@@ -16501,8 +16501,8 @@ msgid "Send it to Slack"
 msgstr "Invia a Slack"
 
 #: frontend/src/metabase/sharing/components/SharingSidebar.jsx:539
-msgid "Pick a channel and a schedule, and LibraFactory Insights will do the rest."
-msgstr "Scegliete un canale e un programma, e LibraFactory Insights farà il resto."
+msgid "Pick a channel and a schedule, and Intuito will do the rest."
+msgstr "Scegliete un canale e un programma, e Intuito farà il resto."
 
 #: frontend/src/metabase/sharing/components/SharingSidebar.jsx:569
 msgid "Email this dashboard"
@@ -16558,24 +16558,24 @@ msgid "Invalid Slack token."
 msgstr "Gettone di allentamento non valido."
 
 #: src/metabase/cmd.clj
-msgid "The ''{0}'' command is only available in LibraFactory Insights Enterprise Edition."
-msgstr "Il comando ''{0}'' è disponibile solo in LibraFactory Insights Enterprise Edition."
+msgid "The ''{0}'' command is only available in Intuito Enterprise Edition."
+msgstr "Il comando ''{0}'' è disponibile solo in Intuito Enterprise Edition."
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Enterprise Edition extensions are PRESENT."
-msgstr "Le estensioni di LibraFactory Insights Enterprise Edition sono PRESENTI."
+msgid "Intuito Enterprise Edition extensions are PRESENT."
+msgstr "Le estensioni di Intuito Enterprise Edition sono PRESENTI."
 
 #: src/metabase/core.clj
-msgid "Usage of LibraFactory Insights Enterprise Edition features are subject to the LibraFactory Insights Commercial License."
-msgstr "L'uso delle funzionalità di LibraFactory Insights Enterprise Edition è soggetto alla licenza commerciale LibraFactory Insights."
+msgid "Usage of Intuito Enterprise Edition features are subject to the Intuito Commercial License."
+msgstr "L'uso delle funzionalità di Intuito Enterprise Edition è soggetto alla licenza commerciale Intuito."
 
 #: src/metabase/core.clj
 msgid "See {0} for details."
 msgstr "Vedi {0} per i dettagli."
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Enterprise Edition extensions are NOT PRESENT."
-msgstr "Le estensioni di LibraFactory Insights Enterprise Edition NON sono PRESENTI."
+msgid "Intuito Enterprise Edition extensions are NOT PRESENT."
+msgstr "Le estensioni di Intuito Enterprise Edition NON sono PRESENTI."
 
 #: src/metabase/email/messages.clj
 msgid "You''re invited to join {0}''s {1}"
@@ -16634,8 +16634,8 @@ msgid "Please create or unarchive the channel in order to complete the Slack int
 msgstr "Si prega di creare o disarchiviare il canale per completare l'integrazione Slack."
 
 #: src/metabase/integrations/slack.clj
-msgid "The channel is used for storing graphs that are included in Pulses and RepenteBot answers."
-msgstr "Il canale viene utilizzato per memorizzare i grafici che sono inclusi nelle risposte di Pulses e RepenteBot."
+msgid "The channel is used for storing graphs that are included in Pulses and IntuitoBot answers."
+msgstr "Il canale viene utilizzato per memorizzare i grafici che sono inclusi nelle risposte di Pulses e IntuitoBot."
 
 #: src/metabase/integrations/slack.clj
 msgid "Uploaded image"
@@ -16726,8 +16726,8 @@ msgid "login attribute keys must be a keyword or string"
 msgstr "le chiavi degli attributi di login devono essere una parola chiave o una stringa"
 
 #: src/metabase/public_settings.clj
-msgid "The default language for all users across the LibraFactory Insights UI, system emails, pulses, and alerts."
-msgstr "Il linguaggio predefinito per tutti gli utenti attraverso l'interfaccia utente di LibraFactory Insights, le e-mail di sistema, gli impulsi e gli avvisi."
+msgid "The default language for all users across the Intuito UI, system emails, pulses, and alerts."
+msgstr "Il linguaggio predefinito per tutti gli utenti attraverso l'interfaccia utente di Intuito, le e-mail di sistema, gli impulsi e gli avvisi."
 
 #: src/metabase/public_settings.clj
 msgid "Users can individually override this default language from their own account settings."
@@ -16738,20 +16738,20 @@ msgid "Default page to show the user"
 msgstr "Pagina predefinita per mostrare all'utente"
 
 #: src/metabase/public_settings.clj
-msgid "Allow this origin to embed the full LibraFactory Insights application"
-msgstr "Permettere a questa origine di incorporare l'intera applicazione LibraFactory Insights"
+msgid "Allow this origin to embed the full Intuito application"
+msgstr "Permettere a questa origine di incorporare l'intera applicazione Intuito"
 
 #: src/metabase/public_settings.clj
 msgid "Values greater than {0} ({1}) are not allowed."
 msgstr "Non sono ammessi valori superiori a {0} ({1})."
 
 #: src/metabase/public_settings.clj
-msgid "This will replace the word \"LibraFactory Insights\" wherever it appears."
-msgstr "Questo sostituirà la parola \"LibraFactory Insights\" ovunque essa appaia."
+msgid "This will replace the word \"Intuito\" wherever it appears."
+msgstr "Questo sostituirà la parola \"Intuito\" ovunque essa appaia."
 
 #: src/metabase/public_settings.clj
-msgid "These are the primary colors used in charts and throughout LibraFactory Insights. You might need to refresh your browser to see your changes take effect."
-msgstr "Questi sono i colori primari utilizzati nei grafici e in tutta LibraFactory Insights. Potrebbe essere necessario aggiornare il vostro browser per vedere i vostri cambiamenti avere effetto."
+msgid "These are the primary colors used in charts and throughout Intuito. You might need to refresh your browser to see your changes take effect."
+msgstr "Questi sono i colori primari utilizzati nei grafici e in tutta Intuito. Potrebbe essere necessario aggiornare il vostro browser per vedere i vostri cambiamenti avere effetto."
 
 #: src/metabase/public_settings.clj
 msgid "For best results, use an SVG file with a transparent background."

@@ -1,5 +1,5 @@
 (ns metabase.sync
-  "Combined functions for running the entire LibraFactory Insights sync process.
+  "Combined functions for running the entire Intuito sync process.
    This delegates to a few distinct steps, which in turn are broken out even further:
 
    1.  Sync Metadata      (`metabase.sync.sync-metadata`)

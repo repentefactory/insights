@@ -1,4 +1,4 @@
-# LibraFactory Insights Scenarios
+# Intuito Scenarios
 
 ## Running
 

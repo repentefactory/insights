@@ -1,5 +1,5 @@
 (ns metabase.query-processor
-  "Primary entrypoints to running LibraFactory Insights (MBQL) queries.
+  "Primary entrypoints to running Intuito (MBQL) queries.
 
     (metabase.query-processor/process-query {:type :query, :database 1, :query {:source-table 2}})
 
@@ -239,7 +239,7 @@
          args))
 
 (s/defn process-query-and-save-execution!
-  "Process and run a 'userland' MBQL query (e.g. one ran as the result of an API call, scheduled Pulse, RepenteBot query,
+  "Process and run a 'userland' MBQL query (e.g. one ran as the result of an API call, scheduled Pulse, IntuitoBot query,
   etc.). Returns results in a format appropriate for consumption by FE client. Saves QueryExecution row in application
   DB."
   ([query info]

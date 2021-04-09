@@ -13,9 +13,9 @@ const WelcomePage = () => {
   return (
     <Box className="wrapper wrapper--trim">
       <Box my={4}>
-        <Heading>LibraFactory Insights Style Guide</Heading>
+        <Heading>Intuito Style Guide</Heading>
         <Text>
-          Reference and samples for how to make things the LibraFactory Insights way.
+          Reference and samples for how to make things the Intuito way.
         </Text>
       </Box>
 

@@ -237,7 +237,7 @@ export default class SettingsSlackForm extends Component {
       <form noValidate>
         <div className="px2" style={{ maxWidth: "585px" }}>
           <h1>
-            {t`LibraFactory Insights`}
+            {t`Intuito`}
             <RetinaImage
               className="mx1"
               src="app/assets/img/slack_emoji.png"
@@ -255,7 +255,7 @@ export default class SettingsSlackForm extends Component {
               className="Button Button--primary"
               style={{ padding: 0 }}
             >
-              <div className="float-left py2 pl2">{t`Create a Slack Bot User for RepenteBot`}</div>
+              <div className="float-left py2 pl2">{t`Create a Slack Bot User for IntuitoBot`}</div>
               <Icon
                 className="float-right p2 text-white cursor-pointer"
                 style={{ opacity: 0.6 }}
@@ -267,7 +267,7 @@ export default class SettingsSlackForm extends Component {
           <div className="py2">
             {jt`Once you're there, give it a name and click ${(
               <strong>"Add bot integration"</strong>
-            )}. Then copy and paste the Bot API Token into the field below. Once you are done, create a "insights_files" channel in Slack. LibraFactory Insights needs this to upload graphs.`}
+            )}. Then copy and paste the Bot API Token into the field below. Once you are done, create a "insights_files" channel in Slack. Intuito needs this to upload graphs.`}
           </div>
         </div>
         <ul>

@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: LibraFactory Insights\n"
+"Project-Id-Version: Intuito\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -47,8 +47,8 @@ msgid "Save"
 msgstr "Lưu"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
-msgid "To do some of its magic, LibraFactory Insights needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
-msgstr "Để thực hiện một số magic của nó, LibraFactory Insights cần quét cơ sở dữ liệu của bạn. Chúng tôi cũng sẽ quét lại định kỳ để cập nhật siêu dữ liệu. Bạn có thể kiểm soát khi việc quét lại định kỳ xảy ra dưới đây"
+msgid "To do some of its magic, Intuito needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
+msgstr "Để thực hiện một số magic của nó, Intuito cần quét cơ sở dữ liệu của bạn. Chúng tôi cũng sẽ quét lại định kỳ để cập nhật siêu dữ liệu. Bạn có thể kiểm soát khi việc quét lại định kỳ xảy ra dưới đây"
 
 #: frontend/src/metabase/entities/databases/forms.js:291
 msgid "Database syncing"
@@ -70,16 +70,16 @@ msgid "Scanning for Filter Values"
 msgstr "Quét các giá trị lọc"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:153
-msgid "LibraFactory Insights can scan the values present in each\n"
+msgid "Intuito can scan the values present in each\n"
 "field in this database to enable checkbox filters in dashboards and questions. This\n"
 "can be a somewhat resource-intensive process, particularly if you have a very large\n"
 "database."
-msgstr "LibraFactory Insights có thể quét các giá trị hiện tại trong mỗi \n"
+msgstr "Intuito có thể quét các giá trị hiện tại trong mỗi \n"
 "\" \"có thể là một quá trình tốn nhiều tài nguyên, đặc biệt nếu bạn có \\ n rất lớn\" \"cơ sở dữ liệ"
 
 #: frontend/src/metabase/entities/databases/forms.js:302
-msgid "When should LibraFactory Insights automatically scan and cache field values?"
-msgstr "Khi nào LibraFactory Insights sẽ tự động quét và lưu các giá trị trường bộ đệm "
+msgid "When should Intuito automatically scan and cache field values?"
+msgstr "Khi nào Intuito sẽ tự động quét và lưu các giá trị trường bộ đệm "
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:25
 msgid "Regularly, on a schedule"
@@ -90,9 +90,9 @@ msgid "Only when adding a new filter widget"
 msgstr "Chỉ khi thêm tiện ích bộ lọc mới"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:54
-msgid "When a user adds a new filter to a dashboard or a SQL question, LibraFactory Insights will\n"
+msgid "When a user adds a new filter to a dashboard or a SQL question, Intuito will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "Khi người dùng thêm bộ lọc mới vào bảng điều khiển hoặc câu hỏi SQL, LibraFactory Insights sẽ quét (các) trường được ánh xạ tới bộ lọc đó để hiển thị danh sách các giá trị có thể chọn."
+msgstr "Khi người dùng thêm bộ lọc mới vào bảng điều khiển hoặc câu hỏi SQL, Intuito sẽ quét (các) trường được ánh xạ tới bộ lọc đó để hiển thị danh sách các giá trị có thể chọn."
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:62
 msgid "Never, I'll do this manually if I need to"
@@ -590,8 +590,8 @@ msgid "{0} – Field Settings"
 msgstr "{0} - Cài đặt trường"
 
 #: frontend/src/metabase/admin/datamodel/containers/FieldApp.jsx:298
-msgid "Where this field will appear throughout LibraFactory Insights"
-msgstr "Trường này sẽ xuất hiện trên khắp LibraFactory Insights"
+msgid "Where this field will appear throughout Intuito"
+msgstr "Trường này sẽ xuất hiện trên khắp Intuito"
 
 #: frontend/src/metabase/admin/datamodel/containers/FieldApp.jsx:321
 msgid "Filtering on this field"
@@ -672,8 +672,8 @@ msgid "Cached field values"
 msgstr "Giá trị trường lưu trữ"
 
 #: frontend/src/metabase/admin/datamodel/containers/FieldApp.jsx:356
-msgid "LibraFactory Insights can scan the values for this field to enable checkbox filters in dashboards and questions."
-msgstr "LibraFactory Insights có thể quét các giá trị cho trường này để bật các bộ lọc hộp kiểm trong bảng điều khiển và câu hỏi."
+msgid "Intuito can scan the values for this field to enable checkbox filters in dashboards and questions."
+msgstr "Intuito có thể quét các giá trị cho trường này để bật các bộ lọc hộp kiểm trong bảng điều khiển và câu hỏi."
 
 #: frontend/src/metabase/admin/datamodel/components/UpdateCachedFieldValues.jsx:14
 msgid "Re-scan this field"
@@ -834,8 +834,8 @@ msgid "Settings"
 msgstr "Cài đặt"
 
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:84
-msgid "LibraFactory Insights can scan the values in this table to enable checkbox filters in dashboards and questions."
-msgstr "LibraFactory Insights có thể quét các giá trị trong bảng này để bật các bộ lọc hộp kiểm trong bảng điều khiển và câu hỏi."
+msgid "Intuito can scan the values in this table to enable checkbox filters in dashboards and questions."
+msgstr "Intuito có thể quét các giá trị trong bảng này để bật các bộ lọc hộp kiểm trong bảng điều khiển và câu hỏi."
 
 #: frontend/src/metabase/admin/datamodel/containers/TableSettingsApp.jsx:89
 msgid "Re-scan this table"
@@ -874,17 +874,17 @@ msgstr "Cho người dùng này làm quản trị viên"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:34
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new LibraFactory Insights users will be able to see."
-msgstr "Tất cả người dùng thuộc nhóm {0} và không thể xóa khỏi nhóm. Đặt quyền cho nhóm này là một cách tuyệt vời để đảm bảo bạn biết những gì người dùng LibraFactory Insights mới sẽ có thể nhìn thấy."
+"make sure you know what new Intuito users will be able to see."
+msgstr "Tất cả người dùng thuộc nhóm {0} và không thể xóa khỏi nhóm. Đặt quyền cho nhóm này là một cách tuyệt vời để đảm bảo bạn biết những gì người dùng Intuito mới sẽ có thể nhìn thấy."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:43
-msgid "This is a special group whose members can see everything in the LibraFactory Insights instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in the Intuito instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
-msgstr "Đây là một nhóm đặc biệt mà các thành viên có thể nhìn thấy mọi thứ trong ví dụ LibraFactory Insights và những người có thể truy cập và thay đổi các cài đặt trong Bảng quản trị, bao gồm thay đổi quyền! Vì vậy, thêm người vào nhóm này một cách cẩn thận."
+msgstr "Đây là một nhóm đặc biệt mà các thành viên có thể nhìn thấy mọi thứ trong ví dụ Intuito và những người có thể truy cập và thay đổi các cài đặt trong Bảng quản trị, bao gồm thay đổi quyền! Vì vậy, thêm người vào nhóm này một cách cẩn thận."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:47
-msgid "To make sure you don't get locked out of LibraFactory Insights, there always has to be at least one user in this group."
-msgstr "Để đảm bảo bạn không bị khóa khỏi LibraFactory Insights, luôn phải có ít nhất một người dùng trong nhóm này."
+msgid "To make sure you don't get locked out of Intuito, there always has to be at least one user in this group."
+msgstr "Để đảm bảo bạn không bị khóa khỏi Intuito, luôn phải có ít nhất một người dùng trong nhóm này."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:187
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:218
@@ -1222,16 +1222,16 @@ msgid "Sorry, an error occurred."
 msgstr "Xin lỗi, đã có lỗi xảy ra."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:71
-msgid "Administrators always have the highest level of access to everything in LibraFactory Insights."
-msgstr "Các quản trị viên luôn có quyền hạn cao nhất tới tất cả các thứ trong LibraFactory Insights"
+msgid "Administrators always have the highest level of access to everything in Intuito."
+msgstr "Các quản trị viên luôn có quyền hạn cao nhất tới tất cả các thứ trong Intuito"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:73
-msgid "Every LibraFactory Insights user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
-msgstr "Tất cả người dùng LibraFactory Insights nằm trong nhóm \"Tất cả người dùng\". Nếu bạn muốn giới hạn hoặc thu hẹp truy cập của một nhóm tới một thứ gì đó, hãy đảm bảo rằng nhóm \"Tất cả người dùng\" có quyền tương đương hoặc thấp hơn."
+msgid "Every Intuito user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
+msgstr "Tất cả người dùng Intuito nằm trong nhóm \"Tất cả người dùng\". Nếu bạn muốn giới hạn hoặc thu hẹp truy cập của một nhóm tới một thứ gì đó, hãy đảm bảo rằng nhóm \"Tất cả người dùng\" có quyền tương đương hoặc thấp hơn."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:75
-msgid "RepenteBot is LibraFactory Insights's Slack bot. You can choose what it has access to here."
-msgstr "RepenteBot là một con bot của LibraFactory Insights trên Slack. Bạn có thể chọn những thứ nó có thể truy cập ở đây."
+msgid "IntuitoBot is Intuito's Slack bot. You can choose what it has access to here."
+msgstr "IntuitoBot là một con bot của Intuito trên Slack. Bạn có thể chọn những thứ nó có thể truy cập ở đây."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:128
 msgid "The \"{0}\" group may have access to a different set of {1} than this group, which may give this group additional access to some {2}."
@@ -1357,8 +1357,8 @@ msgstr "Đăng nhập với Google"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:120
 #: frontend/src/metabase/plugins/builtin/auth/google.js:32
-msgid "Allows users with existing LibraFactory Insights accounts to login with a Google account that matches their email address in addition to their LibraFactory Insights username and password."
-msgstr "Cho phép người dùng có tài khoản LibraFactory Insights hiện tại đăng nhập bằng tài khoản Google khớp với địa chỉ email của họ bên cạnh tên người dùng và mật khẩu LibraFactory Insights của họ."
+msgid "Allows users with existing Intuito accounts to login with a Google account that matches their email address in addition to their Intuito username and password."
+msgstr "Cho phép người dùng có tài khoản Intuito hiện tại đăng nhập bằng tài khoản Google khớp với địa chỉ email của họ bên cạnh tên người dùng và mật khẩu Intuito của họ."
 
 #: frontend/src/metabase/admin/settings/components/widgets/AuthenticationOption.jsx:24
 #: frontend/src/metabase/components/ChannelSetupMessage.jsx:32
@@ -1371,8 +1371,8 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/plugins/builtin/auth/ldap.js:16
-msgid "Allows users within your LDAP directory to log in to LibraFactory Insights with their LDAP credentials, and allows automatic mapping of LDAP groups to LibraFactory Insights groups."
-msgstr "Cho phép người dùng trong thư mục LDAP của bạn đăng nhập vào LibraFactory Insights bằng thông tin LDAP của họ và cho phép tự động ánh xạ các nhóm LDAP sang các nhóm LibraFactory Insights."
+msgid "Allows users within your LDAP directory to log in to Intuito with their LDAP credentials, and allows automatic mapping of LDAP groups to Intuito groups."
+msgstr "Cho phép người dùng trong thư mục LDAP của bạn đăng nhập vào Intuito bằng thông tin LDAP của họ và cho phép tự động ánh xạ các nhóm LDAP sang các nhóm Intuito."
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:19
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:76
@@ -1447,8 +1447,8 @@ msgid "Getting set up"
 msgstr "Đang thiết lập"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSetupList.jsx:106
-msgid "A few things you can do to get the most out of LibraFactory Insights."
-msgstr "Một vài điều bạn có thể làm để tận dụng tối đa LibraFactory Insights."
+msgid "A few things you can do to get the most out of Intuito."
+msgstr "Một vài điều bạn có thể làm để tận dụng tối đa Intuito."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSetupList.jsx:115
 msgid "Recommended next step"
@@ -1459,8 +1459,8 @@ msgid "Google Sign-In"
 msgstr "Đăng nhập Google"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give LibraFactory Insights a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
-msgstr "Để cho phép người dùng đăng nhập bằng Google, bạn cần cung cấp cho LibraFactory Insights ID ứng dụng khách ứng dụng bảng điều khiển Google Developers. Chỉ mất vài bước và hướng dẫn về cách tạo khóa có thể được tìm thấy {0}"
+msgid "To allow users to sign in with Google you'll need to give Intuito a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
+msgstr "Để cho phép người dùng đăng nhập bằng Google, bạn cần cung cấp cho Intuito ID ứng dụng khách ứng dụng bảng điều khiển Google Developers. Chỉ mất vài bước và hướng dẫn về cách tạo khóa có thể được tìm thấy {0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
 msgid "Your Google client ID"
@@ -1475,20 +1475,20 @@ msgid "Answers sent right to your Slack #channels"
 msgstr "Câu trả lời đã được gửi thằng tới kênh Slack của bạn"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:258
-msgid "Create a Slack Bot User for RepenteBot"
-msgstr "Tạo một tài khoản Slack Bot cho RepenteBot"
+msgid "Create a Slack Bot User for IntuitoBot"
+msgstr "Tạo một tài khoản Slack Bot cho IntuitoBot"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:268
-msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"insights_files\" channel in Slack. LibraFactory Insights needs this to upload graphs."
-msgstr "Khi bạn đã ở đó, hãy đặt tên cho nó và nhấp vào {0}. Sau đó sao chép và dán mã thông báo Bot API vào trường bên dưới. Khi bạn đã hoàn tất, hãy tạo kênh \\ \"insights_files \" trong Slack. LibraFactory Insights cần điều này để tải lên biểu đồ."
+msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"insights_files\" channel in Slack. Intuito needs this to upload graphs."
+msgstr "Khi bạn đã ở đó, hãy đặt tên cho nó và nhấp vào {0}. Sau đó sao chép và dán mã thông báo Bot API vào trường bên dưới. Khi bạn đã hoàn tất, hãy tạo kênh \\ \"insights_files \" trong Slack. Intuito cần điều này để tải lên biểu đồ."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:17
-msgid "You're running LibraFactory Insights {0} which is the latest and greatest!"
-msgstr "Bạn đang chạy LibraFactory Insights {0}, đây là phiên bản mới nhất và tốt nhất!"
+msgid "You're running Intuito {0} which is the latest and greatest!"
+msgstr "Bạn đang chạy Intuito {0}, đây là phiên bản mới nhất và tốt nhất!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
-msgid "LibraFactory Insights {0} is available.  You're running {1}"
-msgstr "Đã có LibraFactory Insights {0}. Bạn đang sử dụng {1}"
+msgid "Intuito {0} is available.  You're running {1}"
+msgstr "Đã có Intuito {0}. Bạn đang sử dụng {1}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:41
 #: frontend/src/metabase/components/form/StandardForm.jsx:18
@@ -1600,8 +1600,8 @@ msgid "By enabling embedding you're agreeing to the embedding license located at
 msgstr "Bằng cách cho phép nhúng, bạn đồng ý với giấy phép nhúng nằm ở"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:20
-msgid "In plain English, when you embed charts or dashboards from LibraFactory Insights in your own application, that application isn't subject to the Affero General Public License that covers the rest of LibraFactory Insights, provided you keep the LibraFactory Insights logo and the \"Powered by LibraFactory Insights\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "Nói một cách dễ hiểu, khi bạn nhúng biểu đồ hoặc bảng điều khiển từ LibraFactory Insights vào ứng dụng của riêng bạn, ứng dụng đó không phải tuân theo Giấy phép Công cộng Chung bao gồm phần còn lại của LibraFactory Insights, miễn là bạn giữ logo LibraFactory Insights và \\ \"Được cung cấp bởi LibraFactory Insights \\ \"Hiển thị trên các nhúng. Tuy nhiên, bạn nên đọc văn bản giấy phép được liên kết ở trên vì đó là giấy phép thực tế mà bạn sẽ đồng ý bằng cách bật tính năng này."
+msgid "In plain English, when you embed charts or dashboards from Intuito in your own application, that application isn't subject to the Affero General Public License that covers the rest of Intuito, provided you keep the Intuito logo and the \"Powered by Intuito\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
+msgstr "Nói một cách dễ hiểu, khi bạn nhúng biểu đồ hoặc bảng điều khiển từ Intuito vào ứng dụng của riêng bạn, ứng dụng đó không phải tuân theo Giấy phép Công cộng Chung bao gồm phần còn lại của Intuito, miễn là bạn giữ logo Intuito và \\ \"Được cung cấp bởi Intuito \\ \"Hiển thị trên các nhúng. Tuy nhiên, bạn nên đọc văn bản giấy phép được liên kết ở trên vì đó là giấy phép thực tế mà bạn sẽ đồng ý bằng cách bật tính năng này."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:33
 msgid "Enable"
@@ -1612,12 +1612,12 @@ msgid "Premium embedding enabled"
 msgstr "Đã bật nhúng cao cấp"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:26
-msgid "Enter the token you bought from the LibraFactory Insights Store"
-msgstr "Nhập vào mã bạn đã mua từ LibraFactory Insights Store"
+msgid "Enter the token you bought from the Intuito Store"
+msgstr "Nhập vào mã bạn đã mua từ Intuito Store"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:53
-msgid "Premium embedding lets you disable \"Powered by LibraFactory Insights\" on your embedded dashboards and questions."
-msgstr "Nhúng cao cấp cho phép bạn tắt thông báo \"Powered by LibraFactory Insights\" trên các trang nhúng tổng quan và các câu hỏi"
+msgid "Premium embedding lets you disable \"Powered by Intuito\" on your embedded dashboards and questions."
+msgstr "Nhúng cao cấp cho phép bạn tắt thông báo \"Powered by Intuito\" trên các trang nhúng tổng quan và các câu hỏi"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:60
 msgid "Buy a token"
@@ -1640,10 +1640,10 @@ msgid "Create a mapping"
 msgstr "Tạo một ánh xạ"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:170
-msgid "Mappings allow LibraFactory Insights to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allow Intuito to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
-msgstr "Ánh xạ cho phép LibraFactory Insights tự động thêm và xóa người dùng khỏi các nhóm dựa trên thông tin thành viên được cung cấp bởi máy chủ thư mục. Tư cách thành viên của nhóm Quản trị viên có thể được cấp thông qua ánh xạ, nhưng sẽ không tự động bị xóa như một biện pháp không an toàn."
+msgstr "Ánh xạ cho phép Intuito tự động thêm và xóa người dùng khỏi các nhóm dựa trên thông tin thành viên được cung cấp bởi máy chủ thư mục. Tư cách thành viên của nhóm Quản trị viên có thể được cấp thông qua ánh xạ, nhưng sẽ không tự động bị xóa như một biện pháp không an toàn."
 
 #: frontend/src/metabase/plugins/builtin/auth/ldap.js:107
 msgid "Distinguished Name"
@@ -1916,8 +1916,8 @@ msgid "Map tile server URL"
 msgstr "Đường dẫn đến máy chủ mảnh bản đồ"
 
 #: frontend/src/metabase/admin/settings/selectors.js:206
-msgid "LibraFactory Insights uses OpenStreetMaps by default."
-msgstr "LibraFactory Insights mặc định sử dụngOpenStreetMaps"
+msgid "Intuito uses OpenStreetMaps by default."
+msgstr "Intuito mặc định sử dụngOpenStreetMaps"
 
 #: frontend/src/metabase/admin/settings/selectors.js:211
 msgid "Custom Maps"
@@ -1948,8 +1948,8 @@ msgid "Embedding in other Applications"
 msgstr "Nhung vào các ứng dụng khác"
 
 #: frontend/src/metabase/admin/settings/selectors.js:308
-msgid "Enable Embedding LibraFactory Insights in other Applications"
-msgstr "Cho phép nhúng LibraFactory Insights vào các ứng dụng khác"
+msgid "Enable Embedding Intuito in other Applications"
+msgstr "Cho phép nhúng Intuito vào các ứng dụng khác"
 
 #: frontend/src/metabase/admin/settings/selectors.js:318
 msgid "Embedding secret key"
@@ -2010,12 +2010,12 @@ msgid "Back to login"
 msgstr "Trở về đăng nhập"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
-msgid "No LibraFactory Insights account exists for this Google account."
-msgstr "Không có tài khoản LibraFactory Insights nào tương ứng với tài khoản Google này."
+msgid "No Intuito account exists for this Google account."
+msgstr "Không có tài khoản Intuito nào tương ứng với tài khoản Google này."
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:17
-msgid "You'll need an administrator to create a LibraFactory Insights account before you can use Google to log in."
-msgstr "Bạn sẽ cần quản trị viên tạo một tài khoản LibraFactory Insights trước khi bạn có thể dùng Google để đăng nhập."
+msgid "You'll need an administrator to create a Intuito account before you can use Google to log in."
+msgstr "Bạn sẽ cần quản trị viên tạo một tài khoản Intuito trước khi bạn có thể dùng Google để đăng nhập."
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:23
 msgid "Sign in with {0}"
@@ -2030,8 +2030,8 @@ msgid "Forgot password"
 msgstr "Quên mật khẩu"
 
 #: frontend/src/metabase/auth/containers/ForgotPasswordApp.jsx:47
-msgid "The email you use for your LibraFactory Insights account"
-msgstr "Địa chỉ email sử dụng cho tài khoản LibraFactory Insights"
+msgid "The email you use for your Intuito account"
+msgstr "Địa chỉ email sử dụng cho tài khoản Intuito"
 
 #: frontend/src/metabase/auth/containers/ForgotPasswordApp.jsx:54
 msgid "Send password reset email"
@@ -2042,8 +2042,8 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr "Hãy kiểm tra email hướng dẫn cách đặt lại mật khẩu."
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:27
-msgid "Sign in to LibraFactory Insights"
-msgstr "Đăng nhập vào LibraFactory Insights"
+msgid "Sign in to Intuito"
+msgstr "Đăng nhập vào Intuito"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
 msgid "OR"
@@ -2340,11 +2340,11 @@ msgstr "Một vài cài đặt cơ sở dữ liệu chỉ có thể truy cập b
 "Bật tính năng này sẽ làm chậm hết nối hơn là kết nối trực tiếp."
 
 #: frontend/src/metabase/entities/databases/forms.js:282
-msgid "This is a large database, so let me choose when LibraFactory Insights syncs and scans"
-msgstr "Đây là một cơ sở dữ liệu lớn, vậy nên hãy để tôi chọn khi nào thì LibraFactory Insights đồng bộ và quét"
+msgid "This is a large database, so let me choose when Intuito syncs and scans"
+msgstr "Đây là một cơ sở dữ liệu lớn, vậy nên hãy để tôi chọn khi nào thì Intuito đồng bộ và quét"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
-msgid "By default, LibraFactory Insights does a lightweight hourly sync and an intensive daily scan of field values.\n"
+msgid "By default, Intuito does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "Nếu bạn có cơ sở dữ liệu lớn, chúng tôi khuyên bạn nên bật tính năng này và xem xét thời điểm và tần suất quét giá trị trường xảy ra."
 
@@ -2371,8 +2371,8 @@ msgid "with Google Drive permissions"
 msgstr "với quyền của Google Drive"
 
 #: frontend/src/metabase/entities/databases/forms.js:164
-msgid "To use LibraFactory Insights with this data you must enable API access in the Google Developers Console."
-msgstr "Để sử dụng LibraFactory Insights với dữ liệu này bạn phải bật tính năng API access trên giao diện Google Developers Console."
+msgid "To use Intuito with this data you must enable API access in the Google Developers Console."
+msgstr "Để sử dụng Intuito với dữ liệu này bạn phải bật tính năng API access trên giao diện Google Developers Console."
 
 #: frontend/src/metabase/entities/databases/forms.js:165
 msgid "{0} to go to the console if you haven't already done so."
@@ -2640,8 +2640,8 @@ msgid "Loading..."
 msgstr "Đang tải..."
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:71
-msgid "LibraFactory Insights Newsletter"
-msgstr "Bản tin LibraFactory Insights"
+msgid "Intuito Newsletter"
+msgstr "Bản tin Intuito"
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:81
 msgid "Get infrequent emails about new releases and feature updates."
@@ -2652,8 +2652,8 @@ msgid "Subscribe"
 msgstr "Đăng ký"
 
 #: frontend/src/metabase/components/NewsletterForm.jsx:106
-msgid "You're subscribed. Thanks for using LibraFactory Insights!"
-msgstr "Bạn đã đăng ký. Cảm ơn đã sử dụng LibraFactory Insights!"
+msgid "You're subscribed. Thanks for using Intuito!"
+msgstr "Bạn đã đăng ký. Cảm ơn đã sử dụng Intuito!"
 
 #: frontend/src/metabase/containers/ErrorPages.jsx:46
 msgid "We're a little lost..."
@@ -2755,8 +2755,8 @@ msgid "Calendar Day"
 msgstr "Lịch ngày"
 
 #: frontend/src/metabase/components/SchedulePicker.jsx:211
-msgid "your LibraFactory Insights timezone"
-msgstr "Múi giờ LibraFactory Insights của bạn"
+msgid "your Intuito timezone"
+msgstr "Múi giờ Intuito của bạn"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
 msgid "Filter this list..."
@@ -3185,8 +3185,8 @@ msgid "Hello World!"
 msgstr "Xin chào thế giới!"
 
 #: frontend/src/metabase/home/components/Activity.jsx:255
-msgid "LibraFactory Insights is up and running."
-msgstr "LibraFactory Insights đang hoạt động"
+msgid "Intuito is up and running."
+msgstr "Intuito đang hoạt động"
 
 #: frontend/src/metabase/home/components/Activity.jsx:261
 #: frontend/src/metabase/home/components/Activity.jsx:291
@@ -3558,7 +3558,7 @@ msgid "Do Not Include"
 msgstr "Không bao gồm"
 
 #: frontend/src/metabase/lib/core.js:260
-msgid "LibraFactory Insights will never retrieve this field. Use this for sensitive or irrelevant information."
+msgid "Intuito will never retrieve this field. Use this for sensitive or irrelevant information."
 msgstr "Cơ sở dữ liệu tích lũy sẽ không bao giờ lấy lại trường này. Sử dụng điều này cho thông tin nhạy cảm hoặc không liên quan."
 
 #: frontend/src/metabase/lib/query/description.js:77
@@ -4125,8 +4125,8 @@ msgid "Help"
 msgstr "Trợ giúp"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:72
-msgid "About LibraFactory Insights"
-msgstr "Về LibraFactory Insights"
+msgid "About Intuito"
+msgstr "Về Intuito"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:78
 msgid "Sign out"
@@ -4153,8 +4153,8 @@ msgid "and is built with care in San Francisco, CA"
 msgstr "và được xây dựng cẩn thận ở San Francisco, CA"
 
 #: frontend/src/metabase/nav/containers/Navbar.jsx:224
-msgid "LibraFactory Insights Admin"
-msgstr "Quản trị viên LibraFactory Insights"
+msgid "Intuito Admin"
+msgstr "Quản trị viên Intuito"
 
 #: frontend/src/metabase/nav/containers/Navbar.jsx:354
 #: frontend/src/metabase/reference/databases/TableQuestions.jsx:35
@@ -4449,8 +4449,8 @@ msgid "Public link"
 msgstr "Đường dẫn công khai"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.jsx:117
-msgid "Share this {0} with people who don't have a LibraFactory Insights account using the URL below:"
-msgstr "Chia sẻ {0} này với người không có tài khoản LibraFactory Insights sử dụng URL phía dưới:"
+msgid "Share this {0} with people who don't have a Intuito account using the URL below:"
+msgstr "Chia sẻ {0} này với người không có tài khoản Intuito sử dụng URL phía dưới:"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.jsx:154
 msgid "Public embed"
@@ -4662,8 +4662,8 @@ msgid "Help everyone on your team stay in sync with your data."
 msgstr "Giúp mọi người trong nhóm của bạn tiếp tục đồng bộ với dữ liệu của bạn."
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
-msgid "Pulses let you send data from LibraFactory Insights to email or Slack on the schedule of your choice."
-msgstr "Các xung cho phép bạn gửi dữ liệu từ LibraFactory Insights đến email hoặc Slack theo lịch bạn chọn"
+msgid "Pulses let you send data from Intuito to email or Slack on the schedule of your choice."
+msgstr "Các xung cho phép bạn gửi dữ liệu từ Intuito đến email hoặc Slack theo lịch bạn chọn"
 
 #: frontend/src/metabase/modes/components/TimeseriesFilterWidget.jsx:98
 msgid "After {0}"
@@ -5858,8 +5858,8 @@ msgid "X-ray this field"
 msgstr "X quang trường này"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:8
-msgid "LibraFactory Insights is no fun without any data"
-msgstr "LibraFactory Insights không thú vị nếu không có dữ liệu"
+msgid "Intuito is no fun without any data"
+msgstr "Intuito không thú vị nếu không có dữ liệu"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:9
 msgid "Your databases will appear here once you connect one"
@@ -5998,8 +5998,8 @@ msgid "Contact {0}"
 msgstr "Liên hệ {0}"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
-msgid "Help new LibraFactory Insights users find their way around."
-msgstr "Giúp người dùng LibraFactory Insights mới tìm đường "
+msgid "Help new Intuito users find their way around."
+msgstr "Giúp người dùng Intuito mới tìm đường "
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
 msgid "The Getting Started guide highlights the dashboard, metrics, segments, and tables that matter most, and informs your users of important things they should know before digging into the data."
@@ -6210,8 +6210,8 @@ msgid "Connecting to {0}"
 msgstr "Đang kết nối đến {0}"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:130
-msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, LibraFactory Insights also comes with a sample dataset you can get started with."
-msgstr "Bạn sẽ cần vài thông tin về cơ sở dữ liệu của mình, như tên đăng nhập và mật khẩu. Nếu bạn không có thông tin đó bây giờ, LibraFactory Insights sẽ đưa ra thông tin mẫu để bạn có thể bắt đầu "
+msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Intuito also comes with a sample dataset you can get started with."
+msgstr "Bạn sẽ cần vài thông tin về cơ sở dữ liệu của mình, như tên đăng nhập và mật khẩu. Nếu bạn không có thông tin đó bây giờ, Intuito sẽ đưa ra thông tin mẫu để bạn có thể bắt đầu "
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:150
 msgid "I'll add my data later"
@@ -6234,20 +6234,20 @@ msgid "We won't collect any usage events"
 msgstr "Chúng tôi sẽ không thu tập sự kiện được sử dụng"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:88
-msgid "In order to help us improve LibraFactory Insights, we'd like to collect certain data about usage through Google Analytics."
-msgstr "Với mục đích cải tiến LibraFactory Insights, chúng tôi muốn thu thập dữ liệu sử dụng hiện tại qua Google Analytics "
+msgid "In order to help us improve Intuito, we'd like to collect certain data about usage through Google Analytics."
+msgstr "Với mục đích cải tiến Intuito, chúng tôi muốn thu thập dữ liệu sử dụng hiện tại qua Google Analytics "
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:93
 msgid "Here's a full list of everything we track and why."
 msgstr "Đây là danh sách đầy đủ những gì chúng tôi theo dõi và tại sao"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:108
-msgid "Allow LibraFactory Insights to anonymously collect usage events"
-msgstr "Cho phép LibraFactory Insights thu thập sự kiện được sử dụng ẩn danh"
+msgid "Allow Intuito to anonymously collect usage events"
+msgstr "Cho phép Intuito thu thập sự kiện được sử dụng ẩn danh"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:116
-msgid "LibraFactory Insights {0} collects anything about your data or question results."
-msgstr "LibraFactory Insights {0} thu thập mọi thứ về dữ liệu hay kết quả câu hỏi của bạn"
+msgid "Intuito {0} collects anything about your data or question results."
+msgstr "Intuito {0} thu thập mọi thứ về dữ liệu hay kết quả câu hỏi của bạn"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:117
 msgid "never"
@@ -6274,8 +6274,8 @@ msgid "is just a click away."
 msgstr "Chỉ một click nữa"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:113
-msgid "Welcome to LibraFactory Insights"
-msgstr "Chào mừng đến LibraFactory Insights"
+msgid "Welcome to Intuito"
+msgstr "Chào mừng đến Intuito"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:114
 msgid "Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!"
@@ -6290,8 +6290,8 @@ msgid "You're all set up!"
 msgstr "Bạn đã được trang bị đầy đủ"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:179
-msgid "Take me to LibraFactory Insights"
-msgstr "Đưa tôi đến LibraFactory Insights"
+msgid "Take me to Intuito"
+msgstr "Đưa tôi đến Intuito"
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:49
 msgid "What should we call you?"
@@ -6361,8 +6361,8 @@ msgid "We’ll show you some interesting explorations of your data in\n"
 msgstr "Chúng tôi sẽ cho bạn thấy một số khám phá thú vị về dữ liệu của bạn trong \\ n chỉ một vài phút."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:72
-msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what LibraFactory Insights can do for you."
-msgstr "Điều này sẽ tốn chút thời gian. Trong thời gian chờ đợi, bạn có thể kiểm tra một trong những khám phá ví dụ này để xem LibraFactory Insights có thể làm gì cho bạn."
+msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Intuito can do for you."
+msgstr "Điều này sẽ tốn chút thời gian. Trong thời gian chờ đợi, bạn có thể kiểm tra một trong những khám phá ví dụ này để xem Intuito có thể làm gì cho bạn."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:86
 msgid "I took a look at the data you just connected, and I have some explorations of interesting things I found. Hope you like them!"
@@ -7462,8 +7462,8 @@ msgid "Email is not verified."
 msgstr "Email is not verified."
 
 #: src/metabase/api/session.clj
-msgid "You''ll need an administrator to create a LibraFactory Insights account before you can use Google to log in."
-msgstr "Bạn sẽ cần một quản trị viên để tạo tài khoản LibraFactory Insights trước khi bạn có thể sử dụng Google để đăng nhập."
+msgid "You''ll need an administrator to create a Intuito account before you can use Google to log in."
+msgstr "Bạn sẽ cần một quản trị viên để tạo tài khoản Intuito trước khi bạn có thể sử dụng Google để đăng nhập."
 
 #: src/metabase/api/session.clj
 msgid "Successfully authenticated Google Auth token for: {0} {1}"
@@ -7494,8 +7494,8 @@ msgid "Set Slack credentials"
 msgstr "Đặt thông tin đăng nhập Slack"
 
 #: src/metabase/api/setup.clj
-msgid "Does your team use Slack? If so, you can send automated updates via pulses and ask questions with RepenteBot."
-msgstr "Đội của bạn có sử dụng Slack không? Nếu vậy, bạn có thể gửi cập nhật tự động qua các xung và đặt câu hỏi với RepenteBot"
+msgid "Does your team use Slack? If so, you can send automated updates via pulses and ask questions with IntuitoBot."
+msgstr "Đội của bạn có sử dụng Slack không? Nếu vậy, bạn có thể gửi cập nhật tự động qua các xung và đặt câu hỏi với IntuitoBot"
 
 #: src/metabase/api/setup.clj
 msgid "Invite team members"
@@ -7527,7 +7527,7 @@ msgstr "Có rất nhiều câu hỏi được lưu trong {0}? Tạo các bộ s�
 
 #. This is the very first log message that will get printed.
 #. It's here because this is one of the very first namespaces that gets loaded, and the first that has access to the logger
-#. It shows up a solid 10-15 seconds before the "Starting LibraFactory Insights in STANDALONE mode" message because so many other namespaces need to get loaded
+#. It shows up a solid 10-15 seconds before the "Starting Intuito in STANDALONE mode" message because so many other namespaces need to get loaded
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:240
 #: frontend/src/metabase/home/components/Activity.jsx:87
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:90
@@ -7535,7 +7535,7 @@ msgstr "Có rất nhiều câu hỏi được lưu trong {0}? Tạo các bộ s�
 #: frontend/src/metabase/routes-public.jsx:15
 #: frontend/src/metabase/routes.jsx:142 src/metabase/api/setup.clj
 #: src/metabase/email/messages.clj
-msgid "LibraFactory Insights"
+msgid "Intuito"
 msgstr "Cơ sở dữ liệu"
 
 #: src/metabase/api/setup.clj
@@ -7909,20 +7909,20 @@ msgid "FAIL [[[{0}]]]"
 msgstr "Sai [[[{0}]]]"
 
 #: src/metabase/core.clj
-msgid "Please use the following URL to setup your LibraFactory Insights installation:"
-msgstr "Vui lòng sử dụng URL sau để thiết lập cài đặt LibraFactory Insights của bạn:"
+msgid "Please use the following URL to setup your Intuito installation:"
+msgstr "Vui lòng sử dụng URL sau để thiết lập cài đặt Intuito của bạn:"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Shutting Down ..."
-msgstr "LibraFactory Insights đóng cửa ..."
+msgid "Intuito Shutting Down ..."
+msgstr "Intuito đóng cửa ..."
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Shutdown COMPLETE"
+msgid "Intuito Shutdown COMPLETE"
 msgstr "Tắt cơ sở dữ liệu HOÀN THÀNH"
 
 #: src/metabase/core.clj
-msgid "Starting LibraFactory Insights version {0} ..."
-msgstr "Bắt đầu phiên bản LibraFactory Insights {0} ..."
+msgid "Starting Intuito version {0} ..."
+msgstr "Bắt đầu phiên bản Intuito {0} ..."
 
 #: src/metabase/core.clj
 msgid "System timezone is ''{0}'' ..."
@@ -7930,16 +7930,16 @@ msgstr "Múi giờ hệ thống là '' {0} '' ..."
 
 #. startup database.  validates connection & runs any necessary migrations
 #: src/metabase/core.clj
-msgid "Setting up and migrating LibraFactory Insights DB. Please sit tight, this may take a minute..."
-msgstr "Thiết lập và di chuyển LibraFactory Insights DB. Hãy ngồi thật chặt, điều này có thể mất một phút ..."
+msgid "Setting up and migrating Intuito DB. Please sit tight, this may take a minute..."
+msgstr "Thiết lập và di chuyển Intuito DB. Hãy ngồi thật chặt, điều này có thể mất một phút ..."
 
 #: src/metabase/core.clj
 msgid "Looks like this is a new installation ... preparing setup wizard"
 msgstr "Có vẻ như đây là một cài đặt mới ... chuẩn bị trình hướng dẫn thiết lập"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Initialization COMPLETE"
-msgstr "Khởi tạo LibraFactory Insights HOÀN THÀNH"
+msgid "Intuito Initialization COMPLETE"
+msgstr "Khởi tạo Intuito HOÀN THÀNH"
 
 #: src/metabase/server.clj
 msgid "Launching Embedded Jetty Webserver with config:"
@@ -7950,11 +7950,11 @@ msgid "Shutting Down Embedded Jetty Webserver"
 msgstr "Tắt Máy chủ web nhún"
 
 #: src/metabase/core.clj
-msgid "Starting LibraFactory Insights in STANDALONE mode"
-msgstr "Khởi chạy LibraFactory Insights trong STANDALON"
+msgid "Starting Intuito in STANDALONE mode"
+msgstr "Khởi chạy Intuito trong STANDALON"
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Initialization FAILED"
+msgid "Intuito Initialization FAILED"
 msgstr "Lỗi khởi tạo Metabas"
 
 #: src/metabase/db/liquibase.clj
@@ -8115,8 +8115,8 @@ msgstr "Đã đăng ký thành công metabase.driver.FixedHiveDriver với JDBC.
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj
-msgid "Email address you want to use as the sender of LibraFactory Insights."
-msgstr "Địa chỉ email bạn muốn sử dụng làm người gửi LibraFactory Insights."
+msgid "Email address you want to use as the sender of Intuito."
+msgstr "Địa chỉ email bạn muốn sử dụng làm người gửi Intuito."
 
 #: src/metabase/email.clj
 msgid "The address of the SMTP server that handles your emails."
@@ -8208,8 +8208,8 @@ msgstr "Tìm kiếm cơ sở cho các nhóm, không bắt buộc nếu thư mụ
 
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: src/metabase/integrations/ldap.clj
-msgid "JSON containing LDAP to LibraFactory Insights group mappings."
-msgstr "JSON chứa ánh xạ nhóm LDAP sang LibraFactory Insights."
+msgid "JSON containing LDAP to Intuito group mappings."
+msgstr "JSON chứa ánh xạ nhóm LDAP sang Intuito."
 
 #. Define a setting which captures our Slack api token
 #: src/metabase/integrations/slack.clj
@@ -8217,16 +8217,16 @@ msgid "Slack API bearer token obtained from https://api.slack.com/web#authentica
 msgstr "Mã thông báo mang Slack API thu được từ https://api.slack.com/web#authentication."
 
 #: src/metabase/metabot.clj
-msgid "Enable RepenteBot, which lets you search for and view your saved questions directly via Slack."
-msgstr "Kích hoạt RepenteBot, cho phép bạn tìm kiếm và xem các câu hỏi đã lưu của bạn trực tiếp thông qua Slack."
+msgid "Enable IntuitoBot, which lets you search for and view your saved questions directly via Slack."
+msgstr "Kích hoạt IntuitoBot, cho phép bạn tìm kiếm và xem các câu hỏi đã lưu của bạn trực tiếp thông qua Slack."
 
 #: src/metabase/metabot/instance.clj
-msgid "Last RepenteBot checkin was {0} ago."
-msgstr "Lần đăng ký RepenteBot cuối cùng là {0} trước đây."
+msgid "Last IntuitoBot checkin was {0} ago."
+msgstr "Lần đăng ký IntuitoBot cuối cùng là {0} trước đây."
 
 #: src/metabase/metabot/instance.clj
-msgid "This instance will now handle RepenteBot duties."
-msgstr "Trường hợp này bây giờ sẽ xử lý các nhiệm vụ RepenteBot."
+msgid "This instance will now handle IntuitoBot duties."
+msgstr "Trường hợp này bây giờ sẽ xử lý các nhiệm vụ IntuitoBot."
 
 #: src/metabase/metabot.clj
 msgid "Here''s what I can {0}:"
@@ -8281,32 +8281,32 @@ msgid "Error launching metabot:"
 msgstr "Lỗi khởi chạy metabot:"
 
 #: src/metabase/metabot/websocket.clj
-msgid "RepenteBot WebSocket is closed. Reconnecting now."
-msgstr "RepenteBot WebSocket đã bị đóng. Kết nối lại bây giờ."
+msgid "IntuitoBot WebSocket is closed. Reconnecting now."
+msgstr "IntuitoBot WebSocket đã bị đóng. Kết nối lại bây giờ."
 
 #: src/metabase/metabot/websocket.clj
 msgid "Error connecting websocket:"
 msgstr "Lỗi kết nối websocket:"
 
 #: src/metabase/metabot/instance.clj
-msgid "This instance is performing RepenteBot duties."
-msgstr "Trường hợp này đang thực hiện nhiệm vụ RepenteBot."
+msgid "This instance is performing IntuitoBot duties."
+msgstr "Trường hợp này đang thực hiện nhiệm vụ IntuitoBot."
 
 #: src/metabase/metabot/instance.clj
-msgid "Another instance is already handling RepenteBot duties."
-msgstr "Một trường hợp khác đã xử lý các nhiệm vụ của RepenteBot."
+msgid "Another instance is already handling IntuitoBot duties."
+msgstr "Một trường hợp khác đã xử lý các nhiệm vụ của IntuitoBot."
 
 #: src/metabase/metabot.clj
-msgid "Starting RepenteBot threads..."
-msgstr "Bắt đầu các chủ đề RepenteBot ..."
+msgid "Starting IntuitoBot threads..."
+msgstr "Bắt đầu các chủ đề IntuitoBot ..."
 
 #: src/metabase/metabot.clj
-msgid "Stopping RepenteBot...  🤖"
+msgid "Stopping IntuitoBot...  🤖"
 msgstr "Đang dừng Metabot..."
 
 #: src/metabase/metabot.clj
-msgid "RepenteBot already running. Killing the previous WebSocket listener first."
-msgstr "RepenteBot đã chạy. Giết người nghe WebSocket trước đó trước."
+msgid "IntuitoBot already running. Killing the previous WebSocket listener first."
+msgstr "IntuitoBot đã chạy. Giết người nghe WebSocket trước đó trước."
 
 #: src/metabase/middleware/security.clj
 msgid "Base-64 encoded public key for this site's SSL certificate."
@@ -8424,8 +8424,8 @@ msgid "Storing FieldValues for Field {0}..."
 msgstr "Lưu trữ FieldValues cho Trường {0} ..."
 
 #: src/metabase/models/humanization.clj
-msgid "LibraFactory Insights can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
-msgstr "LibraFactory Insights có thể cố gắng chuyển đổi tên bảng và trường của bạn thành các phiên bản hợp lý hơn, dễ đọc hơn, ví dụ: \\ \"somehorriblename \" trở thành \\ \"Một cái tên khủng khiếp \"."
+msgid "Intuito can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+msgstr "Intuito có thể cố gắng chuyển đổi tên bảng và trường của bạn thành các phiên bản hợp lý hơn, dễ đọc hơn, ví dụ: \\ \"somehorriblename \" trở thành \\ \"Một cái tên khủng khiếp \"."
 
 #: src/metabase/models/humanization.clj
 msgid "This doesn’t work all that well if the names are in a language other than English, however."
@@ -8476,8 +8476,8 @@ msgid "You cannot edit or delete the ''{0}'' permissions group!"
 msgstr "Bạn không thể chỉnh sửa hoặc xóa nhóm quyền '' {0} ''!"
 
 #: src/metabase/models/permissions_group_membership.clj
-msgid "You cannot add or remove users to/from the 'RepenteBot' group."
-msgstr "Bạn không thể thêm hoặc xóa người dùng vào / ra khỏi nhóm 'RepenteBot'."
+msgid "You cannot add or remove users to/from the 'IntuitoBot' group."
+msgstr "Bạn không thể thêm hoặc xóa người dùng vào / ra khỏi nhóm 'IntuitoBot'."
 
 #: src/metabase/models/permissions_group_membership.clj
 msgid "You cannot add or remove users to/from the 'All Users' group."
@@ -8570,12 +8570,12 @@ msgid "Loading plugin {0}... "
 msgstr "Đang tải plugin {0} ..."
 
 #: src/metabase/plugins.clj
-msgid "It looks like you have some external dependencies in your LibraFactory Insights plugins directory."
-msgstr "Có vẻ như bạn có một số phụ thuộc bên ngoài trong thư mục bổ trợ LibraFactory Insights của mình."
+msgid "It looks like you have some external dependencies in your Intuito plugins directory."
+msgstr "Có vẻ như bạn có một số phụ thuộc bên ngoài trong thư mục bổ trợ Intuito của mình."
 
 #: src/metabase/plugins.clj
-msgid "With Java 9 or higher, LibraFactory Insights cannot automatically add them to your classpath."
-msgstr "Đối với Java 9 hoặc cao hơn, LibraFactory Insights không thể tự động thêm chúng vào đường dẫn lớp của bạn."
+msgid "With Java 9 or higher, Intuito cannot automatically add them to your classpath."
+msgstr "Đối với Java 9 hoặc cao hơn, Intuito không thể tự động thêm chúng vào đường dẫn lớp của bạn."
 
 #: src/metabase/plugins.clj
 msgid "Instead, you should include them at launch with the -cp option. For example:"
@@ -8586,28 +8586,28 @@ msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-ver
 msgstr "Xem https://metabase.com/docs/latest/operations-guide/start.html#java-versions để biết thêm chi tiết."
 
 #: src/metabase/plugins.clj
-msgid "(If you're already running LibraFactory Insights this way, you can ignore this message.)"
-msgstr "(Nếu bạn đang chạy LibraFactory Insights theo cách này, bạn có thể bỏ qua thông báo này.)"
+msgid "(If you're already running Intuito this way, you can ignore this message.)"
+msgstr "(Nếu bạn đang chạy Intuito theo cách này, bạn có thể bỏ qua thông báo này.)"
 
 #: src/metabase/public_settings.clj
-msgid "Identify when new versions of LibraFactory Insights are available."
-msgstr "Xác định khi nào có phiên bản mới của LibraFactory Insights."
+msgid "Identify when new versions of Intuito are available."
+msgstr "Xác định khi nào có phiên bản mới của Intuito."
 
 #: src/metabase/public_settings.clj
-msgid "Information about available versions of LibraFactory Insights."
-msgstr "Thông tin về các phiên bản có sẵn của LibraFactory Insights."
+msgid "Information about available versions of Intuito."
+msgstr "Thông tin về các phiên bản có sẵn của Intuito."
 
 #: src/metabase/public_settings.clj
-msgid "The name used for this instance of LibraFactory Insights."
-msgstr "Tên được sử dụng cho trường hợp này của LibraFactory Insights."
+msgid "The name used for this instance of Intuito."
+msgstr "Tên được sử dụng cho trường hợp này của Intuito."
 
 #: src/metabase/public_settings.clj
-msgid "The base URL of this LibraFactory Insights instance, e.g. \"http://metabase.my-company.com\"."
-msgstr "URL cơ sở của trường hợp LibraFactory Insights này, ví dụ: \\ \"http: //metabase.my-company.com \"."
+msgid "The base URL of this Intuito instance, e.g. \"http://metabase.my-company.com\"."
+msgstr "URL cơ sở của trường hợp Intuito này, ví dụ: \\ \"http: //metabase.my-company.com \"."
 
 #: src/metabase/public_settings.clj
-msgid "The default language for this LibraFactory Insights instance."
-msgstr "Ngôn ngữ mặc định cho trường hợp LibraFactory Insights này."
+msgid "The default language for this Intuito instance."
+msgstr "Ngôn ngữ mặc định cho trường hợp Intuito này."
 
 #: src/metabase/public_settings.clj
 msgid "This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
@@ -8618,8 +8618,8 @@ msgid "The email address users should be referred to if they encounter a problem
 msgstr "địa chỉ email người dùng nên được đề cập nếu họ gặp vấn đề."
 
 #: src/metabase/public_settings.clj
-msgid "Enable the collection of anonymous usage data in order to help LibraFactory Insights improve."
-msgstr "Cho phép thu thập dữ liệu sử dụng ẩn danh để giúp LibraFactory Insights cải thiện."
+msgid "Enable the collection of anonymous usage data in order to help Intuito improve."
+msgstr "Cho phép thu thập dữ liệu sử dụng ẩn danh để giúp Intuito cải thiện."
 
 #: src/metabase/public_settings.clj
 msgid "The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
@@ -8650,8 +8650,8 @@ msgid "The absolute maximum time to keep any cached query results, in seconds."
 msgstr "Thời gian tối đa tuyệt đối để giữ bất kỳ kết quả truy vấn được lưu trong bộ nhớ cache nào, tính bằng giây."
 
 #: src/metabase/public_settings.clj
-msgid "LibraFactory Insights will cache all saved questions with an average query execution time longer than this many seconds:"
-msgstr "LibraFactory Insights sẽ lưu trữ tất cả các câu hỏi đã lưu với thời gian thực hiện truy vấn trung bình dài hơn số giây này:"
+msgid "Intuito will cache all saved questions with an average query execution time longer than this many seconds:"
+msgstr "Intuito sẽ lưu trữ tất cả các câu hỏi đã lưu với thời gian thực hiện truy vấn trung bình dài hơn số giây này:"
 
 #: src/metabase/public_settings.clj
 msgid "To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
@@ -8861,10 +8861,10 @@ msgstr "Công việc đã tồn tại:"
 
 #. This is the very first log message that will get printed.  It's here because this is one of the very first
 #. namespaces that gets loaded, and the first that has access to the logger It shows up a solid 10-15 seconds before
-#. the "Starting LibraFactory Insights in STANDALONE mode" message because so many other namespaces need to get loaded
+#. the "Starting Intuito in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
-msgid "Loading LibraFactory Insights..."
-msgstr "Đang tải LibraFactory Insights ..."
+msgid "Loading Intuito..."
+msgstr "Đang tải Intuito ..."
 
 #: src/metabase/util/date.clj
 msgid "Possible timezone conflict found on database {0}."
@@ -8887,12 +8887,12 @@ msgid "MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
 msgstr "MB_ENCRYPTION_SECRET_KEY phải có ít nhất 16 ký tự."
 
 #: src/metabase/util/encryption.clj
-msgid "Saved credentials encryption is ENABLED for this LibraFactory Insights instance."
-msgstr "Mã hóa thông tin đã lưu là ENABLED cho phiên bản LibraFactory Insights này."
+msgid "Saved credentials encryption is ENABLED for this Intuito instance."
+msgstr "Mã hóa thông tin đã lưu là ENABLED cho phiên bản Intuito này."
 
 #: src/metabase/util/encryption.clj
-msgid "Saved credentials encryption is DISABLED for this LibraFactory Insights instance."
-msgstr "Mã hóa thông tin đăng nhập đã lưu là DISABLED cho phiên bản LibraFactory Insights này. "
+msgid "Saved credentials encryption is DISABLED for this Intuito instance."
+msgstr "Mã hóa thông tin đăng nhập đã lưu là DISABLED cho phiên bản Intuito này. "
 
 #: src/metabase/util/encryption.clj
 msgid "nFor more information, see"
@@ -9125,8 +9125,8 @@ msgid "No results"
 msgstr "Không có kết quả"
 
 #: frontend/src/metabase/home/containers/SearchApp.jsx:42
-msgid "LibraFactory Insights couldn't find any results for your search."
-msgstr "LibraFactory Insights không thể tìm thấy bất kỳ kết quả nào cho tìm kiếm của bạn. "
+msgid "Intuito couldn't find any results for your search."
+msgstr "Intuito không thể tìm thấy bất kỳ kết quả nào cho tìm kiếm của bạn. "
 
 #: frontend/src/metabase/new_query/containers/MetricSearch.jsx:115
 msgid "No metrics"
@@ -9358,8 +9358,8 @@ msgid "Administrators"
 msgstr "Quản trị viên"
 
 #: frontend/src/metabase/lib/groups.js:6
-msgid "RepenteBot"
-msgstr "RepenteBot"
+msgid "IntuitoBot"
+msgstr "IntuitoBot"
 
 #: frontend/src/metabase/public/components/widgets/EmbedModalContent.jsx:290
 msgid "Sharing"
@@ -9498,8 +9498,8 @@ msgid "Troubleshooting logs"
 msgstr "Nhật ký xử lý sự cố"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:31
-msgid "Trying to get to the bottom of something? This section shows logs of LibraFactory Insights's background tasks, which can help shed light on what's going on."
-msgstr "Đang cố gắng để đi đến tận cùng của một cái gì đó? Phần này hiển thị nhật ký các tác vụ nền của LibraFactory Insights, có thể giúp làm sáng tỏ những gì đang diễn ra."
+msgid "Trying to get to the bottom of something? This section shows logs of Intuito's background tasks, which can help shed light on what's going on."
+msgstr "Đang cố gắng để đi đến tận cùng của một cái gì đó? Phần này hiển thị nhật ký các tác vụ nền của Intuito, có thể giúp làm sáng tỏ những gì đang diễn ra."
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:56
 msgid "Task"
@@ -9961,8 +9961,8 @@ msgid "You cannot create or revoke permissions for the ''Admin'' group."
 msgstr "Bạn không thể tạo hoặc thu hồi quyền cho nhóm '' Quản trị viên ''."
 
 #: src/metabase/models/permissions_group_membership.clj
-msgid "You cannot add or remove users to/from the ''RepenteBot'' group."
-msgstr "Bạn không thể thêm hoặc xóa người dùng vào / ra khỏi nhóm '' RepenteBot ''."
+msgid "You cannot add or remove users to/from the ''IntuitoBot'' group."
+msgstr "Bạn không thể thêm hoặc xóa người dùng vào / ra khỏi nhóm '' IntuitoBot ''."
 
 #: src/metabase/models/permissions_group_membership.clj
 msgid "You cannot add or remove users to/from the ''All Users'' group."
@@ -11341,44 +11341,44 @@ msgid "We’d love your feedback."
 msgstr "Chúng tôi rất thích phản hồi của bạn."
 
 #: src/metabase/email/messages.clj
-msgid "It looks like LibraFactory Insights wasn’t quite a match for you."
-msgstr "Có vẻ như LibraFactory Insights không phù hợp với bạn."
+msgid "It looks like Intuito wasn’t quite a match for you."
+msgstr "Có vẻ như Intuito không phù hợp với bạn."
 
 #: src/metabase/email/messages.clj
-msgid "Would you mind taking a fast 5 question survey to help the LibraFactory Insights team understand why and make things better in the future?"
-msgstr "Bạn có phiền khi thực hiện một cuộc khảo sát nhanh 5 câu hỏi để giúp nhóm LibraFactory Insights hiểu lý do tại sao và làm cho mọi thứ tốt hơn trong tương lai không?"
+msgid "Would you mind taking a fast 5 question survey to help the Intuito team understand why and make things better in the future?"
+msgstr "Bạn có phiền khi thực hiện một cuộc khảo sát nhanh 5 câu hỏi để giúp nhóm Intuito hiểu lý do tại sao và làm cho mọi thứ tốt hơn trong tương lai không?"
 
 #: src/metabase/email/messages.clj
-msgid "We hope you''ve been enjoying LibraFactory Insights."
-msgstr "Chúng tôi hy vọng bạn đã được thưởng thức LibraFactory Insights."
+msgid "We hope you''ve been enjoying Intuito."
+msgstr "Chúng tôi hy vọng bạn đã được thưởng thức Intuito."
 
 #: src/metabase/email/messages.clj
 msgid "Would you mind taking a fast 6 question survey to tell us how it’s going?"
 msgstr "Bạn có phiền khi tham gia một cuộc khảo sát nhanh 6 câu hỏi để cho chúng tôi biết nó sẽ diễn ra như thế nào không?"
 
 #: src/metabase/email/messages.clj
-msgid "{0} created a LibraFactory Insights account"
-msgstr "{0} đã tạo tài khoản LibraFactory Insights"
+msgid "{0} created a Intuito account"
+msgstr "{0} đã tạo tài khoản Intuito"
 
 #: src/metabase/email/messages.clj
-msgid "{0} accepted their LibraFactory Insights invite"
-msgstr "{0} đã chấp nhận lời mời LibraFactory Insights của họ"
+msgid "{0} accepted their Intuito invite"
+msgstr "{0} đã chấp nhận lời mời Intuito của họ"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Password Reset Request"
-msgstr "[LibraFactory Insights] Yêu cầu cài đặt lại mật khẩ"
+msgid "[Intuito] Password Reset Request"
+msgstr "[Intuito] Yêu cầu cài đặt lại mật khẩ"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Notification"
-msgstr "[LibraFactory Insights] Thông bá"
+msgid "[Intuito] Notification"
+msgstr "[Intuito] Thông bá"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Help make LibraFactory Insights better."
-msgstr "[LibraFactory Insights]Giúp LibraFactory Insights tốt hơ"
+msgid "[Intuito] Help make Intuito better."
+msgstr "[Intuito]Giúp Intuito tốt hơ"
 
 #: src/metabase/email/messages.clj
-msgid "[LibraFactory Insights] Tell us how things are going."
-msgstr "[LibraFactory Insights]Hãy nói với chúng tôi mọi thứ đang diễn ra như thế nà"
+msgid "[Intuito] Tell us how things are going."
+msgstr "[Intuito]Hãy nói với chúng tôi mọi thứ đang diễn ra như thế nà"
 
 #: src/metabase/mbql/util.clj
 msgid "Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
@@ -11651,16 +11651,16 @@ msgid "You may need to add `?sslmode=require` to your application DB connection 
 msgstr "Bạn có thể cần thêm `?sslmode = quiries` vào chuỗi kết nối cơ sở dữ liệu ứng dụng của bạn."
 
 #: src/metabase/db.clj
-msgid "If LibraFactory Insights fails to launch, please add it and try again."
-msgstr "Nếu LibraFactory Insights không khởi chạy, vui lòng thêm nó và thử lại."
+msgid "If Intuito fails to launch, please add it and try again."
+msgstr "Nếu Intuito không khởi chạy, vui lòng thêm nó và thử lại."
 
 #: src/metabase/db.clj
 msgid "See https://github.com/metabase/metabase/issues/8908 for more details."
 msgstr "Xem https://github.com/metabase/metabase/issues/8908 để biết thêm chi tiết."
 
 #: src/metabase/db.clj
-msgid "WARNING: Using LibraFactory Insights with an H2 application database is not recomended for production deployments."
-msgstr "CẢNH BÁO: Không nên sử dụng LibraFactory Insights với cơ sở dữ liệu ứng dụng H2 để triển khai lên Production."
+msgid "WARNING: Using Intuito with an H2 application database is not recomended for production deployments."
+msgstr "CẢNH BÁO: Không nên sử dụng Intuito với cơ sở dữ liệu ứng dụng H2 để triển khai lên Production."
 
 #: src/metabase/db.clj
 msgid "For production deployments, we highly recommend using Postgres, MySQL, or MariaDB instead."
@@ -11675,8 +11675,8 @@ msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migratin
 msgstr "Xem https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-USE-the-h2-database-to-mysql-or-postgres để biết thêm thông tin."
 
 #: src/metabase/db.clj
-msgid "Unable to connect to LibraFactory Insights {0} DB."
-msgstr "Không thể kết nối với LibraFactory Insights {0} DB."
+msgid "Unable to connect to Intuito {0} DB."
+msgstr "Không thể kết nối với Intuito {0} DB."
 
 #: src/metabase/db/migrations.clj
 msgid "Error adding legacy SQL directive to BigQuery saved Question"
@@ -11787,32 +11787,32 @@ msgid "Could not find matching Field ID for target:"
 msgstr "Không thể tìm thấy ID trường phù hợp cho mục tiêu:"
 
 #: src/metabase/plugins.clj
-msgid "LibraFactory Insights does not have permissions to write to plugins directory {0}"
-msgstr "LibraFactory Insights không có quyền ghi vào thư mục plugin {0}"
+msgid "Intuito does not have permissions to write to plugins directory {0}"
+msgstr "Intuito không có quyền ghi vào thư mục plugin {0}"
 
 #: src/metabase/plugins.clj
-msgid "LibraFactory Insights cannot use the plugins directory {0}"
-msgstr "LibraFactory Insights không thể sử dụng thư mục plugin {0}"
+msgid "Intuito cannot use the plugins directory {0}"
+msgstr "Intuito không thể sử dụng thư mục plugin {0}"
 
 #: src/metabase/plugins.clj
-msgid "Please make sure the directory exists and that LibraFactory Insights has permission to write to it."
-msgstr "Vui lòng đảm bảo thư mục tồn tại và LibraFactory Insights có quyền ghi vào thư mục đó."
+msgid "Please make sure the directory exists and that Intuito has permission to write to it."
+msgstr "Vui lòng đảm bảo thư mục tồn tại và Intuito có quyền ghi vào thư mục đó."
 
 #: src/metabase/plugins.clj
-msgid "You can change the directory LibraFactory Insights uses for modules by setting the environment variable MB_PLUGINS_DIR."
-msgstr "Bạn có thể thay đổi thư mục LibraFactory Insights sử dụng cho các mô-đun bằng cách đặt biến môi trường MB_PLUGINS_DIR."
+msgid "You can change the directory Intuito uses for modules by setting the environment variable MB_PLUGINS_DIR."
+msgstr "Bạn có thể thay đổi thư mục Intuito sử dụng cho các mô-đun bằng cách đặt biến môi trường MB_PLUGINS_DIR."
 
 #: src/metabase/plugins.clj
 msgid "Falling back to a temporary directory for now."
 msgstr "Quay trở lại một thư mục tạm thời bây giờ."
 
 #: src/metabase/plugins.clj
-msgid "LibraFactory Insights cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart LibraFactory Insights."
-msgstr "LibraFactory Insights không thể ghi vào thư mục tạm thời. Vui lòng đặt MB_PLUGINS_DIR thành thư mục có thể ghi và khởi động lại LibraFactory Insights."
+msgid "Intuito cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Intuito."
+msgstr "Intuito không thể ghi vào thư mục tạm thời. Vui lòng đặt MB_PLUGINS_DIR thành thư mục có thể ghi và khởi động lại Intuito."
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by LibraFactory Insights 1.0+. You can delete it from the plugins directory."
-msgstr "spark-deps.jar không còn cần bởi LibraFactory Insights 1.0+. Bạn có thể xóa nó khỏi thư mục plugin."
+msgid "spark-deps.jar is no longer needed by Intuito 1.0+. You can delete it from the plugins directory."
+msgstr "spark-deps.jar không còn cần bởi Intuito 1.0+. Bạn có thể xóa nó khỏi thư mục plugin."
 
 #: src/metabase/plugins.clj
 msgid "Failied to initialize plugin {0}"
@@ -11843,16 +11843,16 @@ msgid "Added URL {0} to classpath"
 msgstr "Đã thêm URL {0} vào classpath"
 
 #: src/metabase/plugins/dependencies.clj
-msgid "Plugin {0} declares a dependency that LibraFactory Insights does not understand: {1}"
-msgstr "Plugin {0} tuyên bố một phụ thuộc mà LibraFactory Insights không hiểu: {1}"
+msgid "Plugin {0} declares a dependency that Intuito does not understand: {1}"
+msgstr "Plugin {0} tuyên bố một phụ thuộc mà Intuito không hiểu: {1}"
 
 #: src/metabase/plugins/dependencies.clj
 msgid "Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
 msgstr "Tham khảo tham chiếu bảng kê khai plugin để biết danh sách đầy đủ các yếu tố phụ thuộc plugin hợp lệ:"
 
 #: src/metabase/plugins/dependencies.clj
-msgid "LibraFactory Insights cannot initialize plugin {0} due to required dependencies."
-msgstr "LibraFactory Insights không thể khởi chạy plugin {0} do thiếu yếu tố phụ thuộc bắt buộc."
+msgid "Intuito cannot initialize plugin {0} due to required dependencies."
+msgstr "Intuito không thể khởi chạy plugin {0} do thiếu yếu tố phụ thuộc bắt buộc."
 
 #: src/metabase/plugins/dependencies.clj
 msgid "Class not found: {0}"
@@ -11915,7 +11915,7 @@ msgstr "Không thể khởi tạo plugin: thiếu thuộc tính bắt buộc `dr
 msgid "Warning: plugin manifest for {0} does not include connection properties"
 msgstr "Cảnh báo: file kê khai plugin cho {0} không bao gồm các thuộc tính kết nối"
 
-#. finally, register the LibraFactory Insights driver
+#. finally, register the Intuito driver
 #: src/metabase/plugins/lazy_loaded_driver.clj
 msgid "Registering lazy loading driver {0}..."
 msgstr "Đăng ký driver chậm chạp {0} ..."
@@ -12063,8 +12063,8 @@ msgid "Task history cleanup successful, no rows were deleted"
 msgstr "Dọn dẹp lịch sử tác vụ thành công, không có hàng nào bị xóa"
 
 #: src/metabase/task/upgrade_checks.clj
-msgid "Checking for new LibraFactory Insights version info."
-msgstr "Kiểm tra thông tin về phiên bản LibraFactory Insights mới."
+msgid "Checking for new Intuito version info."
+msgstr "Kiểm tra thông tin về phiên bản Intuito mới."
 
 #: src/metabase/task/upgrade_checks.clj
 msgid "Error fetching version info"
@@ -12395,16 +12395,16 @@ msgid "Request canceled before finishing."
 msgstr "Yêu cầu bị hủy trước khi hoàn thành."
 
 #: src/metabase/middleware/json.clj
-msgid "LibraFactory Insights only supports JSON requests."
-msgstr "LibraFactory Insights chỉ hỗ trợ các yêu cầu JSON."
+msgid "Intuito only supports JSON requests."
+msgstr "Intuito chỉ hỗ trợ các yêu cầu JSON."
 
 #: src/metabase/middleware/json.clj
 msgid "Make sure you set a 'Content-Type: application/json' header."
 msgstr "Hãy chắc chắn rằng bạn thiết lập một tiêu đề 'Content-Type: application / json' ."
 
 #: src/metabase/middleware/misc.clj
-msgid "Setting LibraFactory Insights site URL to {0}"
-msgstr "Đặt URL trang web LibraFactory Insights thành {0}"
+msgid "Setting Intuito site URL to {0}"
+msgstr "Đặt URL trang web Intuito thành {0}"
 
 #: src/metabase/models/database.clj
 msgid "Error scheduling tasks for DB"
@@ -12431,8 +12431,8 @@ msgid "You cannot update the creator_id of a Metric."
 msgstr "Bạn không thể cập nhật creator_id của một Metric."
 
 #: src/metabase/models/permissions.clj
-msgid "RepenteBot can only have Collection permissions."
-msgstr "RepenteBot chỉ có thể có quyền Collection."
+msgid "IntuitoBot can only have Collection permissions."
+msgstr "IntuitoBot chỉ có thể có quyền Collection."
 
 #: src/metabase/models/permissions.clj
 msgid "Failed to grant permissions"
@@ -12509,8 +12509,8 @@ msgid "Automatically run queries when doing simple filtering and summarizing"
 msgstr "Tự động chạy truy vấn khi thực hiện lọc và tóm tắt đơn giản"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
-msgid "When this is on LibraFactory Insights will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Khi cái này trên LibraFactory Insights sẽ tự động chạy các truy vấn khi người dùng thực hiện các khám phá đơn giản với các nút Tóm tắt và Lọc khi xem bảng hoặc biểu đồ. Bạn có thể tắt cái này nếu truy vấn cơ sở dữ liệu này chậm. Cài đặt này không ảnh hưởng đến các truy vấn sâu hoặc truy vấn SQL."
+msgid "When this is on Intuito will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgstr "Khi cái này trên Intuito sẽ tự động chạy các truy vấn khi người dùng thực hiện các khám phá đơn giản với các nút Tóm tắt và Lọc khi xem bảng hoặc biểu đồ. Bạn có thể tắt cái này nếu truy vấn cơ sở dữ liệu này chậm. Cài đặt này không ảnh hưởng đến các truy vấn sâu hoặc truy vấn SQL."
 
 #: frontend/src/metabase/containers/Overworld.jsx:329
 msgid "Learn about this database"
@@ -12855,12 +12855,12 @@ msgid "Request canceled, canceling future."
 msgstr "Yêu cầu đã hủy, hủy trong tương lai."
 
 #: src/metabase/cmd/load_from_h2.clj
-msgid "LibraFactory Insights can only transfer data from H2 to Postgres or MySQL/MariaDB."
-msgstr "LibraFactory Insights chỉ có thể chuyển dữ liệu từ H2 sang Postgres hoặc MySQL / MariaDB."
+msgid "Intuito can only transfer data from H2 to Postgres or MySQL/MariaDB."
+msgstr "Intuito chỉ có thể chuyển dữ liệu từ H2 sang Postgres hoặc MySQL / MariaDB."
 
 #: src/metabase/db.clj
-msgid "WARNING: Using LibraFactory Insights with an H2 application database is not recommended for production deployments."
-msgstr "CẢNH BÁO: Không nên sử dụng LibraFactory Insights với cơ sở dữ liệu ứng dụng H2 để triển khai môi trường production"
+msgid "WARNING: Using Intuito with an H2 application database is not recommended for production deployments."
+msgstr "CẢNH BÁO: Không nên sử dụng Intuito với cơ sở dữ liệu ứng dụng H2 để triển khai môi trường production"
 
 #: src/metabase/db.clj
 msgid "Application database setup"
@@ -12921,8 +12921,8 @@ msgid "Error saving task history"
 msgstr "Lỗi lưu lịch sử nhiệm vụ"
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by LibraFactory Insights 0.32.0+. You can delete it from the plugins directory."
-msgstr "spark-deps.jar không còn cần thiết bởi LibraFactory Insights 0.32.0+. Bạn có thể xóa nó khỏi thư mục plugin"
+msgid "spark-deps.jar is no longer needed by Intuito 0.32.0+. You can delete it from the plugins directory."
+msgstr "spark-deps.jar không còn cần thiết bởi Intuito 0.32.0+. Bạn có thể xóa nó khỏi thư mục plugin"
 
 #: src/metabase/plugins/classloader.clj
 msgid "Using NEWLY CREATED classloader as shared context classloader: {0}"
@@ -12955,8 +12955,8 @@ msgid "We were unable to display this Pulse."
 msgstr "Chúng tôi không thể hiển thị Pulse này."
 
 #: src/metabase/pulse/render/body.clj
-msgid "Please view this card in LibraFactory Insights."
-msgstr "Vui lòng xem thẻ này trong LibraFactory Insights."
+msgid "Please view this card in Intuito."
+msgstr "Vui lòng xem thẻ này trong Intuito."
 
 #: src/metabase/pulse/render/body.clj
 msgid "An error occurred while displaying this card."
@@ -13152,8 +13152,8 @@ msgid "Failed to fetch Field {0}: Field does not exist, or belongs to a differen
 msgstr "Không thể tìm nạp Trường {0}: Trường không tồn tại hoặc thuộc về Cơ sở dữ liệu khác."
 
 #: src/metabase/routes/index.clj
-msgid "Failed to load template ''{0}''. Did you remember to build the LibraFactory Insights frontend?"
-msgstr "Không thể tải mẫu '' {0} ''. Bạn có nhớ xây dựng giao diện LibraFactory Insights không?"
+msgid "Failed to load template ''{0}''. Did you remember to build the Intuito frontend?"
+msgstr "Không thể tải mẫu '' {0} ''. Bạn có nhớ xây dựng giao diện Intuito không?"
 
 #: src/metabase/sample_data.clj
 msgid "Sample dataset DB file ''{0}'' cannot be found."
@@ -13209,8 +13209,8 @@ msgid "Pick the columns you want to include"
 msgstr "Chọn các cột bạn muốn bao gồm"
 
 #: frontend/src/metabase/entities/databases/forms.js:275
-msgid "When this is on, LibraFactory Insights will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Khi điều này được bật, LibraFactory Insights sẽ tự động chạy các truy vấn khi người dùng thực hiện các khám phá đơn giản với các nút Tóm tắt và Lọc khi xem bảng hoặc biểu đồ. Bạn có thể tắt cái này nếu truy vấn cơ sở dữ liệu này chậm. Cài đặt này không ảnh hưởng truy vấn khoan sâu hoặc truy vấn SQL."
+msgid "When this is on, Intuito will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgstr "Khi điều này được bật, Intuito sẽ tự động chạy các truy vấn khi người dùng thực hiện các khám phá đơn giản với các nút Tóm tắt và Lọc khi xem bảng hoặc biểu đồ. Bạn có thể tắt cái này nếu truy vấn cơ sở dữ liệu này chậm. Cài đặt này không ảnh hưởng truy vấn khoan sâu hoặc truy vấn SQL."
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep.jsx:97
 msgid "Change join type"
@@ -13251,12 +13251,12 @@ msgid "Diagnostic Info"
 msgstr "Thông tin chẩn đoán"
 
 #: frontend/src/metabase/admin/tasks/containers/Logs.jsx:123
-msgid "Select LibraFactory Insights process:"
-msgstr "Chọn quy trình LibraFactory Insights:"
+msgid "Select Intuito process:"
+msgstr "Chọn quy trình Intuito:"
 
 #: frontend/src/metabase/admin/tasks/containers/Logs.jsx:133
-msgid "All LibraFactory Insights processes"
-msgstr "Tất cả các quy trình LibraFactory Insights"
+msgid "All Intuito processes"
+msgstr "Tất cả các quy trình Intuito"
 
 #: frontend/src/metabase/auth/components/GoogleButton.jsx:13
 msgid "The window was closed before completing Google Authentication."
@@ -13275,8 +13275,8 @@ msgid "Using this option requires that provided host is a FQDN.  If connecting t
 msgstr "Sử dụng tùy chọn này yêu cầu máy chủ được cung cấp là FQDN. Nếu kết nối với cụm Atlas, bạn có thể cần bật tùy chọn này. Nếu bạn không biết điều này có nghĩa là gì, hãy để điều này bị vô hiệu hóa."
 
 #: frontend/src/metabase/entities/databases/forms.js:283
-msgid "By default, LibraFactory Insights does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "Theo mặc định, LibraFactory Insights thực hiện đồng bộ hóa hàng giờ và quét kỹ các giá trị trường hàng ngày. Nếu bạn có cơ sở dữ liệu lớn, chúng tôi khuyên bạn nên bật tính năng này và xem xét thời điểm và tần suất quét giá trị trường xảy ra."
+msgid "By default, Intuito does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
+msgstr "Theo mặc định, Intuito thực hiện đồng bộ hóa hàng giờ và quét kỹ các giá trị trường hàng ngày. Nếu bạn có cơ sở dữ liệu lớn, chúng tôi khuyên bạn nên bật tính năng này và xem xét thời điểm và tần suất quét giá trị trường xảy ra."
 
 #: frontend/src/metabase/containers/Overworld.jsx:126
 msgid "Remove these suggestions"
@@ -13606,7 +13606,7 @@ msgid "Sending Alert ({0}: {1}) via email"
 msgstr "Gửi thông báo ({0}: {1}) qua email"
 
 #: src/metabase/pulse.clj
-msgid "LibraFactory Insights alert: {0} has {1}"
+msgid "Intuito alert: {0} has {1}"
 msgstr "Thông báo siêu dữ liệu: {0} có {1}"
 
 #: src/metabase/pulse.clj
@@ -13691,16 +13691,16 @@ msgid "OK"
 msgstr "Đồng ý"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give LibraFactory Insights a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "Để cho phép người dùng đăng nhập bằng Google, bạn cần cung cấp cho LibraFactory Insights ID ứng dụng khách ứng dụng bảng điều khiển Google Developers. Chỉ cần một vài bước và hướng dẫn về cách tạo khóa có thể được tìm thấy {0}."
+msgid "To allow users to sign in with Google you'll need to give Intuito a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgstr "Để cho phép người dùng đăng nhập bằng Google, bạn cần cung cấp cho Intuito ID ứng dụng khách ứng dụng bảng điều khiển Google Developers. Chỉ cần một vài bước và hướng dẫn về cách tạo khóa có thể được tìm thấy {0}."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
 msgid "Be sure to include the full client ID, including the apps.googleusercontent.com suffix."
 msgstr "Hãy chắc chắn bao gồm ID khách đầy đủ, bao gồm hậu tố apps.googleusercontent.com."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:30
-msgid "LibraFactory Insights {0} is available."
-msgstr "LibraFactory Insights {0} có sẵn."
+msgid "Intuito {0} is available."
+msgstr "Intuito {0} có sẵn."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:31
 msgid "You're running {0}"
@@ -13727,20 +13727,20 @@ msgid "No mappable groups"
 msgstr "Không có nhóm bản đồ"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:108
-msgid "LibraFactory Insights Documentation"
-msgstr "Tài liệu LibraFactory Insights"
+msgid "Intuito Documentation"
+msgstr "Tài liệu Intuito"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:109
 msgid "Includes a troubleshooting guide"
 msgstr "Bao gồm một hướng dẫn xử lý sự cố"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:113
-msgid "Post on the LibraFactory Insights support forum"
-msgstr "Đăng trên diễn đàn hỗ trợ LibraFactory Insights"
+msgid "Post on the Intuito support forum"
+msgstr "Đăng trên diễn đàn hỗ trợ Intuito"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
-msgid "A community forum for all things LibraFactory Insights"
-msgstr "Một diễn đàn cộng đồng cho tất cả mọi thứ LibraFactory Insights"
+msgid "A community forum for all things Intuito"
+msgstr "Một diễn đàn cộng đồng cho tất cả mọi thứ Intuito"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:118
 msgid "File a bug report"
@@ -13812,8 +13812,8 @@ msgid "This is a lightweight process that checks for updates to this database’
 msgstr "Đây là một quy trình nhẹ kiểm tra các bản cập nhật cho lược đồ cơ sở dữ liệu này. Trong hầu hết các trường hợp, bạn sẽ ổn khi để bộ này đồng bộ hóa hàng giờ."
 
 #: frontend/src/metabase/entities/databases/forms.js:300
-msgid "LibraFactory Insights can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
-msgstr "LibraFactory Insights có thể quét các giá trị hiện diện trong từng trường trong cơ sở dữ liệu này để bật các bộ lọc hộp kiểm trong bảng điều khiển và câu hỏi. Đây có thể là một quá trình hơi tốn tài nguyên, đặc biệt nếu bạn có một cơ sở dữ liệu rất lớn."
+msgid "Intuito can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+msgstr "Intuito có thể quét các giá trị hiện diện trong từng trường trong cơ sở dữ liệu này để bật các bộ lọc hộp kiểm trong bảng điều khiển và câu hỏi. Đây có thể là một quá trình hơi tốn tài nguyên, đặc biệt nếu bạn có một cơ sở dữ liệu rất lớn."
 
 #: frontend/src/metabase/entities/questions.js:96
 msgid "Collection"
@@ -14356,8 +14356,8 @@ msgid "must be {0} characters or less"
 msgstr "phải có {0} ký tự trở xuống"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:113
-msgid "Thanks for using LibraFactory Insights!"
-msgstr "Cảm ơn đã sử dụng LibraFactory Insights!"
+msgid "Thanks for using Intuito!"
+msgstr "Cảm ơn đã sử dụng Intuito!"
 
 #: frontend/src/metabase/public/components/LogoBadge.jsx:20
 msgid "Powered by {0}"
@@ -14505,8 +14505,8 @@ msgid "Google Auth token appears to be incorrect. "
 msgstr "Mã thông báo Google Auth dường như không chính xác."
 
 #: src/metabase/api/session.clj
-msgid "Double check that it matches in Google and LibraFactory Insights."
-msgstr "Kiểm tra kỹ xem nó có khớp với Google và LibraFactory Insights không."
+msgid "Double check that it matches in Google and Intuito."
+msgstr "Kiểm tra kỹ xem nó có khớp với Google và Intuito không."
 
 #: src/metabase/api/table.clj
 msgid "Everything else"
@@ -14521,8 +14521,8 @@ msgid "Database Upgrade Required"
 msgstr "Yêu cầu nâng cấp cơ sở dữ liệu"
 
 #: src/metabase/db.clj
-msgid "NOTICE: Your database requires updates to work with this version of LibraFactory Insights."
-msgstr "THÔNG BÁO: Cơ sở dữ liệu của bạn cần cập nhật để làm việc với phiên bản này của LibraFactory Insights."
+msgid "NOTICE: Your database requires updates to work with this version of Intuito."
+msgstr "THÔNG BÁO: Cơ sở dữ liệu của bạn cần cập nhật để làm việc với phiên bản này của Intuito."
 
 #: src/metabase/db.clj
 msgid "Please execute the following sql commands on your database before proceeding."
@@ -14564,12 +14564,12 @@ msgid "The sub-query from referenced question #{0} failed with the following err
 msgstr "Truy vấn phụ từ câu hỏi được tham chiếu # {0} không thành công với lỗi sau: {1}"
 
 #: src/metabase/driver/mysql.clj
-msgid "WARNING: LibraFactory Insights only officially supports MySQL {0}/MariaDB {1} and above."
-msgstr "CẢNH BÁO: LibraFactory Insights chỉ chính thức hỗ trợ MySQL {0} / MariaDB {1} trở lên."
+msgid "WARNING: Intuito only officially supports MySQL {0}/MariaDB {1} and above."
+msgstr "CẢNH BÁO: Intuito chỉ chính thức hỗ trợ MySQL {0} / MariaDB {1} trở lên."
 
 #: src/metabase/driver/mysql.clj
-msgid "All LibraFactory Insights features may not work properly when using an unsupported version."
-msgstr "Tất cả các tính năng LibraFactory Insights có thể không hoạt động đúng khi sử dụng phiên bản không được hỗ trợ."
+msgid "All Intuito features may not work properly when using an unsupported version."
+msgstr "Tất cả các tính năng Intuito có thể không hoạt động đúng khi sử dụng phiên bản không được hỗ trợ."
 
 #: src/metabase/driver/sql/parameters/substitute.clj
 msgid "Unable to substitute parameters"
@@ -14862,8 +14862,8 @@ msgid "Service Accounts"
 msgstr "Tài khoản dịch vụ"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:26
-msgid "LibraFactory Insights connects to Big Query via {0}."
-msgstr "LibraFactory Insights kết nối với Big Query thông qua {0}."
+msgid "Intuito connects to Big Query via {0}."
+msgstr "Intuito kết nối với Big Query thông qua {0}."
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:29
 msgid "Continue using an OAuth application to connect"
@@ -14995,8 +14995,8 @@ msgid "What's your preferred language?"
 msgstr "Ngôn ngữ ưa thích của bạn là gì?"
 
 #: frontend/src/metabase/setup/components/LanguageStep.jsx:54
-msgid "This language will be used throughout LibraFactory Insights and will be the default for new users."
-msgstr "Ngôn ngữ này sẽ được sử dụng trong suốt LibraFactory Insights và sẽ là mặc định cho người dùng mới."
+msgid "This language will be used throughout Intuito and will be the default for new users."
+msgstr "Ngôn ngữ này sẽ được sử dụng trong suốt Intuito và sẽ là mặc định cho người dùng mới."
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:159
 msgid "We filtered out {0} row(s) containing null values."
@@ -15147,8 +15147,8 @@ msgid "Error fetching value of Setting"
 msgstr "Lỗi tìm nạp giá trị của Cài đặt"
 
 #: src/metabase/public_settings.clj
-msgid "The language that should be used for LibraFactory Insights's UI, system emails, pulses, and alerts."
-msgstr "Ngôn ngữ nên được sử dụng cho UI của LibraFactory Insights, email hệ thống, xung và cảnh báo."
+msgid "The language that should be used for Intuito's UI, system emails, pulses, and alerts."
+msgstr "Ngôn ngữ nên được sử dụng cho UI của Intuito, email hệ thống, xung và cảnh báo."
 
 #: src/metabase/public_settings.clj
 msgid "This is also the default language for all users, which they can change from their own account settings."
@@ -15167,8 +15167,8 @@ msgid "Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
 msgstr "Không thể chuyển hướng yêu cầu đến HTTPS trừ khi `site-url` là HTTPS."
 
 #: src/metabase/pulse/render/png.clj
-msgid "Error registering fonts: LibraFactory Insights will not be able to send Pulses."
-msgstr "Lỗi khi đăng ký phông chữ: LibraFactory Insights sẽ không thể gửi Xung."
+msgid "Error registering fonts: Intuito will not be able to send Pulses."
+msgstr "Lỗi khi đăng ký phông chữ: Intuito sẽ không thể gửi Xung."
 
 #: src/metabase/pulse/render/png.clj
 msgid "This is a known issue with certain JVMs. See {0} and for more details."
@@ -15299,8 +15299,8 @@ msgid "Configure your identity provider (IdP)"
 msgstr "Cấu hình nhà cung cấp danh tính của bạn (IdP)"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:82
-msgid "Your identity provider will need the following info about LibraFactory Insights."
-msgstr "Nhà cung cấp danh tính của bạn sẽ cần thông tin sau về LibraFactory Insights."
+msgid "Your identity provider will need the following info about Intuito."
+msgstr "Nhà cung cấp danh tính của bạn sẽ cần thông tin sau về Intuito."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:85
 msgid "URL the IdP should redirect back to"
@@ -15333,12 +15333,12 @@ msgid "User's last name attribute"
 msgstr "Thuộc tính họ của người dùng"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:113
-msgid "Tell LibraFactory Insights about your identity provider"
-msgstr "Cho LibraFactory Insights biết về nhà cung cấp danh tính của bạn"
+msgid "Tell Intuito about your identity provider"
+msgstr "Cho Intuito biết về nhà cung cấp danh tính của bạn"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:114
-msgid "LibraFactory Insights will need the following info about your provider."
-msgstr "LibraFactory Insights sẽ cần thông tin sau về nhà cung cấp của bạn."
+msgid "Intuito will need the following info about your provider."
+msgstr "Intuito sẽ cần thông tin sau về nhà cung cấp của bạn."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:117
 msgid "SAML Identity Provider URL"
@@ -15382,9 +15382,9 @@ msgid "Synchronize group membership with your SSO"
 msgstr "Đồng bộ hóa tư cách thành viên nhóm với SSO của bạn"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:157
-msgid "To enable this, you'll need to create mappings to tell LibraFactory Insights which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tell Intuito which group(s) your users should\n"
 "be added to based on the SSO group they're in."
-msgstr "Để kích hoạt điều này, bạn sẽ cần tạo ánh xạ để cho LibraFactory Insights biết (các) nhóm người dùng của bạn nên được thêm vào dựa trên nhóm SSO mà họ đang ở trong đó."
+msgstr "Để kích hoạt điều này, bạn sẽ cần tạo ánh xạ để cho Intuito biết (các) nhóm người dùng của bạn nên được thêm vào dựa trên nhóm SSO mà họ đang ở trong đó."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:173
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:174
@@ -15403,8 +15403,8 @@ msgid "Note:"
 msgstr "Ghi chú:"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
-msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart LibraFactory Insights for them to take effect."
-msgstr "Nếu bạn thay đổi bất kỳ cài đặt nào của thiết lập SAML đang hoạt động hiện có, thì bạn sẽ cần khởi động lại LibraFactory Insights để chúng có hiệu lực."
+msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Intuito for them to take effect."
+msgstr "Nếu bạn thay đổi bất kỳ cài đặt nào của thiết lập SAML đang hoạt động hiện có, thì bạn sẽ cần khởi động lại Intuito để chúng có hiệu lực."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/index.js:29
 msgid "Allows users to login via a SAML Identity Provider."
@@ -15455,12 +15455,12 @@ msgid "String used by the JWT signing key"
 msgstr "Chuỗi được sử dụng bởi khóa ký JWT"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:17
-msgid "Embedding the entire LibraFactory Insights app"
-msgstr "Nhúng toàn bộ ứng dụng LibraFactory Insights"
+msgid "Embedding the entire Intuito app"
+msgstr "Nhúng toàn bộ ứng dụng Intuito"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:18
-msgid "If you want to embed all of LibraFactory Insights, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
-msgstr "Nếu bạn muốn nhúng tất cả LibraFactory Insights, hãy nhập nguồn gốc của các trang web hoặc ứng dụng web mà bạn muốn cho phép nhúng vào iframe, được phân tách bằng dấu cách. Đây là {0} cho những gì có thể được nhập."
+msgid "If you want to embed all of Intuito, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
+msgstr "Nếu bạn muốn nhúng tất cả Intuito, hãy nhập nguồn gốc của các trang web hoặc ứng dụng web mà bạn muốn cho phép nhúng vào iframe, được phân tách bằng dấu cách. Đây là {0} cho những gì có thể được nhập."
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/GTAPModal.jsx:163
 msgid "Grant sandboxed access to this table"
@@ -15582,20 +15582,20 @@ msgid "We're having trouble validating your token"
 msgstr "Chúng tôi đang gặp sự cố khi xác thực mã thông báo của bạn"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:88
-msgid "Please double-check that your instance can connect to LibraFactory Insights's servers"
-msgstr "Vui lòng kiểm tra kỹ để đảm bảo phiên bản của bạn có thể kết nối với máy chủ của LibraFactory Insights"
+msgid "Please double-check that your instance can connect to Intuito's servers"
+msgstr "Vui lòng kiểm tra kỹ để đảm bảo phiên bản của bạn có thể kết nối với máy chủ của Intuito"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:93
 msgid "Get help"
 msgstr "Được giúp đỡ"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:100
-msgid "Get even more out of LibraFactory Insights with the Enterprise Edition"
-msgstr "Khai thác nhiều hơn nữa LibraFactory Insights với phiên bản Enterprise"
+msgid "Get even more out of Intuito with the Enterprise Edition"
+msgstr "Khai thác nhiều hơn nữa Intuito với phiên bản Enterprise"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:102
-msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor LibraFactory Insights in a large organization"
-msgstr "Tất cả các công cụ bạn cần để nhanh chóng và dễ dàng cung cấp báo cáo cho khách hàng của mình hoặc để giúp bạn chạy và giám sát LibraFactory Insights trong một tổ chức lớn"
+msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Intuito in a large organization"
+msgstr "Tất cả các công cụ bạn cần để nhanh chóng và dễ dàng cung cấp báo cáo cho khách hàng của mình hoặc để giúp bạn chạy và giám sát Intuito trong một tổ chức lớn"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:114
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:136
@@ -15694,8 +15694,8 @@ msgid "White labeling"
 msgstr "Nhãn trắng"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
-msgid "Match LibraFactory Insights to your brand with custom colors, your own logo and more."
-msgstr "Kết hợp LibraFactory Insights với thương hiệu của bạn bằng màu sắc tùy chỉnh, biểu trưng của riêng bạn và hơn thế nữa."
+msgid "Match Intuito to your brand with custom colors, your own logo and more."
+msgstr "Kết hợp Intuito với thương hiệu của bạn bằng màu sắc tùy chỉnh, biểu trưng của riêng bạn và hơn thế nữa."
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
 msgid "Auditing"
@@ -15790,8 +15790,8 @@ msgid "at"
 msgstr "tại"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:44
-msgid "Open the LibraFactory Insights actions menu"
-msgstr "Mở menu hành động LibraFactory Insights"
+msgid "Open the Intuito actions menu"
+msgstr "Mở menu hành động Intuito"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:45
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar.jsx:364
@@ -16450,8 +16450,8 @@ msgid "Send it to Slack"
 msgstr "Gửi nó đến Slack"
 
 #: frontend/src/metabase/sharing/components/SharingSidebar.jsx:539
-msgid "Pick a channel and a schedule, and LibraFactory Insights will do the rest."
-msgstr "Chọn một kênh và một lịch trình và LibraFactory Insights sẽ thực hiện phần còn lại."
+msgid "Pick a channel and a schedule, and Intuito will do the rest."
+msgstr "Chọn một kênh và một lịch trình và Intuito sẽ thực hiện phần còn lại."
 
 #: frontend/src/metabase/sharing/components/SharingSidebar.jsx:569
 msgid "Email this dashboard"
@@ -16507,24 +16507,24 @@ msgid "Invalid Slack token."
 msgstr "Mã thông báo Slack không hợp lệ."
 
 #: src/metabase/cmd.clj
-msgid "The ''{0}'' command is only available in LibraFactory Insights Enterprise Edition."
-msgstr "Lệnh '' {0} '' chỉ có trong LibraFactory Insights Enterprise Edition."
+msgid "The ''{0}'' command is only available in Intuito Enterprise Edition."
+msgstr "Lệnh '' {0} '' chỉ có trong Intuito Enterprise Edition."
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Enterprise Edition extensions are PRESENT."
-msgstr "Các phần mở rộng LibraFactory Insights Enterprise Edition CÓ SẴN."
+msgid "Intuito Enterprise Edition extensions are PRESENT."
+msgstr "Các phần mở rộng Intuito Enterprise Edition CÓ SẴN."
 
 #: src/metabase/core.clj
-msgid "Usage of LibraFactory Insights Enterprise Edition features are subject to the LibraFactory Insights Commercial License."
-msgstr "Việc sử dụng các tính năng của LibraFactory Insights Enterprise Edition phải tuân theo Giấy phép Thương mại LibraFactory Insights."
+msgid "Usage of Intuito Enterprise Edition features are subject to the Intuito Commercial License."
+msgstr "Việc sử dụng các tính năng của Intuito Enterprise Edition phải tuân theo Giấy phép Thương mại Intuito."
 
 #: src/metabase/core.clj
 msgid "See {0} for details."
 msgstr "Xem {0} để biết chi tiết."
 
 #: src/metabase/core.clj
-msgid "LibraFactory Insights Enterprise Edition extensions are NOT PRESENT."
-msgstr "Phần mở rộng LibraFactory Insights Enterprise Edition KHÔNG TỒN TẠI."
+msgid "Intuito Enterprise Edition extensions are NOT PRESENT."
+msgstr "Phần mở rộng Intuito Enterprise Edition KHÔNG TỒN TẠI."
 
 #: src/metabase/email/messages.clj
 msgid "You''re invited to join {0}''s {1}"
@@ -16583,8 +16583,8 @@ msgid "Please create or unarchive the channel in order to complete the Slack int
 msgstr "Vui lòng tạo hoặc hủy lưu trữ kênh để hoàn tất quá trình tích hợp Slack."
 
 #: src/metabase/integrations/slack.clj
-msgid "The channel is used for storing graphs that are included in Pulses and RepenteBot answers."
-msgstr "Kênh được sử dụng để lưu trữ các biểu đồ được bao gồm trong các câu trả lời Pulses và RepenteBot."
+msgid "The channel is used for storing graphs that are included in Pulses and IntuitoBot answers."
+msgstr "Kênh được sử dụng để lưu trữ các biểu đồ được bao gồm trong các câu trả lời Pulses và IntuitoBot."
 
 #: src/metabase/integrations/slack.clj
 msgid "Uploaded image"
@@ -16675,8 +16675,8 @@ msgid "login attribute keys must be a keyword or string"
 msgstr "khóa thuộc tính đăng nhập phải là một từ khóa hoặc chuỗi"
 
 #: src/metabase/public_settings.clj
-msgid "The default language for all users across the LibraFactory Insights UI, system emails, pulses, and alerts."
-msgstr "Ngôn ngữ mặc định cho tất cả người dùng trên LibraFactory Insights UI, email hệ thống, xung và cảnh báo."
+msgid "The default language for all users across the Intuito UI, system emails, pulses, and alerts."
+msgstr "Ngôn ngữ mặc định cho tất cả người dùng trên Intuito UI, email hệ thống, xung và cảnh báo."
 
 #: src/metabase/public_settings.clj
 msgid "Users can individually override this default language from their own account settings."
@@ -16687,20 +16687,20 @@ msgid "Default page to show the user"
 msgstr "Trang mặc định để hiển thị cho người dùng"
 
 #: src/metabase/public_settings.clj
-msgid "Allow this origin to embed the full LibraFactory Insights application"
-msgstr "Cho phép nguồn gốc này nhúng ứng dụng LibraFactory Insights đầy đủ"
+msgid "Allow this origin to embed the full Intuito application"
+msgstr "Cho phép nguồn gốc này nhúng ứng dụng Intuito đầy đủ"
 
 #: src/metabase/public_settings.clj
 msgid "Values greater than {0} ({1}) are not allowed."
 msgstr "Giá trị lớn hơn {0} ({1}) không được phép."
 
 #: src/metabase/public_settings.clj
-msgid "This will replace the word \"LibraFactory Insights\" wherever it appears."
-msgstr "Từ này sẽ thay thế từ \"LibraFactory Insights\" ở bất kỳ nơi nào nó xuất hiện."
+msgid "This will replace the word \"Intuito\" wherever it appears."
+msgstr "Từ này sẽ thay thế từ \"Intuito\" ở bất kỳ nơi nào nó xuất hiện."
 
 #: src/metabase/public_settings.clj
-msgid "These are the primary colors used in charts and throughout LibraFactory Insights. You might need to refresh your browser to see your changes take effect."
-msgstr "Đây là những màu cơ bản được sử dụng trong biểu đồ và trên toàn bộ LibraFactory Insights. Bạn có thể cần phải làm mới trình duyệt của mình để xem các thay đổi của bạn có hiệu lực."
+msgid "These are the primary colors used in charts and throughout Intuito. You might need to refresh your browser to see your changes take effect."
+msgstr "Đây là những màu cơ bản được sử dụng trong biểu đồ và trên toàn bộ Intuito. Bạn có thể cần phải làm mới trình duyệt của mình để xem các thay đổi của bạn có hiệu lực."
 
 #: src/metabase/public_settings.clj
 msgid "For best results, use an SVG file with a transparent background."

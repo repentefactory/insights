@@ -1,6 +1,6 @@
 (ns metabase.events
   "Provides a very simply event bus using `core.async` to allow publishing and subscribing to interesting topics
-  happening throughout the LibraFactory Insights system in a decoupled way.
+  happening throughout the Intuito system in a decoupled way.
 
   ## Regarding Events Initialization:
 

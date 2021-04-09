@@ -62,11 +62,11 @@
          (u/format-color 'red
              (str
               "\n\n********************************************************************************\n"
-              (trs "WARNING: LibraFactory Insights only officially supports MySQL {0}/MariaDB {1} and above."
+              (trs "WARNING: Intuito only officially supports MySQL {0}/MariaDB {1} and above."
                    min-supported-mysql-version
                    min-supported-mariadb-version)
               "\n"
-              (trs "All LibraFactory Insights features may not work properly when using an unsupported version.")
+              (trs "All Intuito features may not work properly when using an unsupported version.")
               "\n********************************************************************************\n")))))))
 
 (defmethod driver/can-connect? :mysql
@@ -283,7 +283,7 @@
    :useUnicode           true
    :characterEncoding    "UTF8"
    :characterSetResults  "UTF8"
-   ;; GZIP compress packets sent between LibraFactory Insights server and MySQL/MariaDB database
+   ;; GZIP compress packets sent between Intuito server and MySQL/MariaDB database
    :useCompression       true})
 
 (defmethod sql-jdbc.conn/connection-details->spec :mysql

@@ -313,7 +313,7 @@
                    :font-weight 700})}
     (trs "We were unable to display this Pulse.")
     [:br]
-    (trs "Please view this card in LibraFactory Insights.")]})
+    (trs "Please view this card in Intuito.")]})
 
 (s/defmethod render :error :- common/RenderedPulseCard
   [_ _ _ _ _]

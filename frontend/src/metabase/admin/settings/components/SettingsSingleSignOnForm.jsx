@@ -117,10 +117,10 @@ export default class SettingsSingleSignOnForm extends Component {
           />
           <h2>{t`Sign in with Google`}</h2>
           <p className="text-medium">
-            {t`Allows users with existing LibraFactory Insights accounts to login with a Google account that matches their email address in addition to their LibraFactory Insights username and password.`}
+            {t`Allows users with existing Intuito accounts to login with a Google account that matches their email address in addition to their Intuito username and password.`}
           </p>
           <p className="text-medium">
-            {jt`To allow users to sign in with Google you'll need to give LibraFactory Insights a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found ${(
+            {jt`To allow users to sign in with Google you'll need to give Intuito a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found ${(
               <a
                 className="link"
                 href="https://developers.google.com/identity/sign-in/web/devconsole-project"

@@ -33,7 +33,7 @@ export type SettingName =
 
 type SettingsMap = { [key: SettingName]: any };
 
-// provides access to LibraFactory Insights application settings
+// provides access to Intuito application settings
 class Settings {
   _settings: SettingsMap;
   _listeners: { [key: SettingName]: Function[] };

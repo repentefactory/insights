@@ -1,8 +1,8 @@
-# LibraFactory Insights
+# Intuito
 
-LibraFactory Insights is the easy, open source way for everyone in your company to ask questions and learn from data.
+Intuito is the easy, open source way for everyone in your company to ask questions and learn from data.
 
-![LibraFactory Insights Product Screenshot](docs/metabase-product-screenshot.png)
+![Intuito Product Screenshot](docs/metabase-product-screenshot.png)
 
 [![Latest Release](https://img.shields.io/github/release/metabase/metabase.svg?label=latest%20release)](https://github.com/metabase/metabase/releases)
 [![Circle CI](https://circleci.com/gh/metabase/metabase.svg?style=svg&circle-token=3ccf0aa841028af027f2ac9e8df17ce603e90ef9)](https://circleci.com/gh/metabase/metabase)
@@ -16,7 +16,7 @@ LibraFactory Insights is the easy, open source way for everyone in your company 
 - [SQL Mode](https://www.metabase.com/docs/latest/users-guide/writing-sql.html) for analysts and data pros
 - Create canonical [segments and metrics](https://metabase.com/docs/latest/administration-guide/07-segments-and-metrics.html) for your team to use
 - Send data to Slack or email on a schedule with [Pulses](https://metabase.com/docs/latest/users-guide/10-pulses.html)
-- View data in Slack anytime with [RepenteBot](https://metabase.com/docs/latest/users-guide/11-metabot.html)
+- View data in Slack anytime with [IntuitoBot](https://metabase.com/docs/latest/users-guide/11-metabot.html)
 - [Humanize data](https://metabase.com/docs/latest/administration-guide/03-metadata-editing.html) for your team by renaming, annotating and hiding fields
 - See changes in your data with [alerts](https://www.metabase.com/docs/latest/users-guide/15-alerts.html)
 
@@ -44,11 +44,11 @@ Don't see your favorite database? Check the list of [community supported drivers
 
 ## Installation
 
-LibraFactory Insights can be run just about anywhere so checkout our [Installation Guides](https://www.metabase.com/docs/latest/operations-guide/installing-metabase.html) for detailed instructions for various deployments. Here's the TLDR:
+Intuito can be run just about anywhere so checkout our [Installation Guides](https://www.metabase.com/docs/latest/operations-guide/installing-metabase.html) for detailed instructions for various deployments. Here's the TLDR:
 
 ### Docker
 
-To run LibraFactory Insights via Docker, just type
+To run Intuito via Docker, just type
 
 ```
 docker run -d -p 3000:3000 --name metabase metabase/metabase
@@ -56,11 +56,11 @@ docker run -d -p 3000:3000 --name metabase metabase/metabase
 
 ### JAR file
 
-To run LibraFactory Insights via a JAR file, you will need to have a Java Runtime Environment installed on your system.
+To run Intuito via a JAR file, you will need to have a Java Runtime Environment installed on your system.
 
 We recommend the latest LTS version of JRE from [AdoptOpenJDK](https://adoptopenjdk.net/releases.html) with HotSpot JVM and x64 architecture, but other [Java versions](https://www.metabase.com/docs/latest/operations-guide/java-versions.html) might work too.
 
-Go to the [LibraFactory Insights download page](https://metabase.com/start/jar.html) and download the latest release. Place the downloaded JAR file into a newly created directory (as it will create some files when it is run), and run it with the following command:
+Go to the [Intuito download page](https://metabase.com/start/jar.html) and download the latest release. Place the downloaded JAR file into a newly created directory (as it will create some files when it is run), and run it with the following command:
 
 ```
 java -jar metabase.jar
@@ -83,17 +83,17 @@ Security is very important to us. If you discover any issue regarding security, 
 
 # Contributing
 
-To get started with a development installation of the LibraFactory Insights, follow the instructions at our [Developers Guide](https://www.metabase.com/docs/latest/developers-guide.html).
+To get started with a development installation of the Intuito, follow the instructions at our [Developers Guide](https://www.metabase.com/docs/latest/developers-guide.html).
 
 Then take a look at our [Contribution Guide](https://www.metabase.com/docs/latest/contributing.html) for information about our process and where you can fit in!
 
 # Internationalization
 
-We want LibraFactory Insights to be available in as many languages as possible. See which translations are available and help contribute to internationalization using our project over at [POEditor](https://poeditor.com/join/project/ynjQmwSsGh). You can also check out our [policies on translations](https://www.metabase.com/docs/latest/faq/general/what-languages-can-be-used-with-metabase.html).
+We want Intuito to be available in as many languages as possible. See which translations are available and help contribute to internationalization using our project over at [POEditor](https://poeditor.com/join/project/ynjQmwSsGh). You can also check out our [policies on translations](https://www.metabase.com/docs/latest/faq/general/what-languages-can-be-used-with-metabase.html).
 
 # Extending and Deep Integrations
 
-LibraFactory Insights also allows you to hit our Query API directly from Javascript to integrate the simple analytics we provide with your own application or third party services to do things like:
+Intuito also allows you to hit our Query API directly from Javascript to integrate the simple analytics we provide with your own application or third party services to do things like:
 
 - Build moderation interfaces
 - Export subsets of your users to third party marketing automation software
@@ -102,8 +102,8 @@ LibraFactory Insights also allows you to hit our Query API directly from Javascr
 
 # License
 
-This repository contains the source code for both the Open Source edition of LibraFactory Insights, released under the AGPL, as well as the commercial edition of Metabase Enterprise, released under the Metabase Commercial Software License.
+This repository contains the source code for both the Open Source edition of Intuito, released under the AGPL, as well as the commercial edition of Metabase Enterprise, released under the Metabase Commercial Software License.
 
 See [LICENSE.txt](./LICENSE.txt) for details.
 
-Unless otherwise noted, all files © 2020 LibraFactory Insights, Inc.
+Unless otherwise noted, all files © 2020 Intuito, Inc.

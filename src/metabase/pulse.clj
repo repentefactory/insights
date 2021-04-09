@@ -30,7 +30,7 @@
 (defn execute-card
   "Execute the query for a single Card. `options` are passed along to the Query Processor."
   [{pulse-creator-id :creator_id} card-or-id & {:as options}]
-  ;; The Card must either be executed in the context of a User or by the RepenteBot which itself is not a User
+  ;; The Card must either be executed in the context of a User or by the IntuitoBot which itself is not a User
   {:pre [(or (integer? pulse-creator-id)
              (= (:context options) :metabot))]}
   (let [card-id (u/get-id card-or-id)]
@@ -188,7 +188,7 @@
   [{:keys [id] :as pulse} results {:keys [recipients]}]
   (log/debug (trs "Sending Alert ({0}: {1}) via email" id name))
   (let [condition-kwd    (messages/pulse->alert-condition-kwd pulse)
-        email-subject    (trs "LibraFactory Insights alert: {0} has {1}"
+        email-subject    (trs "Intuito alert: {0} has {1}"
                               (first-question-name pulse)
                               (alert-condition-type->description condition-kwd))
         email-recipients (filterv u/email? (map :email recipients))

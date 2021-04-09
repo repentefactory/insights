@@ -108,7 +108,7 @@
         (io/delete-file filename)
         (println (u/format-color 'red (trs "Output H2 database already exists: %s, removing.") filename))))
 
-    (println "Dumping from configured LibraFactory Insights db to H2 file" h2-filename)
+    (println "Dumping from configured Intuito db to H2 file" h2-filename)
 
     (mdb/setup-db!* (get-target-db-conn h2-filename) true)
     (mdb/setup-db!)

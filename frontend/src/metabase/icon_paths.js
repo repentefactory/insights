@@ -2,10 +2,10 @@
 /* eslint-disable no-color-literals */
 
 /*
-    LibraFactory Insights Icon Paths
+    Intuito Icon Paths
     -----
 
-    These paths represent the current canonical icon set for LibraFactory Insights.
+    These paths represent the current canonical icon set for Intuito.
 */
 
 export const ICON_PATHS = {
